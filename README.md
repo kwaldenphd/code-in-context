@@ -1,4 +1,4 @@
-# Code in Context
+# Code in Context: Computing & the Liberal Arts
 
 **Designed by [Katherine Walden](https://github.com/kwaldenphd) // Powered by [Jupyter Book](https://jupyterbook.org/)**
 
