@@ -1,0 +1,7 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+# example: https://github.com/kwaldenphd/elements-of-computing/blob/main/book/_toc.yml
+
+format: jb-book
+root: intro
+chapters:
