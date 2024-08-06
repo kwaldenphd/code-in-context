@@ -63,7 +63,7 @@ chapters:
         - file: 03-systems-interfaces/03-cli-intro 
           title: Getting Started at the Command Line 
         - file: 03-systems-interfaces/04-shell-tutorial
-          title: Tutorial: Opening Your Shell 
+          title: "Tutorial: Opening Your Shell" 
         - file: 03-systems-interfaces/05-wayfinding-tutorial 
           title: Tutorial: Terminal Wayfinding 
         - file: 03-systems-interfaces/06-terminal-commands-tutorial 
