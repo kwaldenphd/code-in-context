@@ -85,8 +85,7 @@ chapters:
         - file: 04-computer-networks/03-additional-resources
           title: Additional Resources
       - file: 04-computer-networks/05-activities
-        title: Interactive Activities 
-      - file: 04-computer-networks/05-activites
+        title: Interactive Activities
         sections:
         - file: 04-computer-networks/06-packet-switching
           title: Packet Switching Network Relay
