@@ -74,3 +74,21 @@ chapters:
           title: Command Line Application Questions 
       - file: 03-systems-interfaces/09-application 
         title: Application
+    - file: 04-computer-networks/00-intro
+      title: 4. Computer Networks & the Internet 
+      sections:
+      - file: 04-computer-networks/01-computer-networks
+        title: Computer Networks 
+      - file: 04-computer-networks/02-internet
+        title: The Internet 
+        sections:
+        - file: 04-computer-networks/03-additional-resources
+          title: Additional Resources
+      - file: 04-computer-networks/05-activities
+        title: Interactive Activities 
+      - file: 04-computer-networks/05-activites
+        sections:
+        - file: 04-computer-networks/06-packet-switching
+          title: Packet Switching Network Relay
+        - file: 04-computer-networks/07-dns-roleplay
+          title: I Think Therefore ICANN (A Roleplaying Game About Domain Names)
