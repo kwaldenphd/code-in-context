@@ -1,6 +1,6 @@
 # List Application
 
-### Comprehension Check
+## Comprehension Check
 
 <table>
  <tr><td>
