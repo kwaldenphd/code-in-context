@@ -52,3 +52,25 @@ chapters:
           title: Scenario #2: ALU & Memory 
         - file: 02-computer-architecture/10-fetch-execute-scenario 
           title: Scenario #3: Assembly Language, the CPU & the Fetch-Execute Cycle
+  - file: 03-systems-interfaces/00-intro 
+    title: 3. Operating Systems & Computer Interfaces
+    sections:
+     - file: 03-systems-interfaces/01-operating-systems 
+       title: Operating Systems 
+     - file: 03-systems-interfaces/02-cli-overview
+       title: Introduction to the Command Line Interface 
+       sections:
+        - file: 03-systems-interfaces/03-cli-intro 
+          title: Getting Started at the Command Line 
+        - file: 03-systems-interfaces/04-shell-tutorial
+          title: Tutorial: Opening Your Shell 
+        - file: 03-systems-interfaces/05-wayfinding-tutorial 
+          title: Tutorial: Terminal Wayfinding 
+        - file: 03-systems-interfaces/06-terminal-commands-tutorial 
+          title: Tutorial: Typing Commands in Your Terminal 
+        - file: 03-systems-interfaces/07-file-system 
+          title: Tutorial: Navigating Your File System 
+        - file: 03-systems-interfaces/08-cli-application 
+          title: Command Line Application Questions 
+      - file: 03-systems-interfaces/09-application 
+        title: Application
