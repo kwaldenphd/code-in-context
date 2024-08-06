@@ -1,11 +1,15 @@
 # Representing Other Information in Binary
 
+## Lecture
+
 <table>
  <tr><td>
 <img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
   <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fabb1a9f-de9e-4bcd-94b4-aef400c1a6c9">Representing Color</a></td>
   </tr>
   </table>
+
+## Overview
 
 The end of the "Encoding Schema" lecture mentioned how binary numbers are also used to represent things other than numbers, text, or characters.
 
@@ -55,8 +59,6 @@ The Mario example featured 8-bit and 16-bit color. If you've ever seen Red-Green
 
 **RGB color model**
 - "The RGB color model is an additive color model in which the red, green, and blue primary colors of light are added together in various ways to reproduce a broad array of colors. The name of the model comes from the initials of the three additive primary colors, red, green, and blue. The main purpose of the RGB color model is for the sensing, representation, and display of images in electronic systems, such as televisions and computers" ([Wikipedia](https://en.wikipedia.org/wiki/RGB_color_model))
-
-[Click here](https://github.com/kwaldenphd/bits-bytes/blob/main/key-concepts.md) for the full list of key concepts and definitions for this lab.
 
 ## Application
 

@@ -9,8 +9,10 @@
   </tr>
   </table>
   
-<table border="0"><tr><td><p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/ACM_1.png?raw=true" width="500"></p></td>
-<td><p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/ACM_2.png?raw=true" width="500"></p></td></tr>
+## Key Concepts 
+
+<table border="0"><tr><td><p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/ACM_1.png?raw=true" width="40%"></p></td>
+<td><p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/ACM_2.png?raw=true" width="40%"></p></td></tr>
 <tr><td>Table 1a. R.W. Bemer, "<a href="https://web.archive.org/web/20131017062654/http://www.trailing-edge.com/~bobbemer/SURVEY.HTM">Survey of coded character representation</a>", Commun. ACM 3, No. 12, 639-641, 1960 Dec</td><td>Table 2. H.J. Smith, Jr., F.A. Williams, "<a href="https://web.archive.org/web/20131017062654/http://www.trailing-edge.com/~bobbemer/SURVEY.HTM">Survey of punched card codes</a>", Commun. ACM 3, 639 & 642, 1960 Dec</td></tr></table>
 
 **Character encoding**
@@ -36,8 +38,6 @@ Sample conversion table:
 **Unicode**
 - "Unicode is a computing industry standard for the consistent encoding, representation, and handling of text expressed in most of the world's writing systems. The standard is maintained by the Unicode Consortium, and as of May 2019 the most recent version, Unicode 12.1, contains a repertoire of 137,994 characters (consisting of 137,766 graphic characters, 163 format characters and 65 control characters) covering 150 modern and historic scripts, as well as multiple symbol sets and emoji" ([Wikipedia](https://en.wikipedia.org/wiki/Unicode))
 - [Click here](https://home.unicode.org/basic-info/overview) to learn more about the Unicode consortium
-
-[Click here](https://github.com/kwaldenphd/bits-bytes/blob/main/key-concepts.md) for the full list of key concepts and definitions for this lab.
 
 ## Comprehension Check
 

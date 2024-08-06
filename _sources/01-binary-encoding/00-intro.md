@@ -1,6 +1,6 @@
 # Binary Number Systems & Encoding Schema
 
-How do computers understand information? What makes user actions decipherable for the machine? This chapter explores those concepts, looking at binary code, the 1’s and 0’s that represent the bits and Bytes that make up computer programs or the data processed by the computer.
+How do computers understand information? What makes user actions decipherable for the machine? This chapter explores those concepts, looking at binary code, the 1’s and 0’s that represent the bits and bytes that make up computer programs or the data processed by the computer.
 
 Nearly everything we interact with on a computer screen can be reduced to binary code, although most users of computers have few reasons to interact with the computer at this level. This chapter's lets you manipulate binary data, providing an opportunity to further explore the relationship between what you seen on the screen and what is going on inside the machine.
 
@@ -27,4 +27,4 @@ The "Binary Number Systems" and "Encoding Schema" lecture segments were adapted 
 
 ## Application
 
-[Click here](www.google.com) for a Google Doc template for this chapter's application problems (ND users only)
+[Click here](https://docs.google.com/document/d/172KM0g9zsvhJeeWzvUszeqCxfJOWMulwetfx8hLCu9M/copy) for a Google Doc template for this chapter's application problems (ND users only)

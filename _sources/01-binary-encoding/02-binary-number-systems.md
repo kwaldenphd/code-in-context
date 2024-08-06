@@ -2,6 +2,10 @@
 
 ## Lecture
 
+```{note}
+Whenever you see the Panopto icon or "Lecture" heading, this means there is pre-recorded instructional content as part of this section of a chapter. You'll need to engage with this content to be able to tackle the application questions.
+```
+
 <table>
  <tr><td>
 <img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
@@ -9,9 +13,22 @@
   </tr>
   </table>
 
-```{admonition} Lecture
-:class: device-camera-play
-[Binary Number Systems](https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=248cf9cd-9aa7-4175-bd96-aef30144f577)
+```{seealso} Lecture
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=248cf9cd-9aa7-4175-bd96-aef30144f577">Binary Number Systems</a></td>
+  </tr>
+  </table>
+```
+
+```{note} Lecture
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=248cf9cd-9aa7-4175-bd96-aef30144f577">Binary Number Systems</a></td>
+  </tr>
+  </table>
 ```
 
 ## Key Concepts
@@ -21,6 +38,41 @@
 ```{admonition} Bits
 :class: dropdown
 "The bit is a basic unit of information in information theory, computing, including digital communications. As a binary digit, the bit represents a logical state, having only one of two values. It may be physically implemented with a two-state device. These values are most commonly represented as either 0 or 1" ([Wikipedia](https://en.wikipedia.org/wiki/Bit))
+```
+
+```{note} Bits
+"The bit is a basic unit of information in information theory, computing, including digital communications. As a binary digit, the bit represents a logical state, having only one of two values. It may be physically implemented with a two-state device. These values are most commonly represented as either 0 or 1" ([Wikipedia](https://en.wikipedia.org/wiki/Bit))
+```
+
+```{note} Bytes 
+"The byte is a unit of digital information that most commonly consists of eight bits. Historically, the byte was the number of bits used to encode a single character of text in a computer and for this reason it is the smallest addressable unit of memory in many computer architectures" ([Wikipedia](https://en.wikipedia.org/wiki/Byte))
+```
+
+```{note} Binary 
+In mathematics and digital electronics, a binary number is a number expressed in the base-2 numeral system or binary numeral system, which uses only two symbols: typically ‘0’ (zero) and ‘1’ (one). The base-2 numeral system is a positional notation... Each digit is referred to as a bit. Because of its straightforward implementation in digital electronic circuitry using logic gates, the binary system is used by almost all modern computers and computer-based devices" ([Wikipedia](https://en.wikipedia.org/wiki/Binary))
+```
+
+```{note} Unit Conversions 
+- Kilobyte KB = 1,000 Bytes 
+- Megabyte MB = 1 million Bytes 
+- Gigabyte GB = 1 billion Bytes 
+- Terabyte TB = 1 trillion Bytes
+```
+
+```{note} Pattern Ranges 
+One bit gives us two patterns: `1 and 0`. Two bits allow for four patterns: `00, 11, 01, 10`. Every time we add one bit to the length of our bitstring, we double the number of available patterns. So, 8 bits or 1 byte provides a means for representing 256 different patterns, as illustrated below:
+
+<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Pattern_Ranges.png?raw=true" width="500"></p>
+
+  * 1 bit – 2 patterns (21)
+  * 2 bits – 4 (22)
+  * 3 bits – 8 (23)
+  * 4 bits – 16 (24)
+  * 5 bits – 32 (25)
+  * 6 bits – 64 (26)
+  * 7 bits – 128 (27)
+  * 8 bits – 256 (28)
+  * n bits -  2n patterns
 ```
 
 **Bits**
@@ -54,9 +106,12 @@
   * 8 bits – 256 (28)
   * n bits -  2n patterns
   
+## Comprehension Check
 
+```{note}
+Whenever you see the checklist icon or "Comprehension Check" heading, this means there is a set of ungraded comprehension questions that let you test your understanding and get feedback to sharpen your understanding. The application questions will go better if you utilize these comprehension checks.
+```
 
-## Application
 
 <table>
  <tr><td>
@@ -64,11 +119,6 @@
   <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScQoRbyDYB2Cisg_AmfMhUqj8qXn0ZbeuembRhQpOnbb64I2g/viewform?usp=sf_link">Binary Number Systems Comprehension Check</a></td>
   </tr>
   </table>
-  
-```{admonition} Comprehension Check
-:class: checkbox
-[Binary Number Systems Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLScQoRbyDYB2Cisg_AmfMhUqj8qXn0ZbeuembRhQpOnbb64I2g/viewform?usp=sf_link)
-```
 
 ## Application 
 
