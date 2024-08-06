@@ -20,7 +20,7 @@ chapters:
       title: Binary Number Systems 
     - file: 01-binary-encoding/03-encoding-schema 
       title: Encoding Schema 
-    - file: 01-binary-encoding/04-representing-other-information
+    - file: 01-binary-encoding/04-representing-other-info
       title: Representing Other Information 
     - file: 01-binary-encoding/05-putting-it-all-together
       title: Putting It All Together 
