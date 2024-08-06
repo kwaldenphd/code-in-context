@@ -185,9 +185,9 @@ chapters:
           sections:
           - file: 07-python-fundamentals/07-list-methods
             title: List Methods 
-          - file: 07-python-fundamentals/list-syntax-review
+          - file: 07-python-fundamentals/08-list-syntax-review
             title: List Syntax Review 
-          - file: 07-python-fundamentals/list-application 
+          - file: 07-python-fundamentals/09-list-application 
             title: List Application Questions 
         - file: 07-python-fundamentals/10-other-linear-arrays
           title: Other Linear Arrays
