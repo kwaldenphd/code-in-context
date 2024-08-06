@@ -34,16 +34,4 @@ Use the table of contents below or the menu on the left-hand side of the page to
 
 ## Contents 
 
-OLD TOC
-1. [Python Refresh](01-Python-Refresh/00-overview.md)
-2. [Data Structures & Sources](02-Structured-Data/00-overview.md)
-3. [Relational Databases](03-rdbms/00-overview.md)
-4. [SQL](04-SQL/00-overview.md)
-5. [Data Wrangling](05-data-wrangling/00-overview.md)
-6. [Tidy Data](06-tidy-data/00-overview.md)
-7. [Data Analysis](07-data-analysis/00-overview.md)
-8. [Data Visualization](08-data-viz/00-overview.md)
-9. [Matplotlib](09-matplotlib/00-overview.md)
-10. [Plotting With Pandas](10-pandas-plotting/00-overview.md)
-11. [Interactive Visualization](11-interactive-viz/00-overview.md)
-12. [Mapping](12-mapping/00-overview.md)
+SPACE FOR CHAPTER-LEVEL TOC
