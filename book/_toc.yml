@@ -84,6 +84,8 @@ chapters:
         sections:
         - file: 04-computer-networks/03-additional-resources
           title: Additional Resources
+      - file: 04-computer-networks/04-application-questions 
+        title: Application Questions
       - file: 04-computer-networks/05-activities
         title: Interactive Activities
         sections:
