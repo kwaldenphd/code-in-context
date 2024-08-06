@@ -27,4 +27,4 @@ The "Binary Number Systems" and "Encoding Schema" lecture segments were adapted 
 
 ## Application
 
-[Click here](PLACEHOLDER) for a Google Doc template for this chapter's application problems (ND users only)
+[Click here](www.google.com) for a Google Doc template for this chapter's application problems (ND users only)
