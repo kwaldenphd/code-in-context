@@ -148,6 +148,7 @@ chapters:
       - file: 06-python-fundamentals/09-converting-data-types 
         title: Converting Data Types 
       - file: 06-python-fundamentals/10-comparison-operators 
+        title: Comparison Operators
         sections:
         - file: 06-python-fundamentals/11-boolean-logic 
           title: Boolean Logic
