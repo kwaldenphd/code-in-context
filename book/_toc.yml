@@ -47,11 +47,11 @@ chapters:
       title: Scenarios 
       sections:
        - file: 02-computer-architecture/08-alu-memory-scenario 
-         title: Scenario 1: ALU & Memory 
+         title: Scenario 1 : ALU & Memory 
        - file: 02-computer-architecture/09-alu-memory-scenario 
-         title: Scenario 2: ALU & Memory 
+         title: Scenario 2 : ALU & Memory 
        - file: 02-computer-architecture/10-fetch-execute-scenario 
-         title: Scenario 3: Assembly Language, the CPU & the Fetch-Execute Cycle
+         title: Scenario 3 : Assembly Language, the CPU & the Fetch-Execute Cycle
   - file: 03-systems-interfaces/00-intro 
     title: 3. Operating Systems & Computer Interfaces
     sections:
