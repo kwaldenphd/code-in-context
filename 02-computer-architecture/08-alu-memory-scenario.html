@@ -211,11 +211,25 @@
 <li class="toctree-l2"><a class="reference internal" href="05-putting-it-all-together.html">Putting It All Together</a></li>
 <li class="toctree-l2"><a class="reference internal" href="06-application.html">Application</a></li>
 <li class="toctree-l2 current active has-children"><a class="reference internal" href="07-scenarios.html">Scenarios</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
-<li class="toctree-l3 current active"><a class="current reference internal" href="#">Scenario</a></li>
-<li class="toctree-l3"><a class="reference internal" href="09-alu-memory-scenario.html">Scenario</a></li>
-<li class="toctree-l3"><a class="reference internal" href="10-fetch-execute-scenario.html">Scenario</a></li>
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">Scenario #1: ALU &amp; Memory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="09-alu-memory-scenario.html">Scenario #2: ALU &amp; Memory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="10-fetch-execute-scenario.html">Scenario #3: Assembly Language, the CPU &amp; the Fetch-Execute Cycle</a></li>
 </ul>
 </details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../03-systems-interfaces/00-intro.html">3. Operating Systems &amp; Computer Interfaces</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/01-operating-systems.html">Operating Systems</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../03-systems-interfaces/02-cli-overview.html">Introduction to the Command Line Interface</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/03-cli-intro.html">Getting Started at the Command Line</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/04-shell-tutorial.html">Tutorial: Opening Your Shell</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/05-wayfinding-tutorial.html">Tutorial: Terminal Wayfinding</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/06-terminal-commands-tutorial.html">Tutorial: Typing Commands in Your Terminal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/07-file-system.html">Tutorial: Navigating Your File System</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/08-cli-application.html">Command Line Application Questions</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/09-application.html">Application</a></li>
 </ul>
 </details></li>
 </ul>
@@ -417,9 +431,6 @@ document.write(`
                   
   <section id="scenario-1-alu-memory">
 <h1>Scenario #1: ALU &amp; Memory<a class="headerlink" href="#scenario-1-alu-memory" title="Link to this heading">#</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>These</p>
 <p align="center"><img align="center" src="https://github.com/kwaldenphd/how-computers-work/blob/main/images/Fig_1.png?raw=true" width="500"></p>
 <p>Open the <a class="reference external" href="http://www.dave-reed.com/book/Chapter14/datapath/datapath.html">Knob &amp; Switch Datapath 1 Simulator</a> in a new browser window. This simple CPU contains four registers, but no control unit. You will be the control unit that directs which registers are operated on and which operations are done.</p>
 <p>Take a look at the top box that says <code class="docutils literal notranslate"><span class="pre">Register</span> <span class="pre">Bank.</span></code> At the right are two command knobs, <code class="docutils literal notranslate"><span class="pre">A</span> <span class="pre">Bus</span> <span class="pre">Address</span></code> and <code class="docutils literal notranslate"><span class="pre">B</span> <span class="pre">Bus</span> <span class="pre">Address.</span></code> These knobs specify which registers should be read as inputs to the ALU. You can click on each knob to turn it.</p>
@@ -447,7 +458,6 @@ document.write(`
 <p>Click the knob to store the result in <code class="docutils literal notranslate"><span class="pre">R3</span></code>. Run a simulation of a full cycle to subtract <code class="docutils literal notranslate"><span class="pre">R1</span></code> from <code class="docutils literal notranslate"><span class="pre">R2</span></code> and store the result in <code class="docutils literal notranslate"><span class="pre">R3</span></code>.</p>
 <blockquote>Q6: What settings (e.g., knob positions) would cause the value stored in <code>R3</code> to be doubled?</blockquote>
 <blockquote>Q7: Set <code>R3</code> to 12 and test your answer to Q7? Did your hypothesis hold true? Why or why not?</blockquote>
-</div>
 </section>
 
     <script type="text/x-thebe-config">
