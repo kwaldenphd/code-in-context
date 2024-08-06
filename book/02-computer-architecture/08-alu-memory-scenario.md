@@ -1,8 +1,5 @@
 # Scenario #1: ALU & Memory
 
-```{note}
-These
-
 <p align="center"><img align="center" src="https://github.com/kwaldenphd/how-computers-work/blob/main/images/Fig_1.png?raw=true" width="500"></p>
 
 Open the [Knob & Switch Datapath 1 Simulator](http://www.dave-reed.com/book/Chapter14/datapath/datapath.html) in a new browser window. This simple CPU contains four registers, but no control unit. You will be the control unit that directs which registers are operated on and which operations are done.
