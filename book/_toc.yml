@@ -72,5 +72,5 @@ chapters:
           title: Tutorial: Navigating Your File System 
         - file: 03-systems-interfaces/08-cli-application 
           title: Command Line Application Questions 
-      - file: 03-systems-interfaces/09-application 
-        title: Application
+     - file: 03-systems-interfaces/09-application 
+       title: Application
