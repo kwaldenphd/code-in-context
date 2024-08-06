@@ -28,3 +28,27 @@ chapters:
       title: File Formats
     - file: 01-binary-encoding/07-application
       title: Application Questions
+   - file: 02-computer-architecture/00-intro
+     title: 2. Computer Hardware & Architecture 
+     sections:
+     - file: 02-computer-architecture/01-von-neumann
+       title: Von Neumann Architecture 
+     - file: 02-computer-architecture/02-alu-memory
+       title: ALU & Memory 
+     - file: 02-computer-architecture/03-cpu-fetch-execute
+       title: CPU & the Fetch-Execute Cycle
+     - file: 02-computer-architecture/04-assembly-language
+       title: Assembly Language 
+     - file: 02-computer-architecture/05-putting-it-all-together 
+       title: Putting It All Together 
+     - file: 02-computer-architecture/06-application 
+       title: Application 
+     - file: 02-computer-architecture/07-scenarios 
+       title: Scenarios 
+       sections:
+       - file: 02-computer-architecture/08-alu-memory-scenario 
+         title: Scenario #1: ALU & Memory 
+       - file: 02-computer-architecture/09-alu-memory-scenario 
+         title: Scenario #2: ALU & Memory 
+       - file: 02-computer-architecture/10-fetch-execute-scenario 
+         title: Scenario #3: Assembly Language, the CPU & the Fetch-Execute Cycle
