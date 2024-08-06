@@ -1,6 +1,6 @@
 # Tutorial: Navigating Your File System
 
-### Key Concepts
+## Key Concepts
 
 **File Manager (or File Browser)**
 - "A file manager or file browser is a computer program that provides a user interface to manage files and folders. The most common operations performed on files or groups of files include creating, opening (e.g. viewing, playing, editing or printing), renaming, copying, moving, deleting and searching for files, as well as modifying file attributes, properties and file permissions. Folders and files may be displayed in a hierarchical tree based on their directory structure" ([Wikipedia](https://en.wikipedia.org/wiki/File_manager))
@@ -21,9 +21,9 @@
 **Relative Path**
 - "a relative path starts from some given working directory, avoiding the need to provide the full absolute path" ([Wikipedia](https://en.wikipedia.org/wiki/Path_(computing)#Absolute_and_relative_paths))
 
-[Click here](https://github.com/kwaldenphd/computer-interfaces/blob/main/key-concepts.md) for a full list of key concepts and definitions for this lab.
+## Commands
 
-## `pwd`
+### `pwd`
 
 Before we start moving around, let's use the `pwd` (print working directory) command to show your current location. Type `pwd` in the terminal and press `Enter` or `Return`. Your output might look something like this:
 ```
@@ -47,7 +47,7 @@ The inverted tree diagram shown above shows one example of a computer's file sys
 
 If you have ever used `File Explorer` (Windows) or `Finder` (Mac), you have navigated this tree structure using the graphical user interface (GUI). Now let's think about how we navigate this structure using the command line interface (CLI).
 
-## `ls`
+### `ls`
 
 Typically by default, your terminal will open in the folder or directory for your user profile.
 - But you can check this using the `pwd` (print working directory) command
@@ -58,7 +58,7 @@ Let's see what other files and subdirectories are located in your current path b
 
 Items that are followed by a file extension (e.g. `.docx`, `.txt`, `.xlsx`, etc) are generally individual files. Items that do not have a file extension are typically subfolders or subdirectories.
 
-## `cd`
+### `cd`
 
 We can move down the tree using the `change directory` command (`cd`). Let's move from your user profile folder to the Desktop.
 

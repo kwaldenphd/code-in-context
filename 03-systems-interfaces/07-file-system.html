@@ -428,9 +428,12 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts">Key Concepts</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pwd"><code class="docutils literal notranslate"><span class="pre">pwd</span></code></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ls"><code class="docutils literal notranslate"><span class="pre">ls</span></code></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cd"><code class="docutils literal notranslate"><span class="pre">cd</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#commands">Commands</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pwd"><code class="docutils literal notranslate"><span class="pre">pwd</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ls"><code class="docutils literal notranslate"><span class="pre">ls</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cd"><code class="docutils literal notranslate"><span class="pre">cd</span></code></a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -471,10 +474,11 @@ document.write(`
 <ul class="simple">
 <li><p>“a relative path starts from some given working directory, avoiding the need to provide the full absolute path” (<a class="reference external" href="https://en.wikipedia.org/wiki/Path_(computing)#Absolute_and_relative_paths">Wikipedia</a>)</p></li>
 </ul>
-<p><a class="reference external" href="https://github.com/kwaldenphd/computer-interfaces/blob/main/key-concepts.md">Click here</a> for a full list of key concepts and definitions for this lab.</p>
 </section>
+<section id="commands">
+<h2>Commands<a class="headerlink" href="#commands" title="Link to this heading">#</a></h2>
 <section id="pwd">
-<h2><code class="docutils literal notranslate"><span class="pre">pwd</span></code><a class="headerlink" href="#pwd" title="Link to this heading">#</a></h2>
+<h3><code class="docutils literal notranslate"><span class="pre">pwd</span></code><a class="headerlink" href="#pwd" title="Link to this heading">#</a></h3>
 <p>Before we start moving around, let’s use the <code class="docutils literal notranslate"><span class="pre">pwd</span></code> (print working directory) command to show your current location. Type <code class="docutils literal notranslate"><span class="pre">pwd</span></code> in the terminal and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code> or <code class="docutils literal notranslate"><span class="pre">Return</span></code>. Your output might look something like this:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">Users</span><span class="o">/</span><span class="n">kwalden</span>
 </pre></div>
@@ -500,7 +504,7 @@ document.write(`
 <p>If you have ever used <code class="docutils literal notranslate"><span class="pre">File</span> <span class="pre">Explorer</span></code> (Windows) or <code class="docutils literal notranslate"><span class="pre">Finder</span></code> (Mac), you have navigated this tree structure using the graphical user interface (GUI). Now let’s think about how we navigate this structure using the command line interface (CLI).</p>
 </section>
 <section id="ls">
-<h2><code class="docutils literal notranslate"><span class="pre">ls</span></code><a class="headerlink" href="#ls" title="Link to this heading">#</a></h2>
+<h3><code class="docutils literal notranslate"><span class="pre">ls</span></code><a class="headerlink" href="#ls" title="Link to this heading">#</a></h3>
 <p>Typically by default, your terminal will open in the folder or directory for your user profile.</p>
 <ul class="simple">
 <li><p>But you can check this using the <code class="docutils literal notranslate"><span class="pre">pwd</span></code> (print working directory) command</p></li>
@@ -510,7 +514,7 @@ document.write(`
 <p>Items that are followed by a file extension (e.g. <code class="docutils literal notranslate"><span class="pre">.docx</span></code>, <code class="docutils literal notranslate"><span class="pre">.txt</span></code>, <code class="docutils literal notranslate"><span class="pre">.xlsx</span></code>, etc) are generally individual files. Items that do not have a file extension are typically subfolders or subdirectories.</p>
 </section>
 <section id="cd">
-<h2><code class="docutils literal notranslate"><span class="pre">cd</span></code><a class="headerlink" href="#cd" title="Link to this heading">#</a></h2>
+<h3><code class="docutils literal notranslate"><span class="pre">cd</span></code><a class="headerlink" href="#cd" title="Link to this heading">#</a></h3>
 <p>We can move down the tree using the <code class="docutils literal notranslate"><span class="pre">change</span> <span class="pre">directory</span></code> command (<code class="docutils literal notranslate"><span class="pre">cd</span></code>). Let’s move from your user profile folder to the Desktop.</p>
 <p>Type <code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">Desktop</span></code> and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>/<code class="docutils literal notranslate"><span class="pre">Return</span></code>.</p>
 <ul class="simple">
@@ -524,6 +528,7 @@ document.write(`
 </ul>
 <p>We can use the <code class="docutils literal notranslate"><span class="pre">ls</span></code> command again to see the materials located on our Desktop. We can also move back up the file system tree using the <code class="docutils literal notranslate"><span class="pre">cd</span></code> command.</p>
 <p>Instead of using <code class="docutils literal notranslate"><span class="pre">cd</span></code> followed by a relative or absolute path, we can use <code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">..</span></code> (<code class="docutils literal notranslate"><span class="pre">cd</span></code> followed by a space and two periods) to move up one level in the tree. Type <code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">..</span></code> in the terminal and press <code class="docutils literal notranslate"><span class="pre">Enter</span></code>/<code class="docutils literal notranslate"><span class="pre">Return</span></code>. You can test using <code class="docutils literal notranslate"><span class="pre">pwd</span></code> if needed, but you should be back in the specific user profile folder.</p>
+</section>
 </section>
 </section>
 
@@ -592,9 +597,12 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts">Key Concepts</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pwd"><code class="docutils literal notranslate"><span class="pre">pwd</span></code></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ls"><code class="docutils literal notranslate"><span class="pre">ls</span></code></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#cd"><code class="docutils literal notranslate"><span class="pre">cd</span></code></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#commands">Commands</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#pwd"><code class="docutils literal notranslate"><span class="pre">pwd</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ls"><code class="docutils literal notranslate"><span class="pre">ls</span></code></a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#cd"><code class="docutils literal notranslate"><span class="pre">cd</span></code></a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
