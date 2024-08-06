@@ -126,7 +126,7 @@ chapters:
       - file: 05-world-wide-web/14-additional-resources 
         title: Additional Resources
     - file: 06-python-fundamentals/00-intro
-      title: "6. Python Fundamentals: Variables, Data Types, Operators"
+      title: "6. Python Fundamentals: Variables, Data Types + Operators"
       sections:
       - file: 06-python-fundamentals/01-first-program
         title: Your First Program
@@ -138,7 +138,7 @@ chapters:
         - file: 06-python-fundamentals/04-running-programs 
           title: Running Your Program 
       - file: 06-python-fundamentals/05-variables-assignment
-        title: Variables & Assignment 
+        title: Variables + Assignment 
       - file: 06-python-fundamentals/06-arithmetic-operators 
         title: Arithmetic Operators
       - file: 06-python-fundamentals/07-concatenation
