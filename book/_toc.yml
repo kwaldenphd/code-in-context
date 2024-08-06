@@ -93,3 +93,35 @@ chapters:
           title: Packet Switching Network Relay
         - file: 04-computer-networks/07-dns-roleplay
           title: I Think Therefore ICANN (A Roleplaying Game About Domain Names)
+    - file: 05-world-wide-web/00-intro
+      title: 5. The World Wide Web
+      sections:
+      - file: 05-world-wide-web/01-world-wide-web
+        title: What is the World Wide Web? 
+      - file: 05-world-wide-web/02-tutorial
+        title: HTML & CSS Tutorials 
+        sections:
+        - file: 05-world-wide-web/03-first-page
+          title: Your first webpage!
+        - file: 05-world-wide-web/04-valid-html
+          title: Well-Formed HTML 
+        - file: 05-world-wide-web/05-second-page 
+          title: Your second webpage!
+        - file: 05-world-wide-web/06-adding-content 
+          title: Adding Content 
+        - file: 05-world-wide-web/07-adding-pages 
+          title: Adding Pages 
+        - file: 05-world-wide-web/08-linking-pages 
+          title: Linking Pages 
+        - file: 05-world-wide-web/09-images 
+          title: Images 
+        - file: 05-world-wide-web/10-tables 
+          title: Tables
+        - file: 05-world-wide-web/11-style-formatting 
+          title: Style & Formatting 
+        - file: 05-world-wide-web/12-css 
+          title: Cascading Style Sheets 
+      - file: 05-world-wide-web/13-application 
+        title: Application 
+      - file: 05-world-wide-web/14-additional-resources 
+        title: Additional Resources
