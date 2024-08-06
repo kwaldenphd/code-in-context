@@ -25,3 +25,5 @@ All the materials for your site (`.html`, `.css`, image files) should go in the 
 
 [Link to Google Drive folder](https://drive.google.com/drive/folders/1btaMEcpz_IoKgNZU4fTmf4l_n9dsga1V?usp=drive_link) for assignment submission (ND users only).
 - Materials for this chapter's application question (i.e. your website) should go in the `wk6-html-css` assignment folder. Be sure to follow the directory sturcture from your computer.
+
+Submit the `wk6-html-css` folder link on Canvas for this assignment.

@@ -26,22 +26,22 @@ Also needed:
 - Six-sided die (physical or digital)
 - Writing utensils (for the scorecards) 
 
-## Background & Terminology
+## Background
 
 From [Network Lands](http://networks.land/activities/i-think-therefore-icann/):
 <blockquote>
 This is a very didactic, very silly game for understanding the weird politics that has previously happened and continues to happen behind the scenes of top-level domains, or that thing you put at the end of a URL in a browser. Probably better suited to older players, not necessarily for content but maybe more just because of the sheer degree of abstraction entailed.
 <br>
 Domain names are where the politics, poetics, and peculiarities of the web express themselves in often the most direct and clever ways. But even the most active domain name hoarder might not really understand how the Domain Name System works, why certain TLDs exist, and how they at times become an arena where real-world geopolitical conflicts play out online. This game is meant to walk players through some of those realities.
-</br>
+</blockquote>
+
+### Terminology 
 
 Those not as familiar with the inner workings of ICANN, DNS, or internet governance may want to start with a few primer resources.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IJY5xJKPhjA?si=EXbSD9rlAjFGaFfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-:::{iframe} https://youtu.be/IJY5xJKPhjA?si=YvxtudWFSXK1Fcwn
 You could also check out the [Networks Land reference page](http://networks.land/reference/top-level-domains/) for this game.
-:::
 
 ## Setup
 
