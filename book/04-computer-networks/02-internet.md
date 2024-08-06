@@ -42,7 +42,7 @@
 - "The Domain Name System (DNS) is the hierarchical and decentralized naming system used to identify computers reachable through the Internet or other Internet Protocol (IP) networks" ([Wikipedia](https://en.wikipedia.org/wiki/Domain_Name_System))
 
 **Top-Level Domains (TLDs)**
-- "A top-level domain (TLD) is one of the domains at the highest level in the hierarchical Domain Name System of the Internet after the root domain" ([Wikipedia]())
+- "A top-level domain (TLD) is one of the domains at the highest level in the hierarchical Domain Name System of the Internet after the root domain" ([Wikipedia](https://en.wikipedia.org/wiki/Top-level_domain))
 - Examples include: `.com`, `.org`, `.edu`
 
 <p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/OSI_Model.png?raw=true" width="500"></p>

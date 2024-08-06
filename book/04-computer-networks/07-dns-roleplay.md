@@ -1,4 +1,4 @@
-# DNS Roleplaying Game
+# I Think Therefore ICANN (A Roleplaying Game About Domain Names)
 
 ## Overview
 
@@ -36,6 +36,8 @@ Domain names are where the politics, poetics, and peculiarities of the web expre
 </br>
 
 Those not as familiar with the inner workings of ICANN, DNS, or internet governance may want to start with a few primer resources.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IJY5xJKPhjA?si=EXbSD9rlAjFGaFfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 :::{iframe} https://youtu.be/IJY5xJKPhjA?si=YvxtudWFSXK1Fcwn
 You could also check out the [Networks Land reference page](http://networks.land/reference/top-level-domains/) for this game.
