@@ -163,6 +163,6 @@ chapters:
           title: Logical Operators 
         - file: 06-python-fundamentals/16-operator-application 
           title: Additional Operator Application
-      - file: 06-python-fundamentals/17-application
+      - file: 06-python-fundamentals/17-application-questions
         title: Application Questions
         
