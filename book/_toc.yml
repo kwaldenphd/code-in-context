@@ -4,62 +4,62 @@
 format: jb-book
 root: intro
 chapters:
-  - file: how-to
-    title: How to Interact With This Book
-  - file: 00-background/background
-    title: Background
-    sections:
-    - file: 00-background/schedule
-      title: Course Schedule 
-  - file: 01-binary-encoding/00-intro 
-    title: 1. Binary Number Systems & Encoding Schema
-    sections:
-    - file: 01-binary-encoding/01-digital-objects
-      title: Physical, Logical & Conceptual Objects 
-    - file: 01-binary-encoding/02-binary-number-systems 
-      title: Binary Number Systems 
-    - file: 01-binary-encoding/03-encoding-schema 
-      title: Encoding Schema 
-    - file: 01-binary-encoding/04-representing-other-info
-      title: Representing Other Information 
-    - file: 01-binary-encoding/05-putting-it-all-together
-      title: Putting It All Together 
-    - file: 01-binary-encoding/06-file-formats
-      title: File Formats
-    - file: 01-binary-encoding/07-application
-      title: Application Questions
-  - file: 02-computer-architecture/00-intro
-    title: 2. Computer Hardware & Architecture 
-    sections:
-    - file: 02-computer-architecture/01-von-neumann
-      title: Von Neumann Architecture 
-    - file: 02-computer-architecture/02-alu-memory
-      title: ALU & Memory 
-    - file: 02-computer-architecture/03-cpu-fetch-execute
-      title: CPU & the Fetch-Execute Cycle
-    - file: 02-computer-architecture/04-assembly-language
-      title: Assembly Language 
-    - file: 02-computer-architecture/05-putting-it-all-together 
-      title: Putting It All Together 
-    - file: 02-computer-architecture/06-application 
-      title: Application 
-    - file: 02-computer-architecture/07-scenarios 
-      title: Scenarios 
+    - file: how-to
+      title: How to Interact With This Book
+    - file: 00-background/background
+      title: Background
       sections:
-       - file: 02-computer-architecture/08-alu-memory-scenario 
-         title: Scenario 1 : ALU & Memory 
-       - file: 02-computer-architecture/09-alu-memory-scenario 
-         title: Scenario 2 : ALU & Memory 
-       - file: 02-computer-architecture/10-fetch-execute-scenario 
-         title: Scenario 3 : Assembly Language, the CPU & the Fetch-Execute Cycle
-  - file: 03-systems-interfaces/00-intro 
-    title: 3. Operating Systems & Computer Interfaces
-    sections:
-    - file: 03-systems-interfaces/01-operating-systems 
-      title: Operating Systems 
-    - file: 03-systems-interfaces/02-cli-overview
-      title: Introduction to the Command Line Interface 
+      - file: 00-background/schedule
+        title: Course Schedule 
+    - file: 01-binary-encoding/00-intro 
+      title: 1. Binary Number Systems & Encoding Schema
       sections:
+      - file: 01-binary-encoding/01-digital-objects
+        title: Physical, Logical & Conceptual Objects 
+      - file: 01-binary-encoding/02-binary-number-systems 
+        title: Binary Number Systems 
+      - file: 01-binary-encoding/03-encoding-schema 
+        title: Encoding Schema 
+      - file: 01-binary-encoding/04-representing-other-info
+        title: Representing Other Information 
+      - file: 01-binary-encoding/05-putting-it-all-together
+        title: Putting It All Together 
+      - file: 01-binary-encoding/06-file-formats
+        title: File Formats
+      - file: 01-binary-encoding/07-application
+        title: Application Questions
+    - file: 02-computer-architecture/00-intro
+      title: 2. Computer Hardware & Architecture 
+      sections:
+      - file: 02-computer-architecture/01-von-neumann
+        title: Von Neumann Architecture 
+      - file: 02-computer-architecture/02-alu-memory
+        title: ALU & Memory 
+      - file: 02-computer-architecture/03-cpu-fetch-execute
+        title: CPU & the Fetch-Execute Cycle
+      - file: 02-computer-architecture/04-assembly-language
+        title: Assembly Language 
+      - file: 02-computer-architecture/05-putting-it-all-together 
+        title: Putting It All Together 
+      - file: 02-computer-architecture/06-application 
+        title: Application 
+      - file: 02-computer-architecture/07-scenarios 
+        title: Scenarios 
+        sections:
+        - file: 02-computer-architecture/08-alu-memory-scenario 
+          title: Scenario 1 : ALU & Memory 
+        - file: 02-computer-architecture/09-alu-memory-scenario 
+          title: Scenario 2 : ALU & Memory 
+        - file: 02-computer-architecture/10-fetch-execute-scenario 
+          title: Scenario 3 : Assembly Language, the CPU & the Fetch-Execute Cycle
+    - file: 03-systems-interfaces/00-intro 
+      title: 3. Operating Systems & Computer Interfaces
+      sections:
+      - file: 03-systems-interfaces/01-operating-systems 
+        title: Operating Systems 
+      - file: 03-systems-interfaces/02-cli-overview
+        title: Introduction to the Command Line Interface 
+        sections:
         - file: 03-systems-interfaces/03-cli-intro 
           title: Getting Started at the Command Line 
         - file: 03-systems-interfaces/04-shell-tutorial
@@ -72,5 +72,5 @@ chapters:
           title: Tutorial: Navigating Your File System 
         - file: 03-systems-interfaces/08-cli-application 
           title: Command Line Application Questions 
-     - file: 03-systems-interfaces/09-application 
-       title: Application
+      - file: 03-systems-interfaces/09-application 
+        title: Application
