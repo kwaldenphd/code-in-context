@@ -1,11 +1,15 @@
 # File Formats
 
+## Files 
+
 For this section of the lab, you'll need to download three different text files:
 - `hello_world.txt`
 - `hello_world.rtf`
 - `hello_world.docx`
 
 [Click here](https://github.com/kwaldenphd/bits-bytes/blob/draft/files/hello-world-files.zip) to download all three files.
+
+## Lecture
 
 <table>
  <tr><td>
@@ -37,8 +41,6 @@ For this section of the lab, you'll need to download three different text files:
   * `CSV` (comma-separated value)
   * `HTML` (hyper-text markup language)
   * `PNG` (portable network graphic)
-
-[Click here](https://github.com/kwaldenphd/bits-bytes/blob/main/key-concepts.md) for the full list of key concepts and definitions for this lab.
 
 ## Comprehension Check
 
