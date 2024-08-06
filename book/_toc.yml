@@ -165,4 +165,40 @@ chapters:
           title: Additional Operator Application
       - file: 06-python-fundamentals/17-application-questions
         title: Application Questions
-        
+    - file: 07-python-fundamentals/00-intro
+      title: "7. Python Fundamentals: Secondary Data Structures"
+      sections:
+      - file: 07-python-fundamentals/01-linear-arrays
+        title: Linear Arrays
+        sections:
+        - file: 07-python-fundamentals/02-indexing
+          title: Indexing in Python 
+        - file: 07-python-fundamentals/03-strings
+          title: Strings 
+          sections:
+          - file: 07-python-fundamentals/04-string-methods
+            title: String Methods 
+          - file: 07-python-fundamentals/05-string-application 
+            title: String Application Questions 
+        - file: 07-python-fundamentals/06-lists
+          title: Lists 
+          sections:
+          - file: 07-python-fundamentals/07-list-methods
+            title: List Methods 
+          - file: 07-python-fundamentals/list-syntax-review
+            title: List Syntax Review 
+          - file: 07-python-fundamentals/list-application 
+            title: List Application Questions 
+        - file: 07-python-fundamentals/10-other-linear-arrays
+          title: Other Linear Arrays
+      - file: 07-python-fundamentals/11-associative-arrays
+        title: Associative Arrays
+        sections:
+        - file: 07-python-fundamentals/12-dictionaries
+          title: Dictionaries 
+        - file: 07-python-fundamentals/13-dictionary-application
+          title: Dictionary Application Questions 
+      - file: 07-python-fundamentals/14-putting-it-all-together 
+        title: Putting It All Together
+      - file: 07-python-fundamentals/15-application-questions
+        title: Application Questions        
