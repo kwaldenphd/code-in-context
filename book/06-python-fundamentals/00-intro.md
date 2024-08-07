@@ -1,4 +1,4 @@
-# Python Fundamentals: Variables, Data Types & Operators
+# Programming Fundamentals in Python: Variables, Data Types & Operators
 
 This chapter provides an overview of foundational programming concepts, with a focus on Python syntax. 
 

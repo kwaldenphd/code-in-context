@@ -5,7 +5,7 @@
 Your answers to this chapter's application questions should be added to the notebook template.
 - [Google Colab link](https://colab.research.google.com/drive/1Esk-yAc-DA-2Jr6vWk6j1IW6NXoeILWE?usp=sharing) (ND users only)
 
-Your Google Colab notebook should be located in the `wk8-python-fundamentals` [Google Drive folder](https://drive.google.com/drive/folders/1btaMEcpz_IoKgNZU4fTmf4l_n9dsga1V?usp=drive_link) (ND users only)
+Your Google Colab notebook should be located in the `wk8-data-structures` [Google Drive folder](https://drive.google.com/drive/folders/1btaMEcpz_IoKgNZU4fTmf4l_n9dsga1V?usp=drive_link) (ND users only)
 
 Submit the Colab link on Canvas for the assignment submission.
 
