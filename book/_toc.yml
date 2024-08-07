@@ -284,7 +284,7 @@ chapters:
         - file: 10-structured-data/05-write
           title: Writing Data to a File
       - file: 10-structured-data/06-structured data
-        title: Structure dData
+        title: Structured Data
         sections:
         - file: 10-structured-data/07-delimited-data 
           title: Delimited Data 
@@ -310,5 +310,5 @@ chapters:
           title: From Data Frame to Data File 
         - file: 10-structured-data/17-pandas-application
           title: Pandas Application Questions
-      - file: 10-structured-data/18-application
+      - file: 10-structured-data/18-application-questions
         title: Application Questions
