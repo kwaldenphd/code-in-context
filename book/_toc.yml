@@ -297,6 +297,7 @@ chapters:
         sections:
         - file: 10-structured-data/11-data-structures 
           title: Pandas Data Structures 
+          sections:
           - file: 10-structured-data/12-series 
             title: Series 
           - file: 10-structured-data/13-data-frame 
