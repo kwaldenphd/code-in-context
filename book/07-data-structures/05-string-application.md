@@ -18,7 +18,8 @@ Q2: Write a program that prompts the user to enter a 6-letter word, and then pri
 
 Q3: Modify the program provided below to search for the character `q` or `u` in the string. Does it always return the index number you expect? What index is returned if you ask for the index of the letter u (i.e., what happens when the desired character appears more than once in the string)?
 
-```Python# program you're modifying for Q8
+```Python
+# program you're modifying for Q8
 # assign string variable
 color = "turquoise"
 

@@ -11,8 +11,6 @@
 
 ## Application Questions
 
-#### `While` Loop Application
-
 Q3: Return to your Q1 color guessing game program. Rewrite the program to use a `whlie` statement and continue until the user guesses your favorite color. This program will use a combination of the `input()` function, comparison operators, a `while` statement, and `if-then-else` logic. Answer to this question includes program + comments that document process and explain your code.
 
 Q4: Given the following program:

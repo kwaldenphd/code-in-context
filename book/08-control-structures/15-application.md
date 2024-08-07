@@ -98,7 +98,8 @@ IS FUN!
 
 Q7: An earlier application question asked you to modify the program below to search for the characters `q` and `u` in the string `turquoise`.
 
-```Python# assign string variable
+```Python
+# assign string variable
 color = "turquoise"
 
 # get index number of t character
