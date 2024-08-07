@@ -239,4 +239,75 @@ chapters:
       - file: 08-control-structures/14-putting-it-all-together
         title: Putting It All Together 
       - file: 08-control-structures/15-application
-        title: Application Questions     
+        title: Application Questions
+    - file: 09-reuse-modularity/00-intro
+      title: "9. Code Reuse & Modularity"
+      sections:
+      - file: 09-reuse-modularity/01-python-functions
+        title: Functions in Python
+        sections:
+        - file: 09-reuse-modularity/02-built-in-functions
+          title: Built-In Functions
+        - file: 09-reuse-modularity/03-named-functions
+          title: Named Functions 
+          sections:
+          - file: 09-reuse-modularity/04-how-named-functions-work 
+            title: How Named Functions Work 
+          - file: 09-reuse-modularity/05-python-example
+            title: Python Example A
+          - file: 09-reuse-modularity/06-python-example 
+            title: Python Example B
+          - file: 09-reuse-modularity/07-python-example 
+            title: Python Example C
+        - file: 09-reuse-modularity/08-parameters-scoping
+          title: Parameters & Scoping 
+        - file: 09-reuse-modularity/09-functions-application 
+          title: Function Application 
+        - file: 09-reuse-modularity/10-putting-it-all-together 
+          title: Putting It All Together 
+        - file: 09-reuse-modularity/11-reuse-modularity
+          title: Code Reuse & Modularity 
+      - file: 09-reuse-modularity/12-application 
+        title: Application Questions
+    - file: 10-structured-data/00-intro
+      title: "10. Structured Data in Python"
+      sections:
+      - file: 10-structured-data/01-file-io
+        title: File I/O 
+        sections:
+        - file: 10-structured-data/02-open 
+          title: Opening Files 
+        - file: 10-structured-data/03-access-modes 
+          title: Access Modes 
+        - file: 10-structured-data/04-python-examples 
+          title: Python Examples 
+        - file: 10-structured-data/05-write
+          title: Writing Data to a File
+      - file: 10-structured-data/06-structured data
+        title: Structure dData
+        sections:
+        - file: 10-structured-data/07-delimited-data 
+          title: Delimited Data 
+        - file: 10-structured-data/08-csv-files 
+          title: CSV Files
+        - file: 10-structured-data/09-json 
+          title: JavaScript Object Notation 
+      - file: 10-structured-data/10-pandas 
+        title: Enter Pandas 
+        sections:
+        - file: 10-structured-data/11-data-structures 
+          title: Pandas Data Structures 
+          - file: 10-structured-data/12-series 
+            title: Series 
+          - file: 10-structured-data/13-data-frame 
+            title: Data Frame 
+        - file: 10-structured-data/14-file-to-df
+          title: From Data File to DataFrame 
+        - file: 10-structured-data/15-interacting 
+          title: Interacting With a Data Frame 
+        - file: 10-structured-data/16-writing-output 
+          title: From Data Frame to Data File 
+        - file: 10-structured-data/17-pandas-application
+          title: Pandas Application Questions
+      - file: 10-structured-data/18-application
+        title: Application Questions
