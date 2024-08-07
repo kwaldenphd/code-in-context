@@ -215,7 +215,7 @@ chapters:
         - file: 08-control-structures/04-indentation
           title: Indentation 
         - file: 08-control-structures/05-conditional-execution-application 
-         title: Conditional Execution Application 
+          title: Conditional Execution Application 
       - file: 08-control-structures/06-iteration
         title: Iteration 
         sections:
