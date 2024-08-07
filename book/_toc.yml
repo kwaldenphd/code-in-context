@@ -216,27 +216,27 @@ chapters:
           title: Indentation 
         - file: 08-control-structures/05-conditional-execution-application 
          title: Conditional Execution Application 
-     - file: 08-control-structures/06-iteration
-       title: Iteration 
-       sections:
-       - file: 08-control-structures/07-iteration-in-python
-         title: Iteration in Python 
-       - file: 08-control-structures/08-loops
-         title: Loops 
-         sections:
-         - file: 08-control-structures/09-event-controlled
-           title: Event Controlled Loops 
-           sections:
-           - file: 08-control-structures/10-while-loop-application 
-             title: While Loop Application 
-         - file: 08-control-structures/11-count-controlled-loops 
-           title: Count-Controlled Loops 
-           sections:
-           - file: 08-control-structures/12-for-loop-application
-             title: For Loop Application
-     - file: 08-control-structures/13-additional-considerations
-       title: Additional Considerations
-     - file: 08-control-structures/14-putting-it-all-together
-       title: Putting It All Together 
-     - file: 08-control-structures/15-application
-       title: Application Questions     
+      - file: 08-control-structures/06-iteration
+        title: Iteration 
+        sections:
+        - file: 08-control-structures/07-iteration-in-python
+          title: Iteration in Python 
+        - file: 08-control-structures/08-loops
+          title: Loops 
+          sections:
+          - file: 08-control-structures/09-event-controlled
+            title: Event Controlled Loops 
+            sections:
+            - file: 08-control-structures/10-while-loop-application 
+              title: While Loop Application 
+          - file: 08-control-structures/11-count-controlled-loops 
+            title: Count-Controlled Loops 
+            sections:
+            - file: 08-control-structures/12-for-loop-application
+              title: For Loop Application
+      - file: 08-control-structures/13-additional-considerations
+        title: Additional Considerations
+      - file: 08-control-structures/14-putting-it-all-together
+        title: Putting It All Together 
+      - file: 08-control-structures/15-application
+        title: Application Questions     
