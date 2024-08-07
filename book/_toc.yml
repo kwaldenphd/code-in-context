@@ -202,41 +202,41 @@ chapters:
         title: Putting It All Together
       - file: 07-data-structures/15-application-questions
         title: Application Questions 
-     - file: 08-control-structures/00-intro
-       title: "8. Control Structures in Python"
-       sections:
-       - file: 08-control-structures/01-conditional-execution
-         title: Conditional Execution
-         sections:
-         - file: 08-control-structures/02-conditional-execution-python
-           title: Conditional Execution in Python
-         - file: 08-control-structures/03-while-statements
-           title: While Statements
-         - file: 08-control-structures/04-indentation
-           title: Indentation 
-         - file: 08-control-structures/05-conditional-execution-application 
-          title: Conditional Execution Application 
-      - file: 08-control-structures/06-iteration
-        title: Iteration 
+    - file: 08-control-structures/00-intro
+      title: "8. Control Structures in Python"
+      sections:
+      - file: 08-control-structures/01-conditional-execution
+        title: Conditional Execution
         sections:
-        - file: 08-control-structures/07-iteration-in-python
-          title: Iteration in Python 
-        - file: 08-control-structures/08-loops
-          title: Loops 
-          sections:
-          - file: 08-control-structures/09-event-controlled
-            title: Event Controlled Loops 
-            sections:
-            - file: 08-control-structures/10-while-loop-application 
-              title: While Loop Application 
-          - file: 08-control-structures/11-count-controlled-loops 
-            title: Count-Controlled Loops 
-            sections:
-            - file: 08-control-structures/12-for-loop-application
-              title: For Loop Application
-      - file: 08-control-structures/13-additional-considerations
-        title: Additional Considerations
-      - file: 08-control-structures/14-putting-it-all-together
-        title: Putting It All Together 
-      - file: 08-control-structures/15-application
-        title: Application Questions     
+        - file: 08-control-structures/02-conditional-execution-python
+          title: Conditional Execution in Python
+        - file: 08-control-structures/03-while-statements
+          title: While Statements
+        - file: 08-control-structures/04-indentation
+          title: Indentation 
+        - file: 08-control-structures/05-conditional-execution-application 
+         title: Conditional Execution Application 
+     - file: 08-control-structures/06-iteration
+       title: Iteration 
+       sections:
+       - file: 08-control-structures/07-iteration-in-python
+         title: Iteration in Python 
+       - file: 08-control-structures/08-loops
+         title: Loops 
+         sections:
+         - file: 08-control-structures/09-event-controlled
+           title: Event Controlled Loops 
+           sections:
+           - file: 08-control-structures/10-while-loop-application 
+             title: While Loop Application 
+         - file: 08-control-structures/11-count-controlled-loops 
+           title: Count-Controlled Loops 
+           sections:
+           - file: 08-control-structures/12-for-loop-application
+             title: For Loop Application
+     - file: 08-control-structures/13-additional-considerations
+       title: Additional Considerations
+     - file: 08-control-structures/14-putting-it-all-together
+       title: Putting It All Together 
+     - file: 08-control-structures/15-application
+       title: Application Questions     
