@@ -283,7 +283,7 @@ chapters:
           title: Python Examples 
         - file: 10-structured-data/05-write
           title: Writing Data to a File
-      - file: 10-structured-data/06-structured data
+      - file: 10-structured-data/06-structured-data
         title: Structured Data
         sections:
         - file: 10-structured-data/07-delimited-data 
