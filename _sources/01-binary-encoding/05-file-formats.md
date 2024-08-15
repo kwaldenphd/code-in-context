@@ -21,12 +21,12 @@ For this section of the chapter, you'll need to download three different text fi
 
 ```{admonition} File Downloads 
 Links to download each file are included below:
-- {Download}`hello_world.txt`<./files/ch1/hello-world.txt>
-- {Download}`hello_world.rtf`<./files/ch1/hello-world.rtf>
-- {Download}`hello_world.docx`<./files/ch1/hello-world.docx>
+- {Download}`hello_world.txt</files/ch1/hello-world.txt>`
+- {Download}`hello_world.rtf</files/ch1/hello-world.rtf>`
+- {Download}`hello_world.docx</files/ch1/hello-world.docx>`
 
 To download all three files as a compressed folder:
-- {Download}`hello-world-files.zip`<./files/ch1/hello-world-files.zip>
+- {Download}`hello-world-files.zip</files/ch1/hello-world-files.zip>`
 ```
 
 ## <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Lecture

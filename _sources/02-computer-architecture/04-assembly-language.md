@@ -1,6 +1,6 @@
 # Assembly Language
 
-## Lecture
+## <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Lecture
 
 <table>
  <tr><td>
@@ -9,31 +9,45 @@
   </tr>
   </table>
 
-## Key Concepts
+## <i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts
 
-<p align="center"><img src="https://github.com/kwaldenphd/how-computers-work/blob/main/images/Pep9_Instruction_Format.png?raw=true" width="500"></p>
+```{image} ../images/ch2/pep9.png
+:alt: PEP9 instruction format
+:width: 500px
+:align: center
+```
 
-**Assembly Language**
-- "In computer programming, assembly language...is any low-level programming language with a very strong correspondence between the instructions in the language and the architecture's machine code instructions. Assembly language usually has one statement per machine instruction (1:1)...Because each assembly depends on the machine code instructions, each assembly language is specific to a paticular computer architecture" ([Wikipedia](https://en.wikipedia.org/wiki/Assembly_language))
+```{admonition} Assembly Language
+:class: tip, dropdown
+"In computer programming, assembly language...is any low-level programming language with a very strong correspondence between the instructions in the language and the architecture's machine code instructions. Assembly language usually has one statement per machine instruction (1:1)...Because each assembly depends on the machine code instructions, each assembly language is specific to a paticular computer architecture" ([Wikipedia](https://en.wikipedia.org/wiki/Assembly_language))
+```
 
-**Assembler**
-- "An assembler program creates object code by translating combinations of mnemonics and syntax for operations and addressing modes into their numerical equivalents. This representation typically includes an operation code ('opcode') as well as other control bits and data. The assembler also calculates constant expressions and resolves symbolic names for memory locations and other entities" ([Wikipedia](https://en.wikipedia.org/wiki/Assembly_language#Assembler))
+```{admonition} Assembler
+:class: tip, dropdown
+"An assembler program creates object code by translating combinations of mnemonics and syntax for operations and addressing modes into their numerical equivalents. This representation typically includes an operation code ('opcode') as well as other control bits and data. The assembler also calculates constant expressions and resolves symbolic names for memory locations and other entities" ([Wikipedia](https://en.wikipedia.org/wiki/Assembly_language#Assembler))
+```
 
-**Instruction Specifier**
-- Typically the first byte of an instruction. If present, it indicates which operation is being performed. Also tells the computer how to process the operand.
+```{admonition} Instruction Specifier
+:class: tip, dropdown
+Typically the first byte of an instruction. If present, it indicates which operation is being performed. Also tells the computer how to process the operand.
+```
 
-**Operand Specifier**
-- Typically the second and third bytes in an instruction. If present, it can hold the operand or its address (location).
+```{admonition} Operand Specifier
+:class: tip, dropdown
+Typically the second and third bytes in an instruction. If present, it can hold the operand or its address (location).
+```
 
-**Operation Codes (opcodes)**
-- Typically 4-8 bits. It indicates the instruction specifier format and can include a register specifier.
+```{admonition} Operation Codes (opcodes)
+:class: tip, dropdown
+Typically 4-8 bits. It indicates the instruction specifier format and can include a register specifier.
+```
 
-**Addressing Mode**
-- Typically 3 bits. It indicates how to interpret the operand specifier.
+```{admonition} Addressing Mode
+:class: tip, dropdown
+Typically 3 bits. It indicates how to interpret the operand specifier.
+```
 
-[Click here](https://github.com/kwaldenphd/how-computers-work/blob/main/key-concepts.md) for a full list of key concepts and definitions for this lab.
-
-## Comprehension Check
+## <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i> Comprehension Check
 
 <table>
  <tr><td>
@@ -42,6 +56,6 @@
   </tr>
   </table>
 
-## Application
+## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 Q4: Describe the relationship of assembly language and machine language (or machine code) in your own words.

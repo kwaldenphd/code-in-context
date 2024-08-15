@@ -2,9 +2,13 @@
 
 "All computers have a CPU that can be divided into two pieces. The first is the datapath, which is a network of storage units (registers) and arithmetic and logic units...connected by buses...where the timing is controlled by clocks." (Linda Null and Julia Lobur, 2006. *[The Essentials of Computer Organization and Architecture](https://www.oreilly.com/library/view/the-essentials-of/9781284033144/)*, pp. 2016.)
 
-Let's go back to the laptop specs we looked at in the beginning of this lab.
+Let's go back to the laptop specs we looked at in the beginning of this chapter.
 
-<p align="center"><img src="https://github.com/kwaldenphd/how-computers-work/blob/main/images/Laptop_Spec_Comparison.png?raw=true" width="750"></p>
+```{image} ../images/ch2/laptop-spec-comparison.png
+:alt: Laptop spec comparison
+:width: 750px
+:align: center
+```
 
 Hopefully we're gaining familiarity with some of these terms and concepts.
 

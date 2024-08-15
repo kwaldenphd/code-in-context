@@ -583,10 +583,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture">Lecture</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts">Key Concepts</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check">Comprehension Check</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application">Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture"><i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i> Lecture</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts"><i aria-hidden="true" class="fa-solid fa-key"></i> Key Concepts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check"><i aria-hidden="true" class="fa-solid fa-clipboard-check"></i> Comprehension Check</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application"><i aria-hidden="true" class="fa-solid fa-clipboard-question"></i> Application</a></li>
 </ul>
             </nav>
         </div>
@@ -601,7 +601,7 @@ document.write(`
   <section id="cpu-the-fetch-execute-cycle">
 <h1>CPU &amp; the Fetch-Execute Cycle<a class="headerlink" href="#cpu-the-fetch-execute-cycle" title="Link to this heading">#</a></h1>
 <section id="lecture">
-<h2>Lecture<a class="headerlink" href="#lecture" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Lecture<a class="headerlink" href="#lecture" title="Link to this heading">#</a></h2>
 <table>
  <tr><td>
 <img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
@@ -610,46 +610,47 @@ document.write(`
   </table>
 </section>
 <section id="key-concepts">
-<h2>Key Concepts<a class="headerlink" href="#key-concepts" title="Link to this heading">#</a></h2>
-<p><strong>Input and Output (I/O)</strong></p>
+<h2><i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts<a class="headerlink" href="#key-concepts" title="Link to this heading">#</a></h2>
+<a class="reference internal image-reference" href="../_images/input-output.png"><img alt="Von Neumann Workflow" class="align-center" src="../_images/input-output.png" style="width: 500px;" /></a>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Input and Output (I/O)</p>
+<p>I/O devices provide inputs to the system and enable the computer to provide output</p>
 <ul class="simple">
-<li><p>I/O devices provide inputs to the system and enable the computer to provide output</p></li>
 <li><p>Input device examples: keyboard, mouse, network card, etc.</p></li>
 <li><p>Output device examples: monitor, display, printer, etc.</p></li>
 </ul>
-<p align="center"><img src="https://github.com/kwaldenphd/how-computers-work/blob/main/images/Von_Neumann_Flow.png?raw=true" width="500"></p>
-<p><strong>Processor (or processing unit)</strong></p>
+</div>
+<a class="reference internal image-reference" href="../_images/von-neumann-architecture.png"><img alt="Von Neumann Architecture" class="align-center" src="../_images/von-neumann-architecture.png" style="width: 500px;" /></a>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Processor (or processing unit)</p>
+<p>“In computing, a processor or processing unit is an electronic circuit which performs operations on some external data source, usually memory or some other data stream. The term is frequently used to refer to the central processor (central processing unit)” (<a class="reference external" href="https://en.wikipedia.org/wiki/Processor_(computing)">Wikipedia</a>)</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">CPU</p>
+<p>“A central processing unit (CPU), also called a central processor or main processor, is the electronic circuitry within a computer that executes instructions that make up a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions…Principal components of a CPU include the arithmetic logic unit (ALU) that performs arithmetic and logic operations, processor registers that supply operands to the ALU and store the results of ALU operations, and a control unit that orchestrates the fetching (from memory) and execution of instructions by directing the coordinated operations of the ALU, registers and other components” (<a class="reference external" href="https://en.wikipedia.org/wiki/Central_processing_unit">Wikipedia</a>)</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Bus</p>
+<p>“In computer architecture, a bus…is a communication system that transfers data between components inside a computer, or between computers. This expression covers all related hardware components (wire, optical fiber, etc.) and software” (<a class="reference external" href="https://en.wikipedia.org/wiki/Bus_(computing)">Wikipedia</a>)</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Instruction Register (IR)</p>
+<p>Register with the instruction that is currently being executed</p>
+</div>
+<a class="reference internal image-reference" href="../_images/fetch-execute.png"><img alt="Fetch-Execute Cycle" class="align-center" src="../_images/fetch-execute.png" style="width: 500px;" /></a>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Fetch-Execute Cycle</p>
+<p>Computer processing cycle that includes four main steps:</p>
 <ul class="simple">
-<li><p>“In computing, a processor or processing unit is an electronic circuit which performs operations on some external data source, usually memory or some other data stream. The term is frequently used to refer to the central processor (central processing unit)” (<a class="reference external" href="https://en.wikipedia.org/wiki/Processor_(computing)">Wikipedia</a>)</p></li>
-</ul>
-<p><strong>CPU</strong></p>
-<ul class="simple">
-<li><p>“A central processing unit (CPU), also called a central processor or main processor, is the electronic circuitry within a computer that executes instructions that make up a computer program. The CPU performs basic arithmetic, logic, controlling, and input/output (I/O) operations specified by the instructions…Principal components of a CPU include the arithmetic logic unit (ALU) that performs arithmetic and logic operations, processor registers that supply operands to the ALU and store the results of ALU operations, and a control unit that orchestrates the fetching (from memory) and execution of instructions by directing the coordinated operations of the ALU, registers and other components” (<a class="reference external" href="https://en.wikipedia.org/wiki/Central_processing_unit">Wikipedia</a>)</p></li>
-</ul>
-<p><strong>Bus</strong></p>
-<ul class="simple">
-<li><p>“In computer architecture, a bus…is a communication system that transfers data between components inside a computer, or between computers. This expression covers all related hardware components (wire, optical fiber, etc.) and software” (<a class="reference external" href="https://en.wikipedia.org/wiki/Bus_(computing)">Wikipedia</a>)</p></li>
-</ul>
-<p><strong>Instruction Register (IR)</strong></p>
-<ul class="simple">
-<li><p>Register with the instruction that is currently being executed</p></li>
-</ul>
-<p align="center"><img src="https://github.com/kwaldenphd/how-computers-work/blob/main/images/Fetch_Execute_Cycle.png?raw=true" width="500"></p>
-<p><strong>Fetch-Execute Cycle</strong></p>
-<ul class="simple">
-<li><p>Computer processing cycle that includes four main steps:</p>
-<ul>
 <li><p>Fetch instruction</p></li>
 <li><p>Decode instruction</p></li>
 <li><p>Get data (if needed)</p></li>
 <li><p>Execute instruction</p></li>
 </ul>
-</li>
-</ul>
-<p><a class="reference external" href="https://github.com/kwaldenphd/how-computers-work/blob/main/key-concepts.md">Click here</a> for a full list of key concepts and definitions for this lab.</p>
+</div>
 </section>
 <section id="comprehension-check">
-<h2>Comprehension Check<a class="headerlink" href="#comprehension-check" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i> Comprehension Check<a class="headerlink" href="#comprehension-check" title="Link to this heading">#</a></h2>
 <table>
  <tr><td>
 <img src="https://github.com/kwaldenphd/how-computers-work/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
@@ -658,7 +659,7 @@ document.write(`
   </table>
 </section>
 <section id="application">
-<h2>Application<a class="headerlink" href="#application" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application<a class="headerlink" href="#application" title="Link to this heading">#</a></h2>
 <p>Q3: Describe the three main steps of the fetch-execute cycle in your own words.</p>
 </section>
 </section>
@@ -727,10 +728,10 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture">Lecture</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts">Key Concepts</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check">Comprehension Check</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application">Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture"><i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i> Lecture</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts"><i aria-hidden="true" class="fa-solid fa-key"></i> Key Concepts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check"><i aria-hidden="true" class="fa-solid fa-clipboard-check"></i> Comprehension Check</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application"><i aria-hidden="true" class="fa-solid fa-clipboard-question"></i> Application</a></li>
 </ul>
   </nav></div>
 
