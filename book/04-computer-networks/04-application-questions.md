@@ -2,6 +2,8 @@
 
 [Link to application question template](https://docs.google.com/document/d/1qYZRLlZzbZHCGIJEn4Urvpk9uBHouE_psQCsU61lEvE/copy) (ND users, Google Doc)
 
+## Question #1
+
 Q1a: Let's use the `ping` command for a network test. Open a terminal shell (`Terminal` or `Git BASH`). Type `ping` followed by an IP address. A few you could choose from:
 - OpenDNS: `208.67.222.222` and `208.67.220.220`
 - Cloudflare: `1.1.1.1` and `1.0.0.1`
@@ -17,6 +19,8 @@ Press `Enter`/`Return`.
 Q1b: Describe what you're seeing in the `ping` command output. What do these results indicate about the network status? A couple resources that can help with understanding these results:
 - IBM, "[`ping` Command](https://www.ibm.com/docs/en/aix/7.1?topic=p-ping-command)"
 - PageDuty, "[How to Ping a Network for Testing Connectivity](https://www.pagerduty.com/resources/learn/ping-network-testing-connectivity/)"
+
+## Question #2
 
 Q2a: Let's run a similar test using the `traceroute` or `tracert` command. Still in the  terminal, type `tracert` followed by a domain name or IP address.
 
@@ -39,6 +43,8 @@ Q2b: Describe what you're seeing in the `traceroute`/`tracert` program output. W
 A couple resources that can help with understanding these results:
 - RedHat, "[Traceroute: Finding meaning among the stars](https://www.redhat.com/sysadmin/traceroute-finding-meaning)"
 - InMotion Hosting, "[How to Read a Traceroute](https://www.inmotionhosting.com/support/server/ssh/read-traceroute/)"
+
+## Question #3
 
 Q3a: Let's use the `ipconfig` (Windows) or `ifconfig` (Mac) commands to learn more about your computer's network configuration. Open a terminal shell (`Terminal` or `Git BASH`). Type `ipconfig` (Windows) or `ifconfig` (Mac) followed by `Enter`/`Return`.
 

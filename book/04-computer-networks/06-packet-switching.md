@@ -1,22 +1,22 @@
 # Packet Switching Network Relay
 
-## Overview
-
 Groups simulate a packet switching network to assemble a puzzle. This activity is configurable for a variety of group sizes or configurations.
 
-## Materials
+## <i class="fa-solid fa-pen-ruler" aria-hidden="true"></i> Materials
 
-```{note} Role Cards
+```{admonition} Role Cards
+:class: tip, dropdown
 [Link to Google Doc](https://docs.google.com/document/d/1rWjQs72_ApxJyoPOSBSKAMruO2gZ9AeziAGstgQg_I8/edit?usp=sharing) with role names & descriptions
 ```
 
-```{note} Handout
+```{admonition} Participant Instructions & Handout
+:class: tip, dropdown
 [Link to Google Doc](https://bit.ly/packet-switching-game) with instructions for participants.
 ```
 
-Lots of options for what constitutes the packets!
+Lots of options for what constitutes the data packets!
 
-## Setup
+## <i class="fa-solid fa-gears" aria-hidden="true"></i> Setup
 
 You will need the following roles:
 - Computer hosts (at least 2, sending & recieving)
@@ -33,7 +33,8 @@ You will need the following roles:
 
 If additional roles are needed, expand the number of routers or packets.
 
-```{note} Role Cards
+```{admonition} Role Cards
+class: tip, dropdown
 [Link to Google Doc](https://docs.google.com/document/d/1rWjQs72_ApxJyoPOSBSKAMruO2gZ9AeziAGstgQg_I8/edit?usp=sharing) with role names & descriptions
 ```
 
@@ -43,9 +44,10 @@ There are lots of options for what will constitute the data packets. This activi
 - Blank puzzles would allow creating a unique design
 - More sophisticated options could include using a cricut machine or laser cutter to create unique custom designs 
 
-## Activity
+## <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> Activity
 
-```{note} Handout
+```{admonition} Participant Handout & Instructions 
+:class: tip, dropdown
 [Link to Google Doc](https://bit.ly/packet-switching-game) with instructions for participants.
 ```
 
@@ -69,7 +71,7 @@ If time allows: Rotate roles and run the simulation a few more times so everyone
 - A router
 - A packet
 
-```{note} Note for instructors
+```{admonition} For Instructors
 If it makes sense, you can frame this version of the activity as a type of `local area network` (LAN)
 ```
 
@@ -77,7 +79,7 @@ If it makes sense, you can frame this version of the activity as a type of `loca
 
 If time and size allow, groups can combine to form a more complex network. 
 
-```{note} Note for instructors
+```{admonition} For Instructors
 If it makes sense, you can frame this version of the activity as a type of `wide area network` (WAN)
 ```
 
@@ -100,7 +102,7 @@ If time allows: Rotate roles and run the simulation a few more times so everyone
 - A router
 - A packet
 
-```{note} Disruption!
+```{danger} Disruption!
 Want to add a real-world element to your simulation? Consider giving individuals (or a group) the power to disrupt. A few possibilities...
 - Damage to a deep sea cable takes out a 3 routers 
 - Fire takes out 3 routers
@@ -108,7 +110,7 @@ Want to add a real-world element to your simulation? Consider giving individuals
 - Political protests cause a state actor to shut down the wide-area network
 ```
 
-## Discussion & Reflection
+## <i class="fa-regular fa-comments" aria-hidden="true"></i>  Discussion & Reflection
 
 These prompts could be used in a variety of settings for discussion and reflection:
 - How did this experience go for you? What was interesting, surprising, unexpected, challenging, fun, etc?

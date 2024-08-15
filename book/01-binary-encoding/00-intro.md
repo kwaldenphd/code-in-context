@@ -22,6 +22,8 @@ The "Binary Number Systems" and "Encoding Schema" lecture segments were adapted 
 
 ## <i class="fa-regular fa-bookmark" aria-hidden="true"></i> Companion Content
 
+### Week #1
+
 Matt Richtel. “[Reading, Writing, Arithmetic, and Increasingly, Coding](https://www.nytimes.com/2014/05/11/us/reading-writing-arithmetic-and-lately-coding.html).” *New York Times*, May 10, 2014.
 - Framing questions:
   * As you read, be thinking about how the article presents coding- what does it include, who is it for? You can also be thinking about how the coding education experiences Richtel describes connect to your own ideas or experiences around computing.
@@ -29,6 +31,8 @@ Matt Richtel. “[Reading, Writing, Arithmetic, and Increasingly, Coding](https:
 The Most Reverend Paul Tighe, “[Catholic Social Teaching in the Digital Age](https://www.centesimusannus.org/wp-content/uploads/2018/09/Tighe-ENG-1.pdf),”  *Centesimus Annus Pro Pontifice* (January 26-27, 2017).
 - Framing questions:
   * Catholic Social Teaching concepts may be new to some of us, and that's okay! As you skim, be thinking about how this article describes digital technologies, especially the human dimensions of how technologies work and are used. You can also be thinking about a vision of digital technology that promotes human dignity and the common good- what stands out to you about these possibilities?
+
+### Week #2
 
 Mar Hicks, “When Did the Fire Start?” in [*Your Computer Is On Fire* (MIT Press, 2021)](https://drive.google.com/file/d/1lwhi6N9JK3uOx7e3An8fCsadHMLqXsc1/view?usp=drive_link): 11-25.
 - Framing questions:
