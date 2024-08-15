@@ -1,6 +1,6 @@
 # Code in Context: Computing & the Liberal Arts
 
-**Designed by [Katherine Walden](https://github.com/kwaldenphd) // Powered by [Jupyter Book](https://jupyterbook.org/)**
+**Authored & designed by [Katherine Walden](https://github.com/kwaldenphd) // Powered by [Jupyter Book](https://jupyterbook.org/)**
 
 <p align="center"><figure><img src="https://upload.wikimedia.org/wikipedia/commons/9/93/L_Dorothy_Vaughan_M_Lessie_Hunter_R_Vivian_Adair.jpg" width=1000><figcaption><em>L-R: Dorothy Vaughan, Lessie Hunter, Vivian Adair (Margaret Ridenhour and Charlotte Craidon in back) Human Computers: photo donated by B. Golemba (<a href="https://commons.wikimedia.org/wiki/File:L_Dorothy_Vaughan_M_Lessie_Hunter_R_Vivian_Adair.jpg">Wikimedia Commons</a>).</em></figcaption></fig></p>
 
@@ -28,10 +28,19 @@ Making these teaching resource available via Jupyter Book takes inspiration from
 
 ## Getting Started 
 
-The `How-To` page is a good place to start in terms of how to use this book.
+The [`How-To` page](how-to.md) is a good place to start in terms of how to use this book.
 
 Use the table of contents below or the menu on the left-hand side of the page to get started.
 
 ## Contents 
 
-SPACE FOR CHAPTER-LEVEL TOC
+1. [Binary Number Systems & Encoding Schema](01-binary-encoding/00-intro.md)
+2. [Computer Hardware & Architecture ](02-computer-architecture/00-intro.md)
+3. [Operating Systems & Interfaces](03-systems-interfaces/00-intro )
+4. [Computer Networks & the Internet ](04-computer-networks/00-intro)
+5. [The World Wide Web](05-world-wide-web/00-intro)
+6. [Programming Fundamentals in Python](06-python-fundamentals/00-intro)
+7. [Data Structures in Python](07-data-structures/00-intro)
+8. [Control Structures in Python](08-control-structures/00-intro)
+9. [Code Reuse & Modularity](09-reuse-modularity/00-intro)
+10. [Structured Data in Python](10-structured-data/00-intro)

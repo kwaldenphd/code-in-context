@@ -198,9 +198,8 @@
 <li class="toctree-l2"><a class="reference internal" href="02-binary-number-systems.html">Binary Number Systems</a></li>
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Encoding Schema</a></li>
 <li class="toctree-l2"><a class="reference internal" href="04-representing-other-info.html">Representing Other Information</a></li>
-<li class="toctree-l2"><a class="reference internal" href="05-putting-it-all-together.html">Putting It All Together</a></li>
-<li class="toctree-l2"><a class="reference internal" href="06-file-formats.html">File Formats</a></li>
-<li class="toctree-l2"><a class="reference internal" href="07-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="05-file-formats.html">File Formats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-application.html">Application Questions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../02-computer-architecture/00-intro.html">2. Computer Hardware &amp; Architecture</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -218,7 +217,7 @@
 </details></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../03-systems-interfaces/00-intro.html">3. Operating Systems &amp; Computer Interfaces</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../03-systems-interfaces/00-intro.html">3. Operating Systems &amp; Interfaces</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/01-operating-systems.html">Operating Systems</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="../03-systems-interfaces/02-cli-overview.html">Introduction to the Command Line Interface</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/03-cli-intro.html">Getting Started at the Command Line</a></li>
@@ -584,9 +583,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture">Lecture</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts">Key Concepts</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check">Comprehension Check</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture">Lecture <i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts">Key Concepts <i aria-hidden="true" class="fa-solid fa-key"></i></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check">Comprehension Check <i aria-hidden="true" class="fa-solid fa-clipboard-check"></i></a></li>
 </ul>
             </nav>
         </div>
@@ -601,7 +600,7 @@ document.write(`
   <section id="encoding-schema">
 <h1>Encoding Schema<a class="headerlink" href="#encoding-schema" title="Link to this heading">#</a></h1>
 <section id="lecture">
-<h2>Lecture<a class="headerlink" href="#lecture" title="Link to this heading">#</a></h2>
+<h2>Lecture <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i><a class="headerlink" href="#lecture" title="Link to this heading">#</a></h2>
 <table>
  <tr><td>
 <img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
@@ -610,38 +609,52 @@ document.write(`
   </table>
 </section>
 <section id="key-concepts">
-<h2>Key Concepts<a class="headerlink" href="#key-concepts" title="Link to this heading">#</a></h2>
+<h2>Key Concepts <i class="fa-solid fa-key" aria-hidden="true"></i><a class="headerlink" href="#key-concepts" title="Link to this heading">#</a></h2>
+<table border="0"><tr><td><p align="center"><img src="../images/ch1/ACM_1.png" width="40%"></p></td>
+<td><p align="center"><img src="../images/ch1/ACM_2.png" width="40%"></p></td></tr>
+<tr><td>Table 1a. R.W. Bemer, "<a href="https://web.archive.org/web/20131017062654/http://www.trailing-edge.com/~bobbemer/SURVEY.HTM">Survey of coded character representation</a>", Commun. ACM 3, No. 12, 639-641, 1960 Dec</td><td>Table 2. H.J. Smith, Jr., F.A. Williams, "<a href="https://web.archive.org/web/20131017062654/http://www.trailing-edge.com/~bobbemer/SURVEY.HTM">Survey of punched card codes</a>", Commun. ACM 3, 639 & 642, 1960 Dec</td></tr></table>
 <table border="0"><tr><td><p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/ACM_1.png?raw=true" width="40%"></p></td>
 <td><p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/ACM_2.png?raw=true" width="40%"></p></td></tr>
 <tr><td>Table 1a. R.W. Bemer, "<a href="https://web.archive.org/web/20131017062654/http://www.trailing-edge.com/~bobbemer/SURVEY.HTM">Survey of coded character representation</a>", Commun. ACM 3, No. 12, 639-641, 1960 Dec</td><td>Table 2. H.J. Smith, Jr., F.A. Williams, "<a href="https://web.archive.org/web/20131017062654/http://www.trailing-edge.com/~bobbemer/SURVEY.HTM">Survey of punched card codes</a>", Commun. ACM 3, 639 & 642, 1960 Dec</td></tr></table>
-<p><strong>Character encoding</strong></p>
-<ul class="simple">
-<li><p>“Character encoding is used to represent a repertoire of characters by some kind of encoding system. Depending on the abstraction level and context, corresponding code points and the resulting code space may be regarded as bit patterns, octets, natural numbers, electrical pulses, etc. A character encoding is used in computation, data storage, and transmission of textual data” (<a class="reference external" href="https://en.wikipedia.org/wiki/Character_encoding">Wikipedia</a>)</p></li>
-</ul>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Character Encoding</p>
+<p>“Character encoding is used to represent a repertoire of characters by some kind of encoding system. Depending on the abstraction level and context, corresponding code points and the resulting code space may be regarded as bit patterns, octets, natural numbers, electrical pulses, etc. A character encoding is used in computation, data storage, and transmission of textual data” (<a class="reference external" href="https://en.wikipedia.org/wiki/Character_encoding">Wikipedia</a>)</p>
+</div>
+<a class="reference internal image-reference" href="../_images/ASCII.png"><img alt="USB flash drive" class="align-center" src="../_images/ASCII.png" style="width: 500px;" /></a>
 <p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/ASCII.png?raw=true" width="500"></p>
-<p><strong>American Standard Code for Information Interchange (ASCII)</strong></p>
-<ul class="simple">
-<li><p>“A character encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices. Most modern character-encoding schemes are based on ASCII, although they support many additional characters” (<a class="reference external" href="https://en.wikipedia.org/wiki/ASCII">Wikipedia</a>)</p></li>
-</ul>
-<p><strong>Hexadecimal (hex)</strong></p>
-<ul class="simple">
-<li><p>“In mathematics and computing, hexadecimal (also base 16, or hex) is a positional system that represents numbers using a base of 16. Unlike the common way of representing numbers with ten symbols, it uses sixteen distinct symbols, most often the symbols ‘0’–’9’ to represent values zero to nine, and ‘A’–’F’ (or alternatively ‘a’–’f’) to represent values ten to fifteen. Hexadecimal numerals are widely used by computer system designers and programmers, as they provide a human-friendly representation of binary-coded values. Each hexadecimal digit represents four binary digits…For example, a single byte can have values ranging from 00000000 to 11111111 in binary form, which can be conveniently represented as 00 to FF in hexadecimal” (<a class="reference external" href="https://en.wikipedia.org/wiki/Hexadecimal">Wikipedia</a>)</p></li>
-</ul>
-<p>Sample conversion table:</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">American Standard Code for Information Interchange (ASCII)</p>
+<p>“A character encoding standard for electronic communication. ASCII codes represent text in computers, telecommunications equipment, and other devices. Most modern character-encoding schemes are based on ASCII, although they support many additional characters” (<a class="reference external" href="https://en.wikipedia.org/wiki/ASCII">Wikipedia</a>)</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Hexadecimal (hex)</p>
+<p>“In mathematics and computing, hexadecimal (also base 16, or hex) is a positional system that represents numbers using a base of 16. Unlike the common way of representing numbers with ten symbols, it uses sixteen distinct symbols, most often the symbols ‘0’–’9’ to represent values zero to nine, and ‘A’–’F’ (or alternatively ‘a’–’f’) to represent values ten to fifteen. Hexadecimal numerals are widely used by computer system designers and programmers, as they provide a human-friendly representation of binary-coded values. Each hexadecimal digit represents four binary digits…For example, a single byte can have values ranging from 00000000 to 11111111 in binary form, which can be conveniently represented as 00 to FF in hexadecimal” (<a class="reference external" href="https://en.wikipedia.org/wiki/Hexadecimal">Wikipedia</a>)</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Sample Conversation Table</p>
 <table><tr><th>Decimal</th><th>Hex</th><th>Binary</th><th>ASCII Character</th><th>Description</th></tr>
  <tr><td>0</td><td>00</td><td>000000</td><td>NUL</td><td>Null character</td></tr>
  <tr><td>48</td><td>30</td><td>0110000</td><td>1</td><td>Digit 1</td></tr>
  <tr><td>65</td><td>42</td><td>1000001</td><td>A</td><td>Uppercase A</td></tr>
  <tr><td>97</td><td>61</td><td>1100001</td><td>1</td><td>Lowercase a</td></tr></table> 
 <p><a class="reference external" href="https://www.asciitable.xyz/">Click here</a> for a full ASCII conversion table.</p>
-<p><strong>Unicode</strong></p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Unicode</p>
+<p>“Unicode is a computing industry standard for the consistent encoding, representation, and handling of text expressed in most of the world’s writing systems. The standard is maintained by the Unicode Consortium, and as of May 2019 the most recent version, Unicode 12.1, contains a repertoire of 137,994 characters (consisting of 137,766 graphic characters, 163 format characters and 65 control characters) covering 150 modern and historic scripts, as well as multiple symbol sets and emoji” (<a class="reference external" href="https://en.wikipedia.org/wiki/Unicode">Wikipedia</a>)</p>
 <ul class="simple">
-<li><p>“Unicode is a computing industry standard for the consistent encoding, representation, and handling of text expressed in most of the world’s writing systems. The standard is maintained by the Unicode Consortium, and as of May 2019 the most recent version, Unicode 12.1, contains a repertoire of 137,994 characters (consisting of 137,766 graphic characters, 163 format characters and 65 control characters) covering 150 modern and historic scripts, as well as multiple symbol sets and emoji” (<a class="reference external" href="https://en.wikipedia.org/wiki/Unicode">Wikipedia</a>)</p></li>
 <li><p><a class="reference external" href="https://home.unicode.org/basic-info/overview">Click here</a> to learn more about the Unicode consortium</p></li>
 </ul>
+</div>
 </section>
 <section id="comprehension-check">
-<h2>Comprehension Check<a class="headerlink" href="#comprehension-check" title="Link to this heading">#</a></h2>
+<h2>Comprehension Check <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i><a class="headerlink" href="#comprehension-check" title="Link to this heading">#</a></h2>
+<table>
+ <tr><td>
+<img src="../images/ch1/clipboard.png" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScOk5_z6dRF8WvPUezpyU78sI2bvVrdnySVmNfH9IUGnXYh0w/viewform?usp=sf_link">Encoding Schema Comprehension Check</a></td>
+  </tr>
+  </table>
 <table>
  <tr><td>
 <img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
@@ -715,9 +728,9 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture">Lecture</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts">Key Concepts</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check">Comprehension Check</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture">Lecture <i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts">Key Concepts <i aria-hidden="true" class="fa-solid fa-key"></i></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check">Comprehension Check <i aria-hidden="true" class="fa-solid fa-clipboard-check"></i></a></li>
 </ul>
   </nav></div>
 
