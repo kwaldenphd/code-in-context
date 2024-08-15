@@ -11,7 +11,7 @@
 
 ## <i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts
 
-```{image} ../images/ch2/intput-output.png
+```{image} ../images/ch2/input-output.png
 :alt: Von Neumann Workflow
 :width: 500px
 :align: center
