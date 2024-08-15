@@ -1,6 +1,6 @@
 # Tutorial: Working at the Command Line
 
-## Lecture
+## <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Lecture
 
 <table>
  <tr><td>
@@ -9,16 +9,22 @@
   </tr>
   </table>
 
-## Key Concepts
+## <i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts
 
-**Graphical User Interface (GUI)**
-- "The graphical user interface (GUI) is a form of user interface that allows users to interact with electronic devices through graphical icons and audio indicator such as primary notation, instead of text-based user interfaces, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep learning curve of command-line interfaces (CLIs), which require commands to be typed on a computer keyboard" ([Wikipedia](https://en.wikipedia.org/wiki/Graphical_user_interface))
+```{admonition} Graphical User Interface (GUI)
+:class: tip, dropdown
+"The graphical user interface (GUI) is a form of user interface that allows users to interact with electronic devices through graphical icons and audio indicator such as primary notation, instead of text-based user interfaces, typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep learning curve of command-line interfaces (CLIs), which require commands to be typed on a computer keyboard" ([Wikipedia](https://en.wikipedia.org/wiki/Graphical_user_interface))
+```
 
-**Command Line Interface (CLI)**
-- "A command-line interface (CLI) processes commands to a computer program in the form of lines of text. The program which handles the interface is called a command-line interpreter or command-line processor. Operating systems implement a command-line interface in a shell for interactive access to operating system functions or services" ([Wikipedia](https://en.wikipedia.org/wiki/Command-line_interface))
+```{admonition} Command Line Interface (CLI)
+:class: tip, dropdown
+"A command-line interface (CLI) processes commands to a computer program in the form of lines of text. The program which handles the interface is called a command-line interpreter or command-line processor. Operating systems implement a command-line interface in a shell for interactive access to operating system functions or services" ([Wikipedia](https://en.wikipedia.org/wiki/Command-line_interface))
+```
 
-**Shell**
-- The shell is the user interface for accessing all of the operating system’s services and applications. The shell is the layer of code surrounding the operating system kernel. Your operating system’s shell is the command processor that runs in the CLI (command-line interface) as opposed to the GUI interface that we typically use.
+```{admonition} Shell
+:class: tip, dropdown
+The shell is the user interface for accessing all of the operating system’s services and applications. The shell is the layer of code surrounding the operating system kernel. Your operating system’s shell is the command processor that runs in the CLI (command-line interface) as opposed to the GUI interface that we typically use.
+```
 
 ## Additional Resources
 

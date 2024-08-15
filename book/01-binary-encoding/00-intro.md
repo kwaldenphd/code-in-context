@@ -29,7 +29,18 @@ Matt Richtel. “[Reading, Writing, Arithmetic, and Increasingly, Coding](https:
 The Most Reverend Paul Tighe, “[Catholic Social Teaching in the Digital Age](https://www.centesimusannus.org/wp-content/uploads/2018/09/Tighe-ENG-1.pdf),”  *Centesimus Annus Pro Pontifice* (January 26-27, 2017).
 - Framing questions:
   * Catholic Social Teaching concepts may be new to some of us, and that's okay! As you skim, be thinking about how this article describes digital technologies, especially the human dimensions of how technologies work and are used. You can also be thinking about a vision of digital technology that promotes human dignity and the common good- what stands out to you about these possibilities?
+
+Mar Hicks, “When Did the Fire Start?” in [*Your Computer Is On Fire* (MIT Press, 2021)](https://drive.google.com/file/d/1lwhi6N9JK3uOx7e3An8fCsadHMLqXsc1/view?usp=drive_link): 11-25.
+- Framing questions:
+  * What are some of the arguments Hicks makes about computing technology? What kinds of details, examples, or evidence do they draw on?
+  * What connections can you make with prior course conversations, or your own experiences with computing technology?
+  * What questions do you have from this content? What do you want to know more about?
   
+United States Conference of Catholic Bishops, “[Seven Themes of Catholic Social Teaching](https://www.usccb.org/beliefs-and-teachings/what-we-believe/catholic-social-teaching/seven-themes-of-catholic-social-teaching)” *UCCSB* (n.d.)
+- Framing questions 
+  * What was your level of familiarity with CST coming into this week? What from this content was familiar? What was new?
+  * Even though this content doesn't explicitly mention computing, data, or technology, what connections do you see? We can also be thinking about prior course conversations, or your own experiences with computing technology.
+  * What questions do you have from this content? What do you want to know more about?
 
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
 
@@ -42,11 +53,22 @@ The Most Reverend Paul Tighe, “[Catholic Social Teaching in the Digital Age](h
 
 ## <i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i> In-Class Work
 
+### Week #1
 - 8/27 (T): Course introductions- why are we here? (Richtel & CST discussion); What is a computer discussion
 - 8/29 (R): Getting started with binary number systems
 
+### Week #2
+- 9/3 (T): Hicks & CST discussion
+- 9/5 (R): Collaborative problem solving (file formats & encoding schema)
+
 ## <i class="fa-solid fa-list-check" aria-hidden="true"></i> Assignments 
 
+### Week #1
 - Collaborative problem solving (due end of class Thursday, group submission on Canvas)
 - Welcome survey (Google Form)
 - Introductions (Canvas discussion board)
+
+### Week #2
+- Week #2 reflection (due end of day Friday, submit on Canvas)
+- Individual application questions (due end of day Friday, submit on Canvas)
+- Collaborative problem solving (due end of class Thursday, group submission on Canvas)

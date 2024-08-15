@@ -1,6 +1,6 @@
 # Putting It All Together
 
-## Comprehension Check
+## <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i> Comprehension Check
 
 <table>
  <tr><td>
@@ -9,7 +9,7 @@
   </tr>
   </table>
 
-## Application
+## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 Q2: Describe your experience working through different tasks and commands in the previous section of the lab. How does working at the command line compare to other ways of navigating and interacting with a computer?
 
