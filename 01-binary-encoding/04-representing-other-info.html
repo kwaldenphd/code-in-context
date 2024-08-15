@@ -583,11 +583,11 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture">Lecture <i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture"><i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i> Lecture</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts">Key Concepts <i aria-hidden="true" class="fa-solid fa-key"></i></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check">Comprehension Check <i aria-hidden="true" class="fa-solid fa-clipboard-check"></i></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application">Application <i aria-hidden="true" class="fa-solid fa-clipboard-question"></i></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts"><i aria-hidden="true" class="fa-solid fa-key"></i> Key Concepts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check"><i aria-hidden="true" class="fa-solid fa-clipboard-check"></i> Comprehension Check</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application"><i aria-hidden="true" class="fa-solid fa-clipboard-question"></i> Application</a></li>
 </ul>
             </nav>
         </div>
@@ -602,7 +602,7 @@ document.write(`
   <section id="representing-other-information-in-binary">
 <h1>Representing Other Information in Binary<a class="headerlink" href="#representing-other-information-in-binary" title="Link to this heading">#</a></h1>
 <section id="lecture">
-<h2>Lecture <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i><a class="headerlink" href="#lecture" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Lecture<a class="headerlink" href="#lecture" title="Link to this heading">#</a></h2>
 <table>
  <tr><td>
 <img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
@@ -614,28 +614,20 @@ document.write(`
 <h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
 <p>The end of the “Encoding Schema” lecture mentioned how binary numbers are also used to represent things other than numbers, text, or characters.</p>
 <a class="reference internal image-reference" href="../_images/bit-comparison.png"><img alt="binary comparison" class="align-center" src="../_images/bit-comparison.png" style="width: 500px;" /></a>
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Bit_Comparison.png?raw=true" width="500"></p>
 <p>What about color? If we use a single byte or 8-bits to represent color, we can represent a total of 256 different colors. However, we perceive a much wider range of colors, so to extend the palette we can represent colors using more bits.</p>
-<fig>
- <p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Image_13.png?raw=true"></p>
- <p align="center"><figcaption>Image from http://i.imgur.com/UqHhN.png</figcaption></p>
- </fig>
+<a class="reference internal image-reference" href="../_images/mario.png"><img alt="mario" class="align-center" src="../_images/mario.png" style="width: 500px;" /></a>
 <p>Consider the difference between the color palette on old video game systems as compared to what you see on your computer screen today. Mario is a great example. The original Nintendo used 8-bit color, but Super Nintendo used 16-bit color giving a wider range of colors to represent the graphics in the game.</p>
 <a class="reference internal image-reference" href="../_images/hot-air-balloons.png"><img alt="Hot air balloons" class="align-center" src="../_images/hot-air-balloons.png" style="width: 500px;" /></a>
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Hot_Air_Balloons.png?raw=true" width="500"></p>
 <p>In 8-bit color, each color is represented in 8-bits or 1 Byte giving a color palette of 256 colors.  16-bit color increases the number of colors in the palette by a factor of two, representing over 65,000 different colors by using 16-bits or 2 Bytes to represent each color (256 x 256 = 65,536).</p>
-<a class="reference internal image-reference" href="images/ch1/rgb-color-circles.png"><img alt="RGB color circles" class="align-center" src="images/ch1/rgb-color-circles.png" style="width: 500px;" /></a>
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Image_17.png?raw=true" height="500"></p>
+<a class="reference internal image-reference" href="../_images/rgb-color-circles.png"><img alt="RGB color circles" class="align-center" src="../_images/rgb-color-circles.png" style="width: 500px;" /></a>
 <p>As with text encoding standards, there are many different color encoding schemas. We can represent color using discrete values for the primary colors red, green, and blue.</p>
 <a class="reference internal image-reference" href="../_images/color-table.png"><img alt="Color table" class="align-center" src="../_images/color-table.png" style="width: 500px;" /></a>
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Color_Table.png?raw=true" width="500"></p>
 <p>An <code class="docutils literal notranslate"><span class="pre">RGB</span></code> (red-green-blue) color system can be represented using hex or decimal values.</p>
 <a class="reference internal image-reference" href="../_images/mario.png"><img alt="Mario" class="align-center" src="../_images/mario.png" style="width: 500px;" /></a>
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Image_15.png?raw=true" height="500"></p>
 <p>The Mario example featured 8-bit and 16-bit color. If you’ve ever seen Red-Green-Blue color sliders, you’ve seen a 3 byte (24-bit) color system in action.</p>
 </section>
 <section id="key-concepts">
-<h2>Key Concepts <i class="fa-solid fa-key" aria-hidden="true"></i><a class="headerlink" href="#key-concepts" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts<a class="headerlink" href="#key-concepts" title="Link to this heading">#</a></h2>
 <div class="tip dropdown admonition">
 <p class="admonition-title">Color Depth</p>
 <p>“Color depth, also known as bit depth, is either the number of bits used to indicate the color of a single pixel, or the number of bits used for each color component of a single pixel. Color depth expresses the precision with which the amount of each primary can be expressed; the other aspect is how broad a range of colors can be expressed (the gamut). The definition of both color precision and gamut is accomplished with a color encoding specification which assigns a digital code value to a location in a color space” (<a class="reference external" href="https://en.wikipedia.org/wiki/Color_depth">Wikipedia</a>)</p>
@@ -650,7 +642,7 @@ document.write(`
 </div>
 </section>
 <section id="comprehension-check">
-<h2>Comprehension Check <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i><a class="headerlink" href="#comprehension-check" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i> Comprehension Check<a class="headerlink" href="#comprehension-check" title="Link to this heading">#</a></h2>
 <table>
  <tr><td>
 <img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
@@ -659,7 +651,7 @@ document.write(`
   </table>
 </section>
 <section id="application">
-<h2>Application <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i><a class="headerlink" href="#application" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application<a class="headerlink" href="#application" title="Link to this heading">#</a></h2>
 <p>Q4: How would the colors Magenta, Cyan, and Yellow be represented in binary, hex, and decimal?</p>
 <ul class="simple">
 <li><p><a class="reference external" href="http://www.rapidtables.com/web/color/RGB_Color.htm">RGB Color Table</a></p></li>
@@ -731,11 +723,11 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture">Lecture <i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture"><i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i> Lecture</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts">Key Concepts <i aria-hidden="true" class="fa-solid fa-key"></i></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check">Comprehension Check <i aria-hidden="true" class="fa-solid fa-clipboard-check"></i></a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application">Application <i aria-hidden="true" class="fa-solid fa-clipboard-question"></i></a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts"><i aria-hidden="true" class="fa-solid fa-key"></i> Key Concepts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check"><i aria-hidden="true" class="fa-solid fa-clipboard-check"></i> Comprehension Check</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application"><i aria-hidden="true" class="fa-solid fa-clipboard-question"></i> Application</a></li>
 </ul>
   </nav></div>
 

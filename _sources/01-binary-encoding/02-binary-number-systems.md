@@ -1,6 +1,6 @@
 # Binary Number Systems
 
-## Lecture <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i>
+## <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Lecture
 
 ```{note}
 Whenever you see the Panopto icon or "Lecture" heading, this means there is pre-recorded instructional content as part of this section of a chapter. You'll need to engage with this content to be able to tackle the application questions.
@@ -13,23 +13,7 @@ Whenever you see the Panopto icon or "Lecture" heading, this means there is pre-
   </tr>
   </table>
 
-```{admonition} Lecture
-<table>
- <tr><td>
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
-  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=248cf9cd-9aa7-4175-bd96-aef30144f577">Binary Number Systems</a></td>
-  </tr>
-  </table>
-```
-
-````{card}
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
-  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=248cf9cd-9aa7-4175-bd96-aef30144f577">Binary Number Systems</a></td>
-  </tr>
-  </table>
-````
-
-## Key Concepts <i class="fa-solid fa-key" aria-hidden="true"></i>
+## <i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts
 
 ```{note}
 Most times, after you've been asked to engage with a recorded lecture, the chapter will include a "Key Concepts" section (like this one!) that highlights key terms and concepts from that lecture. These definitions can help you understand what to focus on or keep track of from the lecture. They also often link out to external sources where you could go to learn more about a particular concept or term. You *are not* expected to memorize these definitions.
@@ -40,8 +24,6 @@ Most times, after you've been asked to engage with a recorded lecture, the chapt
 :width: 500px
 :align: center
 ```
-
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Bits_Bytes_Image.png?raw=true" width="500"></p>
 
 ```{admonition} Bits
 :class: tip, dropdown
@@ -70,9 +52,7 @@ In mathematics and digital electronics, a binary number is a number expressed in
 :class: tip, dropdown
 One bit gives us two patterns: `1 and 0`. Two bits allow for four patterns: `00, 11, 01, 10`. Every time we add one bit to the length of our bitstring, we double the number of available patterns. So, 8 bits or 1 byte provides a means for representing 256 different patterns, as illustrated below:
 
-<p align="center"> <img src="../images/ch1/pattern-ranges.png" width="500"></p>
-
-<p align="center"> <img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Pattern_Ranges.png?raw=true" width="500"></p>
+<p align="center"> <img src="/images/ch1/pattern-ranges.png" width="500"></p>
 
   * 1 bit – 2 patterns (21)
   * 2 bits – 4 (22)
@@ -85,7 +65,7 @@ One bit gives us two patterns: `1 and 0`. Two bits allow for four patterns: `00,
   * n bits -  2n patterns
 ```
   
-## Comprehension Check <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i>
+## <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i> Comprehension Check
 
 ```{note}
 Whenever you see the checklist icon or "Comprehension Check" heading, this means there is a set of ungraded comprehension questions that let you test your understanding and get feedback to sharpen your understanding. The application questions will go better if you utilize these comprehension checks.
@@ -93,28 +73,12 @@ Whenever you see the checklist icon or "Comprehension Check" heading, this means
 
 <table>
  <tr><td>
-<img src="../images/ch1/clipboard.png" alt="Clipboard icon" width="50"/></td>
-  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScQoRbyDYB2Cisg_AmfMhUqj8qXn0ZbeuembRhQpOnbb64I2g/viewform?usp=sf_link">Binary Number Systems Comprehension Check</a></td>
-  </tr>
-  </table>
-
-<table>
- <tr><td>
 <img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
   <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScQoRbyDYB2Cisg_AmfMhUqj8qXn0ZbeuembRhQpOnbb64I2g/viewform?usp=sf_link">Binary Number Systems Comprehension Check</a></td>
   </tr>
   </table>
-  
-````{card}
-<table>
- <tr><td>
-<img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
-  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScQoRbyDYB2Cisg_AmfMhUqj8qXn0ZbeuembRhQpOnbb64I2g/viewform?usp=sf_link">Binary Number Systems Comprehension Check</a></td>
-  </tr>
-  </table>
-````
 
-## Application <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i>
+## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 ```{note}
 Each chapter has its own application questions. You'll see them at the end of particular sections within the chapter. There's also an "Application Questions" page at the end of each chapter that has all questions from that chapter. Each chapter has a template for its application questions, where you'll record your answers and responses.
@@ -127,8 +91,6 @@ Each chapter has its own application questions. You'll see them at the end of pa
 :width: 500px
 :align: center
 ```
-
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Binary_Conversion.png?raw=true" width="500"><br>Converting binary numbers</p>
 
 Resources:
 - [Decimal – Hexadecimal – Binary Conversion Table](https://github.com/kwaldenphd/bits-bytes/blob/main/ASCII-Conversion-Chart.pdf)
