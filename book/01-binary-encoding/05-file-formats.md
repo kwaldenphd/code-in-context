@@ -29,7 +29,7 @@ To download all three files as a compressed folder:
 - {Download}`hello-world-files.zip`<./files/ch1/hello-world-files.zip>
 ```
 
-## Lecture <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i>
+## <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Lecture
 
 <table>
  <tr><td>
@@ -38,7 +38,7 @@ To download all three files as a compressed folder:
   </tr>
   </table>
 
-## Key Concepts <i class="fa-solid fa-key" aria-hidden="true"></i>
+## <i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts
 
 ```{admonition} File Manager (or File Browser)
 :class: tip, dropdown
@@ -70,7 +70,14 @@ To download all three files as a compressed folder:
   * `PNG` (portable network graphic)
 ```
 
-## Comprehension Check <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i>
+## <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i> Comprehension Check
+
+<table>
+ <tr><td>
+<img src="/images/ch1/clipboard.png" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSeyt0uZ05pfAf_IFJEC-_t55dfCGBERoNlLWfWSqI9pO_VoYw/viewform?usp=sf_link">File Formats Comprehension Check</a></td>
+  </tr>
+  </table>
 
 <table>
  <tr><td>
@@ -88,8 +95,6 @@ Digital sound represents another example of file formats and encoding in action.
 :width: 500px
 :align: center
 ```
-
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Image_19.jpg?raw=true"></p>
 
 Digital sound recordings are created by taking samples of sound at a specific rate. “CD quality” sound is sampled at 44.1 kHz (kilohertz) or 44,100 times per second. This means that 44,100 times per second, a program measures and records the height of a sound’s sound wave and then translates the height to a binary representation in 16-bits or 2 Bytes.
 

@@ -1,6 +1,16 @@
 # Encoding Schema
 
-## Lecture <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i>
+## <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Lecture
+
+```{admonition}
+:class: tip
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=124b4fbb-7a33-4d0d-9cc9-aef3015169e6">Encoding Schema</a></td>
+  </tr>
+  </table>
+```
 
 <table>
  <tr><td>
@@ -9,11 +19,10 @@
   </tr>
   </table>
   
-## Key Concepts <i class="fa-solid fa-key" aria-hidden="true"></i>
+## <i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts
 
-
-<table border="0"><tr><td><p align="center"><img src="../images/ch1/ACM_1.png" width="40%"></p></td>
-<td><p align="center"><img src="../images/ch1/ACM_2.png" width="40%"></p></td></tr>
+<table border="0"><tr><td><p align="center"><img src="/images/ch1/ACM_1.png" width="40%"></p></td>
+<td><p align="center"><img src="/images/ch1/ACM_2.png" width="40%"></p></td></tr>
 <tr><td>Table 1a. R.W. Bemer, "<a href="https://web.archive.org/web/20131017062654/http://www.trailing-edge.com/~bobbemer/SURVEY.HTM">Survey of coded character representation</a>", Commun. ACM 3, No. 12, 639-641, 1960 Dec</td><td>Table 2. H.J. Smith, Jr., F.A. Williams, "<a href="https://web.archive.org/web/20131017062654/http://www.trailing-edge.com/~bobbemer/SURVEY.HTM">Survey of punched card codes</a>", Commun. ACM 3, 639 & 642, 1960 Dec</td></tr></table>
 
 <table border="0"><tr><td><p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/ACM_1.png?raw=true" width="40%"></p></td>
@@ -29,8 +38,6 @@
 :width: 500px
 :align: center
 ```
-
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/ASCII.png?raw=true" width="500"></p>
 
 ```{admonition} American Standard Code for Information Interchange (ASCII)
 :class: tip, dropdown
@@ -59,11 +66,11 @@
 - [Click here](https://home.unicode.org/basic-info/overview) to learn more about the Unicode consortium
 ```
 
-## Comprehension Check <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i>
+## <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i> Comprehension Check
 
 <table>
  <tr><td>
-<img src="../images/ch1/clipboard.png" alt="Clipboard icon" width="50"/></td>
+<img src="/images/ch1/clipboard.png" alt="Clipboard icon" width="50"/></td>
   <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScOk5_z6dRF8WvPUezpyU78sI2bvVrdnySVmNfH9IUGnXYh0w/viewform?usp=sf_link">Encoding Schema Comprehension Check</a></td>
   </tr>
   </table>
