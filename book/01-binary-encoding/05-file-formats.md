@@ -1,5 +1,11 @@
 # File Formats
 
+```{image} ../images/ch1/file-formats.jpg 
+:alt: File format comparison
+:width: 100%
+:align: center
+```
+
 ## Files 
 
 ```{note}
@@ -15,12 +21,12 @@ For this section of the chapter, you'll need to download three different text fi
 
 ```{admonition} File Downloads 
 Links to download each file are included below:
-- [`hello_world.txt`](files\ch1\hello-world.txt)
-- [`hello_world.rtf`](files\ch1\hello-world.rtf)
-- [`hello_world.docx`](files\ch1\hello-world.docx)
+- {Download}`hello_world.txt`<./files/ch1/hello-world.txt>
+- {Download}`hello_world.rtf`<./files/ch1/hello-world.rtf>
+- {Download}`hello_world.docx`<./files/ch1/hello-world.docx>
 
 To download all three files as a compressed folder:
-- [`hello-world-files.zip`](files\ch1\hello-world-files.zip)
+- {Download}`hello-world-files.zip`<./files/ch1/hello-world-files.zip>
 ```
 
 ## Lecture <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i>
@@ -76,6 +82,12 @@ To download all three files as a compressed folder:
 ## Putting It All Together <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i>
 
 Digital sound represents another example of file formats and encoding in action. The image below shows a 16-bit sound sample.
+
+```{image} ../images/ch1/sound-waves.jpg
+:alt: Sound waves
+:width: 500px
+:align: center
+```
 
 <p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Image_19.jpg?raw=true"></p>
 

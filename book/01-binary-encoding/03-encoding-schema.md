@@ -11,6 +11,11 @@
   
 ## Key Concepts <i class="fa-solid fa-key" aria-hidden="true"></i>
 
+
+<table border="0"><tr><td><p align="center"><img src="../images/ch1/ACM_1.png" width="40%"></p></td>
+<td><p align="center"><img src="../images/ch1/ACM_2.png" width="40%"></p></td></tr>
+<tr><td>Table 1a. R.W. Bemer, "<a href="https://web.archive.org/web/20131017062654/http://www.trailing-edge.com/~bobbemer/SURVEY.HTM">Survey of coded character representation</a>", Commun. ACM 3, No. 12, 639-641, 1960 Dec</td><td>Table 2. H.J. Smith, Jr., F.A. Williams, "<a href="https://web.archive.org/web/20131017062654/http://www.trailing-edge.com/~bobbemer/SURVEY.HTM">Survey of punched card codes</a>", Commun. ACM 3, 639 & 642, 1960 Dec</td></tr></table>
+
 <table border="0"><tr><td><p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/ACM_1.png?raw=true" width="40%"></p></td>
 <td><p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/ACM_2.png?raw=true" width="40%"></p></td></tr>
 <tr><td>Table 1a. R.W. Bemer, "<a href="https://web.archive.org/web/20131017062654/http://www.trailing-edge.com/~bobbemer/SURVEY.HTM">Survey of coded character representation</a>", Commun. ACM 3, No. 12, 639-641, 1960 Dec</td><td>Table 2. H.J. Smith, Jr., F.A. Williams, "<a href="https://web.archive.org/web/20131017062654/http://www.trailing-edge.com/~bobbemer/SURVEY.HTM">Survey of punched card codes</a>", Commun. ACM 3, 639 & 642, 1960 Dec</td></tr></table>
@@ -18,6 +23,11 @@
 ```{admonition} Character Encoding
 :class: tip, dropdown
 "Character encoding is used to represent a repertoire of characters by some kind of encoding system. Depending on the abstraction level and context, corresponding code points and the resulting code space may be regarded as bit patterns, octets, natural numbers, electrical pulses, etc. A character encoding is used in computation, data storage, and transmission of textual data" ([Wikipedia](https://en.wikipedia.org/wiki/Character_encoding))
+```
+```{image} ../images/ch1/ASCII.png 
+:alt: USB flash drive
+:width: 500px
+:align: center
 ```
 
 <p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/ASCII.png?raw=true" width="500"></p>
@@ -50,6 +60,13 @@
 ```
 
 ## Comprehension Check <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i>
+
+<table>
+ <tr><td>
+<img src="../images/ch1/clipboard.png" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScOk5_z6dRF8WvPUezpyU78sI2bvVrdnySVmNfH9IUGnXYh0w/viewform?usp=sf_link">Encoding Schema Comprehension Check</a></td>
+  </tr>
+  </table>
 
 <table>
  <tr><td>

@@ -35,6 +35,12 @@ Whenever you see the Panopto icon or "Lecture" heading, this means there is pre-
 Most times, after you've been asked to engage with a recorded lecture, the chapter will include a "Key Concepts" section (like this one!) that highlights key terms and concepts from that lecture. These definitions can help you understand what to focus on or keep track of from the lecture. They also often link out to external sources where you could go to learn more about a particular concept or term. You *are not* expected to memorize these definitions.
 ```
 
+```{image} ../images/ch1/bits-bytes-explanation.png
+:alt: University of Notre Dame main building
+:width: 500px
+:align: center
+```
+
 <p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Bits_Bytes_Image.png?raw=true" width="500"></p>
 
 ```{admonition} Bits
@@ -64,6 +70,8 @@ In mathematics and digital electronics, a binary number is a number expressed in
 :class: tip, dropdown
 One bit gives us two patterns: `1 and 0`. Two bits allow for four patterns: `00, 11, 01, 10`. Every time we add one bit to the length of our bitstring, we double the number of available patterns. So, 8 bits or 1 byte provides a means for representing 256 different patterns, as illustrated below:
 
+<p align="center"> <img src="../images/ch1/pattern-ranges.png" width="500"></p>
+
 <p align="center"> <img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Pattern_Ranges.png?raw=true" width="500"></p>
 
   * 1 bit – 2 patterns (21)
@@ -83,6 +91,12 @@ One bit gives us two patterns: `1 and 0`. Two bits allow for four patterns: `00,
 Whenever you see the checklist icon or "Comprehension Check" heading, this means there is a set of ungraded comprehension questions that let you test your understanding and get feedback to sharpen your understanding. The application questions will go better if you utilize these comprehension checks.
 ```
 
+<table>
+ <tr><td>
+<img src="../images/ch1/clipboard.png" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScQoRbyDYB2Cisg_AmfMhUqj8qXn0ZbeuembRhQpOnbb64I2g/viewform?usp=sf_link">Binary Number Systems Comprehension Check</a></td>
+  </tr>
+  </table>
 
 <table>
  <tr><td>
@@ -106,6 +120,12 @@ Whenever you see the checklist icon or "Comprehension Check" heading, this means
 Each chapter has its own application questions. You'll see them at the end of particular sections within the chapter. There's also an "Application Questions" page at the end of each chapter that has all questions from that chapter. Each chapter has a template for its application questions, where you'll record your answers and responses.
 
 [Click here](https://docs.google.com/document/d/172KM0g9zsvhJeeWzvUszeqCxfJOWMulwetfx8hLCu9M/copy) for a Google Doc template with this chapter's application problems (ND users only)
+```
+
+```{image} ../images/ch1/binary-conversion.png 
+:alt: USB flash drive
+:width: 500px
+:align: center
 ```
 
 <p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Binary_Conversion.png?raw=true" width="500"><br>Converting binary numbers</p>

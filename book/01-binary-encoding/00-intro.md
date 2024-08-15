@@ -32,7 +32,14 @@ The Most Reverend Paul Tighe, “[Catholic Social Teaching in the Digital Age](h
   
 ## In-Class Work <i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i>
 
+- 8/27 (T): Course introductions- why are we here? (Richtel & CST discussion); What is a computer discussion
+- 8/29 (R): Getting started with binary number systems
 
+## Assignments 
+
+- Collaborative problem solving (due end of class Thursday, group submission on Canvas)
+- Welcome survey (Google Form)
+- Introductions (Canvas discussion board)
 
 ## Chapter Table of Contents <i class="fa-list-ul" aria-hidden="true"></i>
 
