@@ -13,16 +13,6 @@ Whenever you see the Panopto icon or "Lecture" heading, this means there is pre-
   </tr>
   </table>
 
-```{admonition}
-:class: tip
-<table>
- <tr><td>
-<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
-  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=248cf9cd-9aa7-4175-bd96-aef30144f577">Binary Number Systems</a></td>
-  </tr>
-  </table>
-```
-
 ## <i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts
 
 ```{note}
@@ -79,15 +69,6 @@ One bit gives us two patterns: `1 and 0`. Two bits allow for four patterns: `00,
 
 ```{note}
 Whenever you see the checklist icon or "Comprehension Check" heading, this means there is a set of ungraded comprehension questions that let you test your understanding and get feedback to sharpen your understanding. The application questions will go better if you utilize these comprehension checks.
-```
-```{admonition}
-:class: tip
-<table>
- <tr><td>
-<img src="/images/ch1/clipboard.png" alt="Clipboard icon" width="50"/></td>
-  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLScQoRbyDYB2Cisg_AmfMhUqj8qXn0ZbeuembRhQpOnbb64I2g/viewform?usp=sf_link">Binary Number Systems Comprehension Check</a></td>
-  </tr>
-  </table>
 ```
 
 <table>
