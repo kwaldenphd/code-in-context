@@ -1,6 +1,4 @@
-# Application Questions <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i>
-
-[Link to application question template](https://docs.google.com/document/d/172KM0g9zsvhJeeWzvUszeqCxfJOWMulwetfx8hLCu9M/copy) (ND users, Google Doc)
+# Application Questions
 
 ```{note}
 Each chapter has its own application questions. You first encountered them at the end of particular sections within the chapter. This page includes all the questions from this chapter. Record your answers and responses in the chapter question template. Be sure to answer each question completely, including an explanation of how you arrived at your answer.

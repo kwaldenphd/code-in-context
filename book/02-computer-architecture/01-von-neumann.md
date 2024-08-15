@@ -1,6 +1,10 @@
 # Von Neumann Architecture
 
-<p align="center"><img src="https://github.com/kwaldenphd/how-computers-work/blob/main/images/Laptop_Spec_Comparison.png?raw=true" width="750"></p>
+```{image} ../images/ch2/laptop-spec-comparison.png
+:alt: Laptop spec comparison
+:width: 750px
+:align: center
+```
 
 If you've ever purchased a laptop, you may have encountered an overwhelming number of details about different aspects of the product. This information is often referred to as "specifications" (or "specs"). The next few labs will focus on breaking down some of these components to better understand the hardware and software building blocks that make up a computer.
 
@@ -10,7 +14,11 @@ To learn more about von Neumann architecture:
 - [Wikipedia](https://en.wikipedia.org/wiki/Von_Neumann_architecture)
 - John von Neumann, "[First Draft of a Report on the EDVAC](http://web.mit.edu/STS.035/www/PDFs/edvac.pdf)", *IEEE Annals of the History of Computing* 15:4 (1993): 29-43. Originally published in 1945.
 
-<p align="center"><img src="https://github.com/kwaldenphd/how-computers-work/blob/main/images/Von_Neumann_Architecture.png?raw=true" width="500"></p>
+```{image} ../images/ch2/von-neumann-architecture.png
+:alt: Von Neumann Architecture diagram
+:width: 500px
+:align: center
+```
 
 The core components of the von Neumann architecture:
 - Input and output

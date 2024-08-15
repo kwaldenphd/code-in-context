@@ -6,7 +6,7 @@ We will also use a simulation of CPU architecture to learn more about how an ins
 
 Finally, this chapter covers reading and writing basic assembly language, to help us see the 0s and 1s underneath higher level programming and apply them to basic algorithms.
 
-## Acknowledgements
+## <i class="fa-solid fa-hands-clapping" aria-hidden="true"></i> Acknowledgements
 
 The author consulted Chapter 5, "Computing Components" from Nell Dale and John Lewis' *[Computer Science Illuminated, Seventh Edition](https://www.jblearning.com/catalog/productdetails/9781284155617)* textbook (Jones & Barlett Learning, 2020; ISBN: 9781284155617) when writing this lab.
 
@@ -29,11 +29,37 @@ This lab's lecture segments were adapted from the following PBS *[Crash Course C
 - "[The Central Processing Unit (CPU)](https://www.pbs.org/video/the-central-processing-unit-cpu-crash-course-computer-sci-v5aynn/)"
 - "[Instructions & Programs](https://www.pbs.org/video/instructions-programs-crash-course-computer-science-8-ai4emg/)"
 
-## Table of Contents
+## <i class="fa-regular fa-bookmark" aria-hidden="true"></i> Companion Content
+
+Mar Hicks, “When Did the Fire Start?” in [*Your Computer Is On Fire* (MIT Press, 2021)](https://drive.google.com/file/d/1lwhi6N9JK3uOx7e3An8fCsadHMLqXsc1/view?usp=drive_link): 11-25.
+- Framing questions:
+  * What are some of the arguments Hicks makes about computing technology? What kinds of details, examples, or evidence do they draw on?
+  * What connections can you make with prior course conversations, or your own experiences with computing technology?
+  * What questions do you have from this content? What do you want to know more about?
+  
+
+United States Conference of Catholic Bishops, “[Seven Themes of Catholic Social Teaching](https://www.usccb.org/beliefs-and-teachings/what-we-believe/catholic-social-teaching/seven-themes-of-catholic-social-teaching)” *UCCSB* (n.d.)
+- Framing questions 
+  * What was your level of familiarity with CST coming into this week? What from this content was familiar? What was new?
+  * Even though this content doesn't explicitly mention computing, data, or technology, what connections do you see? We can also be thinking about prior course conversations, or your own experiences with computing technology.
+  * What questions do you have from this content? What do you want to know more about?
+
+## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
 
 ```{tableofcontents}
 ```
 
-## Application
+## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 [Link to application question template](https://docs.google.com/document/d/1SpHmyZkN7b5wmtY0n8y5jI6JxBanZXg8UVZOoNPIv_o/copy) (ND users, Google Doc)
+
+## <i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i> In-Class Work
+
+- 9/3 (T): Hicks & CST discussion
+- 9/5 (R): Collaborative problem solving (file formats & encoding schema)
+
+## <i class="fa-solid fa-list-check" aria-hidden="true"></i> Assignments 
+
+- Week #2 reflection (due end of day Friday, submit on Canvas)
+- Individual application questions (due end of day Friday, submit on Canvas)
+- Collaborative problem solving (due end of class Thursday, group submission on Canvas)

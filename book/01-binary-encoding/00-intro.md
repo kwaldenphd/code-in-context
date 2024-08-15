@@ -30,6 +30,16 @@ The Most Reverend Paul Tighe, “[Catholic Social Teaching in the Digital Age](h
 - Framing questions:
   * Catholic Social Teaching concepts may be new to some of us, and that's okay! As you skim, be thinking about how this article describes digital technologies, especially the human dimensions of how technologies work and are used. You can also be thinking about a vision of digital technology that promotes human dignity and the common good- what stands out to you about these possibilities?
   
+
+## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
+
+```{tableofcontents}
+```
+
+## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
+
+[Click here](https://docs.google.com/document/d/172KM0g9zsvhJeeWzvUszeqCxfJOWMulwetfx8hLCu9M/copy) for a Google Doc template with this chapter's application problems (ND users only)
+
 ## <i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i> In-Class Work
 
 - 8/27 (T): Course introductions- why are we here? (Richtel & CST discussion); What is a computer discussion
@@ -40,12 +50,3 @@ The Most Reverend Paul Tighe, “[Catholic Social Teaching in the Digital Age](h
 - Collaborative problem solving (due end of class Thursday, group submission on Canvas)
 - Welcome survey (Google Form)
 - Introductions (Canvas discussion board)
-
-## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
-
-```{tableofcontents}
-```
-
-## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
-
-[Click here](https://docs.google.com/document/d/172KM0g9zsvhJeeWzvUszeqCxfJOWMulwetfx8hLCu9M/copy) for a Google Doc template with this chapter's application problems (ND users only)

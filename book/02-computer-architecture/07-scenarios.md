@@ -6,7 +6,7 @@ Each uses an interactive Pep/9 simulator to apply concepts related to Von Neuman
 
 Each scenario has its own set of application questions.
 
-## Acknowledgements
+## <i class="fa-solid fa-hands-clapping" aria-hidden="true"></i> Acknowledgements
 
 Sections of this lab are based on the "Data path & memory" lab:
 - Created: Jerod Weinman, 16 March 2009
@@ -21,7 +21,7 @@ Sections of this lab are based on the "Machine language" lab:
 - Revised: Jerod Weinman, 4 April 2014
 - Adapted from Dave Reed, “A Balanced Introduction to Computer Science,” Exercises 14.9, 14.10, and 14.13. 
 
-## Section Contents
+## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Section Contents
 
 ```{tableofcontents}
 ```
