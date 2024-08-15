@@ -64,7 +64,7 @@ In mathematics and digital electronics, a binary number is a number expressed in
 :class: tip, dropdown
 One bit gives us two patterns: `1 and 0`. Two bits allow for four patterns: `00, 11, 01, 10`. Every time we add one bit to the length of our bitstring, we double the number of available patterns. So, 8 bits or 1 byte provides a means for representing 256 different patterns, as illustrated below:
 
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Pattern_Ranges.png?raw=true" width="500"></p>
+<p align="center"> <img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Pattern_Ranges.png?raw=true" width="500"></p>
 
   * 1 bit – 2 patterns (21)
   * 2 bits – 4 (22)
