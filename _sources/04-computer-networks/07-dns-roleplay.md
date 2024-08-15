@@ -1,32 +1,36 @@
 # I Think Therefore ICANN (A Roleplaying Game About Domain Names)
 
-## Overview
-
 Role-play gamified scenarios tied to real-world internet governance stakeholders and considerations. This activity follows more standard game-play conventions.
 
-## Materials
+## <i class="fa-solid fa-pen-ruler" aria-hidden="true"></i> Materials
 
-```{note} Playing Cards
+```{admonition} Playing Cards
+:class: tip, dropdown
 [Link to Network Lands PDF](http://networks.land/handouts/tld-cards.pdf). Ideally printed on differently-colored paper.
 ```
 
-```{note} Player Scorecards 
+```{admonition} Player Scorecards 
+:class: tip, dropdown
 [Link to Network Lands PDF](http://networks.land/handouts/tld-scorecards.pdf).
 ```
 
-```{note} Playing Card Explanations
+```{admonition} Playing Card Explanations
+:class: tip, dropdown
 [Link to Google Sheet](https://bit.ly/icann-scenario-cards) with explanations for specific playing cards, often with connections to real-world examples.
 ```
 
-```{note} Handout
+```{admonition} Participant Handout & Instructions
+:class: tip, dropdown
 [Link to Google Doc](http://bit.ly/icann-dns-game) with instructions for participants.
 ```
 
-Also needed:
+```{admonition} You Also Need 
+:class: tip, dropdown
 - Six-sided die (physical or digital)
 - Writing utensils (for the scorecards) 
+```
 
-## Background
+## <i class="fa-solid fa-globe" aria-hidden="true"></i> Background
 
 From [Network Lands](http://networks.land/activities/i-think-therefore-icann/):
 <blockquote>
@@ -35,7 +39,7 @@ This is a very didactic, very silly game for understanding the weird politics th
 Domain names are where the politics, poetics, and peculiarities of the web express themselves in often the most direct and clever ways. But even the most active domain name hoarder might not really understand how the Domain Name System works, why certain TLDs exist, and how they at times become an arena where real-world geopolitical conflicts play out online. This game is meant to walk players through some of those realities.
 </blockquote>
 
-### Terminology 
+### <i class="fa-solid fa-spell-check" aria-hidden="true"></i> Terminology 
 
 Those not as familiar with the inner workings of ICANN, DNS, or internet governance may want to start with a few primer resources.
 
@@ -43,7 +47,7 @@ Those not as familiar with the inner workings of ICANN, DNS, or internet governa
 
 You could also check out the [Networks Land reference page](http://networks.land/reference/top-level-domains/) for this game.
 
-## Setup
+## <i class="fa-solid fa-gears" aria-hidden="true"></i> Setup
 
 Players have 3 role options:
 - Country-code top-level domain (ccTLD)
@@ -53,13 +57,14 @@ Players have 3 role options:
 Each player needs the appropriate scorecard and writing utensil. Each group needs a set of playing cards and six-sided dice.
 - DO NOT look at the playing cards.
 
-## Goal
+## <i class="fa-solid fa-medal" aria-hidden="true"></i> Goal
 
 Each player's goal is to earn and maintain 500 points so they can acquire a TLD, acquire additional TLDs, and/or prevent the loss of a TLD.
 
-## Gameplay
+## <i class="fa-solid fa-puzzle-piece" aria-hidden="true"></i> Gameplay
 
-```{note} Handout
+```{admonition} Participant Handout & Instructions
+:class: tip, dropdown
 [Link to Google Doc](http://bit.ly/icann-dns-game) with instructions for participants.
 ```
 
@@ -74,13 +79,14 @@ Rounds:
   * Refer to the [playing card Google Sheet](https://bit.ly/icann-scenario-cards) or [Networks Land web page](http://networks.land/activities/i-think-therefore-icann/) for additional details and real-world examples that explain the playing card scenarios.
 - Once a secessionist region purchases a TLD, they start playing as a gTLD.
 
-```{note} Additional Resources 
+```{admonition} Additional Resources 
+:class: tip, dropdown
 - [Google Sheet](https://bit.ly/icann-scenario-cards) with playing card explanations & real-world examples 
 - [Networks Land resource page](http://networks.land/reference/top-level-domains/) with background information and terminology 
 - [Networks Land complete game instructions](http://networks.land/activities/i-think-therefore-icann/)
 ```
 
-## Discussion & Reflection 
+## <i class="fa-regular fa-comments" aria-hidden="true"></i>  Discussion & Reflection
 
 These prompts could be used in a variety of settings for discussion and reflection:
 - How did this experience go for you? What was interesting, surprising, unexpected, challenging, fun, etc?

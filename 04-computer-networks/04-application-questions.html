@@ -223,12 +223,11 @@
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/03-cli-intro.html">Getting Started at the Command Line</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/04-shell-tutorial.html">Tutorial: Opening Your Shell</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/05-wayfinding-tutorial.html">Tutorial: Terminal Wayfinding</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/06-terminal-commands-tutorial.html">Tutorial: Typing Commands in Your Terminal</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/07-file-system.html">Tutorial: Navigating Your File System</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/08-cli-application.html">Command Line Application Questions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/06-terminal-commands-tutorial.html">Tutorial: Working in Your Terminal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/07-cli-application.html">Command Line Application Questions</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/09-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/08-application.html">Application Questions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="00-intro.html">4. Computer Networks &amp; the Internet</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
@@ -560,7 +559,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -576,6 +577,16 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-1">Question #1</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-2">Question #2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-3">Question #3</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -588,6 +599,8 @@ document.write(`
   <section id="application-questions">
 <h1>Application Questions<a class="headerlink" href="#application-questions" title="Link to this heading">#</a></h1>
 <p><a class="reference external" href="https://docs.google.com/document/d/1qYZRLlZzbZHCGIJEn4Urvpk9uBHouE_psQCsU61lEvE/copy">Link to application question template</a> (ND users, Google Doc)</p>
+<section id="question-1">
+<h2>Question #1<a class="headerlink" href="#question-1" title="Link to this heading">#</a></h2>
 <p>Q1a: Let’s use the <code class="docutils literal notranslate"><span class="pre">ping</span></code> command for a network test. Open a terminal shell (<code class="docutils literal notranslate"><span class="pre">Terminal</span></code> or <code class="docutils literal notranslate"><span class="pre">Git</span> <span class="pre">BASH</span></code>). Type <code class="docutils literal notranslate"><span class="pre">ping</span></code> followed by an IP address. A few you could choose from:</p>
 <ul class="simple">
 <li><p>OpenDNS: <code class="docutils literal notranslate"><span class="pre">208.67.222.222</span></code> and <code class="docutils literal notranslate"><span class="pre">208.67.220.220</span></code></p></li>
@@ -604,6 +617,9 @@ document.write(`
 <li><p>IBM, “<a class="reference external" href="https://www.ibm.com/docs/en/aix/7.1?topic=p-ping-command"><code class="docutils literal notranslate"><span class="pre">ping</span></code> Command</a>”</p></li>
 <li><p>PageDuty, “<a class="reference external" href="https://www.pagerduty.com/resources/learn/ping-network-testing-connectivity/">How to Ping a Network for Testing Connectivity</a>”</p></li>
 </ul>
+</section>
+<section id="question-2">
+<h2>Question #2<a class="headerlink" href="#question-2" title="Link to this heading">#</a></h2>
 <p>Q2a: Let’s run a similar test using the <code class="docutils literal notranslate"><span class="pre">traceroute</span></code> or <code class="docutils literal notranslate"><span class="pre">tracert</span></code> command. Still in the  terminal, type <code class="docutils literal notranslate"><span class="pre">tracert</span></code> followed by a domain name or IP address.</p>
 <p>Domain name example:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">tracert</span> <span class="n">google</span><span class="o">.</span><span class="n">com</span>
@@ -621,6 +637,9 @@ document.write(`
 <li><p>RedHat, “<a class="reference external" href="https://www.redhat.com/sysadmin/traceroute-finding-meaning">Traceroute: Finding meaning among the stars</a>”</p></li>
 <li><p>InMotion Hosting, “<a class="reference external" href="https://www.inmotionhosting.com/support/server/ssh/read-traceroute/">How to Read a Traceroute</a>”</p></li>
 </ul>
+</section>
+<section id="question-3">
+<h2>Question #3<a class="headerlink" href="#question-3" title="Link to this heading">#</a></h2>
 <p>Q3a: Let’s use the <code class="docutils literal notranslate"><span class="pre">ipconfig</span></code> (Windows) or <code class="docutils literal notranslate"><span class="pre">ifconfig</span></code> (Mac) commands to learn more about your computer’s network configuration. Open a terminal shell (<code class="docutils literal notranslate"><span class="pre">Terminal</span></code> or <code class="docutils literal notranslate"><span class="pre">Git</span> <span class="pre">BASH</span></code>). Type <code class="docutils literal notranslate"><span class="pre">ipconfig</span></code> (Windows) or <code class="docutils literal notranslate"><span class="pre">ifconfig</span></code> (Mac) followed by <code class="docutils literal notranslate"><span class="pre">Enter</span></code>/<code class="docutils literal notranslate"><span class="pre">Return</span></code>.</p>
 <p>Q3b: Describe what you’re seeing in the output. What information are these results providing about your network? How do they connect to concepts covered in this lab?</p>
 <p>A couple resources that can help with understanding these results:</p>
@@ -638,6 +657,7 @@ document.write(`
 </ul>
 </li>
 </ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -694,6 +714,23 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-1">Question #1</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-2">Question #2</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#question-3">Question #3</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

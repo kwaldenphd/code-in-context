@@ -223,12 +223,11 @@
 <li class="toctree-l3"><a class="reference internal" href="03-cli-intro.html">Getting Started at the Command Line</a></li>
 <li class="toctree-l3"><a class="reference internal" href="04-shell-tutorial.html">Tutorial: Opening Your Shell</a></li>
 <li class="toctree-l3"><a class="reference internal" href="05-wayfinding-tutorial.html">Tutorial: Terminal Wayfinding</a></li>
-<li class="toctree-l3"><a class="reference internal" href="06-terminal-commands-tutorial.html">Tutorial: Typing Commands in Your Terminal</a></li>
-<li class="toctree-l3"><a class="reference internal" href="07-file-system.html">Tutorial: Navigating Your File System</a></li>
-<li class="toctree-l3"><a class="reference internal" href="08-cli-application.html">Command Line Application Questions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06-terminal-commands-tutorial.html">Tutorial: Working in Your Terminal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="07-cli-application.html">Command Line Application Questions</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2"><a class="reference internal" href="09-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08-application.html">Application Questions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../04-computer-networks/00-intro.html">4. Computer Networks &amp; the Internet</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -583,9 +582,9 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">Acknowledgements</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup">Setup</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements"><i aria-hidden="true" class="fa-solid fa-hands-clapping"></i> Acknowledgements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup"><i aria-hidden="true" class="fa-solid fa-gears"></i> Setup</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-table-of-contents"><i aria-hidden="true" class="fa-solid fa-list-ol"></i> Section Table of Contents</a></li>
 </ul>
             </nav>
         </div>
@@ -599,13 +598,13 @@ document.write(`
                   
   <section id="the-command-line-interface">
 <h1>The Command Line Interface<a class="headerlink" href="#the-command-line-interface" title="Link to this heading">#</a></h1>
-<p align="center"><img src="https://github.com/kwaldenphd/computer-interfaces/blob/main/images/Mac_GUI.png?raw=true" width="500"></p>
+<a class="reference internal image-reference" href="../_images/mac-gui.png"><img alt="Mac GUI" class="align-center" src="../_images/mac-gui.png" style="width: 500px;" /></a>
 <p>The usual way that computer users today interact with their system is through a Graphical-User Interface, or GUI (<em>pronounced “gooey” or “G-U-I”</em>). This means that when you go into a folder, you click on a picture of a file folder; when you run a program, you click on it; and when you browse the web, you use your mouse to interact with various elements on a webpage. Before the rise of GUIs as a central part of personal computer operating systems in the late 1980s, however, the primary way to interact with a computer was through a command-line interface (CLI).</p>
-<p align="center"><img src="https://github.com/kwaldenphd/computer-interfaces/blob/main/images/Shell.png?raw=true" width="500"></p>
+<a class="reference internal image-reference" href="../_images/Shell.png"><img alt="Mac GUI" class="align-center" src="../_images/Shell.png" style="width: 500px;" /></a>
 <p>Command-line interfaces allow for more detail when running some programs, because you can add modifiers to specify exactly how you want your program to run. They can be easily automated through scripts, which are essentially recipes of text-based commands.</p>
 <p>There are two main command-line interfaces, or “shells.” On Mac OS or many Linux installations, the shell is known as <code class="docutils literal notranslate"><span class="pre">bash</span></code>, or the ‘Bourne-again shell.’ For users on Windows-based systems, the command-line interface is by default <code class="docutils literal notranslate"><span class="pre">MS-DOS-based</span></code>, which uses different commands and syntax, but can often achieve similar tasks. This tutorial provides a basic introduction to the <code class="docutils literal notranslate"><span class="pre">bash</span></code> terminal, and Windows users can follow along by installing popular shells such as Cygwin or Git Bash.</p>
 <section id="acknowledgements">
-<h2>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-hands-clapping" aria-hidden="true"></i> Acknowledgements<a class="headerlink" href="#acknowledgements" title="Link to this heading">#</a></h2>
 <p>The sections of this chapter that involve working at the command line are based on and adapt content from the following tutorials:</p>
 <ul class="simple">
 <li><p>Ian Milligan and James Baker, “Introduction to the Bash Command Line,” The Programming Historian 3 (2014), <a class="reference external" href="https://doi.org/10.46430/phen0037">https://doi.org/10.46430/phen0037</a>.</p></li>
@@ -614,7 +613,7 @@ document.write(`
 <blockquote><em>The Programming Historian</em> is a multi-language, peer-reviewed online resource with "novice-friendly, peer-reviewed tutorials that help humanists learn a wide range of digital tools, techniques, and workflows to facilitate research and teaching" (<a href="https://programminghistorian.org">The Programming Historian</a>).</blockquote>
 </section>
 <section id="setup">
-<h2>Setup<a class="headerlink" href="#setup" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-gears" aria-hidden="true"></i> Setup<a class="headerlink" href="#setup" title="Link to this heading">#</a></h2>
 <p>For Mac users (and most Linux installations), you’re in luck — you already have a bash shell installed.</p>
 <p>Windows users will need to take one extra step and install Git Bash.</p>
 <ul class="simple">
@@ -622,16 +621,15 @@ document.write(`
 <li><p>Instructions for installation are available at <a class="reference external" href="https://web.archive.org/web/20190114082523/https://openhatch.org/missions/windows-setup/install-git-bash">Open Hatch</a></p></li>
 </ul>
 </section>
-<section id="table-of-contents">
-<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Link to this heading">#</a></h2>
+<section id="section-table-of-contents">
+<h2><i class="fa-solid fa-list-ol" aria-hidden="true"></i> Section Table of Contents<a class="headerlink" href="#section-table-of-contents" title="Link to this heading">#</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="03-cli-intro.html">Getting Started at the Command Line</a></li>
 <li class="toctree-l1"><a class="reference internal" href="04-shell-tutorial.html">Tutorial: Opening Your Shell</a></li>
 <li class="toctree-l1"><a class="reference internal" href="05-wayfinding-tutorial.html">Tutorial: Terminal Wayfinding</a></li>
-<li class="toctree-l1"><a class="reference internal" href="06-terminal-commands-tutorial.html">Tutorial: Typing Commands in Your Terminal</a></li>
-<li class="toctree-l1"><a class="reference internal" href="07-file-system.html">Tutorial: Navigating Your File System</a></li>
-<li class="toctree-l1"><a class="reference internal" href="08-cli-application.html">Command Line Application Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06-terminal-commands-tutorial.html">Tutorial: Working in Your Terminal</a></li>
+<li class="toctree-l1"><a class="reference internal" href="07-cli-application.html">Command Line Application Questions</a></li>
 </ul>
 </div>
 </section>
@@ -701,9 +699,9 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">Acknowledgements</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup">Setup</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements"><i aria-hidden="true" class="fa-solid fa-hands-clapping"></i> Acknowledgements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup"><i aria-hidden="true" class="fa-solid fa-gears"></i> Setup</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-table-of-contents"><i aria-hidden="true" class="fa-solid fa-list-ol"></i> Section Table of Contents</a></li>
 </ul>
   </nav></div>
 

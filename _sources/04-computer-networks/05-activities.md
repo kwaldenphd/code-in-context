@@ -18,7 +18,7 @@ Understanding systems and infrastructural elements is a useful part of being an 
 
 Visit the [Networks Land](http://networks.land/) project website to learn more about their work, including additional activities.
 
-## Section Contents
+## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Section Contents
 
 ```{tableofcontents}
 ```

@@ -223,12 +223,11 @@
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/03-cli-intro.html">Getting Started at the Command Line</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/04-shell-tutorial.html">Tutorial: Opening Your Shell</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/05-wayfinding-tutorial.html">Tutorial: Terminal Wayfinding</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/06-terminal-commands-tutorial.html">Tutorial: Typing Commands in Your Terminal</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/07-file-system.html">Tutorial: Navigating Your File System</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/08-cli-application.html">Command Line Application Questions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/06-terminal-commands-tutorial.html">Tutorial: Working in Your Terminal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/07-cli-application.html">Command Line Application Questions</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/09-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/08-application.html">Application Questions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../04-computer-networks/00-intro.html">4. Computer Networks &amp; the Internet</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -587,7 +586,7 @@ document.write(`
                   
   <section id="adding-content">
 <h1>Adding Content<a class="headerlink" href="#adding-content" title="Link to this heading">#</a></h1>
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/HTML_Page_Structure.png?raw=true" width="500"></p>
+<a class="reference internal image-reference" href="images/ch5/HTML_Page_Structure.png"><img alt="HTML Page Structure" class="align-center" src="images/ch5/HTML_Page_Structure.png" style="width: 500px;" /></a>
 <p>Now that we have a template for a valid, well-formed HTML page, we can start adding content to the page. Between the <code class="docutils literal notranslate"><span class="pre">&lt;head&gt;</span></code> tags you will see a set of <code class="docutils literal notranslate"><span class="pre">&lt;title&gt;</span></code> tags. The <code class="docutils literal notranslate"><span class="pre">&lt;head&gt;</span></code> of the document is reserved for metadata, but also includes the <code class="docutils literal notranslate"><span class="pre">&lt;title&gt;</span></code> of the page which is represented in the tabs in some web browsers.</p>
 <div class="highlight-html notranslate"><div class="highlight"><pre><span></span>  <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
     <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>YOUR PAGE TITLES GOES HERE<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
@@ -604,17 +603,17 @@ document.write(`
 <li><p>The line is indented. This isn’t a requirement of HTML, but it is a convention that is used by coders to write cleaner code. The indentation allows you to easily determine what tags are nested within each other. For example, the <code class="docutils literal notranslate"><span class="pre">&lt;title&gt;</span></code> and <code class="docutils literal notranslate"><span class="pre">&lt;meta&gt;</span></code> tags are nested within the <code class="docutils literal notranslate"><span class="pre">&lt;head&gt;</span></code> tags. Now, our <code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;</span></code> is nested within the <code class="docutils literal notranslate"><span class="pre">&lt;body&gt;</span></code>. The use of the tabs simply makes the code easier for us to read, but the computer doesn’t care (with Python the indentation is important and will cause errors if the indents do not appear in the right place).</p></li>
 </ul>
 <p>We’ll want to complete the <code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;</span></code> with a closing <code class="docutils literal notranslate"><span class="pre">&lt;/h1&gt;</span></code> tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a <code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;</span></code>. Some IDEs include an auto-complete function to help you prevent errors in your code and create valid documents.</p>
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Image_5.jpg?raw=true" width="500"></p>
+<a class="reference internal image-reference" href="../_images/Image_5.jpg"><img alt="IDE syntax" class="align-center" src="../_images/Image_5.jpg" style="width: 500px;" /></a>
 <p>Go ahead and enter some content between the <code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;</span></code> and <code class="docutils literal notranslate"><span class="pre">&lt;/h1&gt;</span></code> tags. <code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;</span></code> is preformatted as first level heading text. We’ll see how it looks in a minute.</p>
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Image_6.jpg?raw=true" width="500"></p>
+<a class="reference internal image-reference" href="../_images/Image_6.jpg"><img alt="Headers" class="align-center" src="../_images/Image_6.jpg" style="width: 500px;" /></a>
 <p>Next add a <code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span></code> paragraph tag (and closing <code class="docutils literal notranslate"><span class="pre">&lt;/p&gt;</span></code> tag).</p>
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Fig_J.png?raw=true" width="500"></p>
+<a class="reference internal image-reference" href="../_images/Fig_J.png"><img alt="Paragraphs" class="align-center" src="../_images/Fig_J.png" style="width: 500px;" /></a>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Very few desktop text editors auto-save. Be sure to save regularly!</p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
+<div class="tip admonition">
+<p class="admonition-title">Viewing Your Webpage</p>
 <p>Save the <code class="docutils literal notranslate"><span class="pre">.html</span></code> file and open it in a web browser to see your updated work.</p>
 </div>
 <blockquote><h1>Why <code>index.html</code>?</h1><br><code>index.html</code> is the name of the default landing page for websites. The web server (the computer hosing the site) will automatically recognize <code>index.html</code> as the first page or the home page of a website. Some servers use other variations like <code>home.html</code>, but we’ll use <code>index.html</code>.</blockquote>

@@ -77,7 +77,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Computer Networks" href="01-computer-networks.html" />
-    <link rel="prev" title="Application Questions" href="../03-systems-interfaces/09-application.html" />
+    <link rel="prev" title="Application Questions" href="../03-systems-interfaces/08-application.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -223,12 +223,11 @@
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/03-cli-intro.html">Getting Started at the Command Line</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/04-shell-tutorial.html">Tutorial: Opening Your Shell</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/05-wayfinding-tutorial.html">Tutorial: Terminal Wayfinding</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/06-terminal-commands-tutorial.html">Tutorial: Typing Commands in Your Terminal</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/07-file-system.html">Tutorial: Navigating Your File System</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/08-cli-application.html">Command Line Application Questions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/06-terminal-commands-tutorial.html">Tutorial: Working in Your Terminal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/07-cli-application.html">Command Line Application Questions</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/09-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/08-application.html">Application Questions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">4. Computer Networks &amp; the Internet</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -583,9 +582,12 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">Acknowledgements</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application">Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements"><i aria-hidden="true" class="fa-solid fa-hands-clapping"></i> Acknowledgements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#companion-content"><i aria-hidden="true" class="fa-regular fa-bookmark"></i> Companion Content</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chapter-table-of-contents"><i aria-hidden="true" class="fa-solid fa-list-ol"></i> Chapter Table of Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application"><i aria-hidden="true" class="fa-solid fa-clipboard-question"></i> Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-work"><i aria-hidden="true" class="fa-solid fa-chalkboard-user"></i> In-Class Work</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assignments"><i aria-hidden="true" class="fa-solid fa-list-check"></i> Assignments</a></li>
 </ul>
             </nav>
         </div>
@@ -601,15 +603,35 @@ document.write(`
 <h1>Computer Networks &amp; the Internet<a class="headerlink" href="#computer-networks-the-internet" title="Link to this heading">#</a></h1>
 <p>This chapter provides an introduction to core concepts in computer networking, with a focus on the building blocks that facilitate information sharing and communication. It covers packet switching, protocols, addressing, and routing, and also provides a starting point for thinking about what “the internet” is and how it is organized.</p>
 <section id="acknowledgements">
-<h2>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-hands-clapping" aria-hidden="true"></i> Acknowledgements<a class="headerlink" href="#acknowledgements" title="Link to this heading">#</a></h2>
 <p>This lab’s lecture segments were adapted from the following PBS <em><a class="reference external" href="https://www.pbs.org/show/crash-course-computer-science/">Crash Course Computer Science</a></em> episodes:</p>
 <ul class="simple">
 <li><p>“<a class="reference external" href="https://www.pbs.org/video/computer-networks-crash-course-computer-science-28-dqjdkc/">Computer Networks</a>”</p></li>
 <li><p>“<a class="reference external" href="https://www.pbs.org/video/the-internet-crash-course-computer-science-29-oj4vv6/">The Internet</a>”</p></li>
 </ul>
 </section>
-<section id="table-of-contents">
-<h2>Table of Contents<a class="headerlink" href="#table-of-contents" title="Link to this heading">#</a></h2>
+<section id="companion-content">
+<h2><i class="fa-regular fa-bookmark" aria-hidden="true"></i> Companion Content<a class="headerlink" href="#companion-content" title="Link to this heading">#</a></h2>
+<p>Marisa Elena Duarte, “Network Sovereignty: Broadband and the Rights of Tribes” in <a class="reference external" href="https://onesearch.library.nd.edu/permalink/f/7uudnk/TN_cdi_askewsholts_vlebooks_9780295741833"><em>Network Sovereignty: Building the Internet Across Indian Country</em></a> (University of Washington Press, 2017): 104-121.</p>
+<p>Benjamin Peters, “A Network is not a Network” in <a class="reference external" href="https://drive.google.com/file/d/1mmZ4k2eKG9adDQV-Y0DHuWu3bIIcxAq1/view?usp=drive_link"><em>Your Computer Is On Fire</em></a> (MIT Press, 2021): 71-90.</p>
+<p>Framing questions:</p>
+<ul class="simple">
+<li><p>How does each author talk about computer networks? What are they, how do they work, and what do they do?</p>
+<ul>
+<li><p>Conceptually, functionally, technically, socially, politically, etc</p></li>
+</ul>
+</li>
+<li><p>What is the chapter’s specific historical, cultural &amp; political context?</p></li>
+<li><p>After reading the chapter…</p>
+<ul>
+<li><p>What is a network? Why does it matter how computers talk to each other?</p></li>
+<li><p>What questions do we need to be asking or steps we need to be taking around computer networks to build more just, equitable, inclusive systems?</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="chapter-table-of-contents">
+<h2><i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents<a class="headerlink" href="#chapter-table-of-contents" title="Link to this heading">#</a></h2>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="01-computer-networks.html">Computer Networks</a></li>
@@ -624,8 +646,23 @@ document.write(`
 </div>
 </section>
 <section id="application">
-<h2>Application<a class="headerlink" href="#application" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application<a class="headerlink" href="#application" title="Link to this heading">#</a></h2>
 <p><a class="reference external" href="https://docs.google.com/document/d/1qYZRLlZzbZHCGIJEn4Urvpk9uBHouE_psQCsU61lEvE/copy">Link to application question template template</a> (ND users, Google Doc)</p>
+</section>
+<section id="in-class-work">
+<h2><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i> In-Class Work<a class="headerlink" href="#in-class-work" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>9/24 (T): Content discussion</p></li>
+<li><p>9/26 ®: Collaborative problem solving (computer networks)</p></li>
+</ul>
+</section>
+<section id="assignments">
+<h2><i class="fa-solid fa-list-check" aria-hidden="true"></i> Assignments<a class="headerlink" href="#assignments" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Week #5 reflection (due end of day Friday, submit on Canvas)</p></li>
+<li><p>Individual application questions (due end of day Friday, submit on Canvas)</p></li>
+<li><p>Collaborative problem solving (due end of class Thursday, group submission on Canvas)</p></li>
+</ul>
 </section>
 </section>
 
@@ -660,7 +697,7 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../03-systems-interfaces/09-application.html"
+       href="../03-systems-interfaces/08-application.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
@@ -693,9 +730,12 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">Acknowledgements</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#table-of-contents">Table of Contents</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application">Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements"><i aria-hidden="true" class="fa-solid fa-hands-clapping"></i> Acknowledgements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#companion-content"><i aria-hidden="true" class="fa-regular fa-bookmark"></i> Companion Content</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chapter-table-of-contents"><i aria-hidden="true" class="fa-solid fa-list-ol"></i> Chapter Table of Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application"><i aria-hidden="true" class="fa-solid fa-clipboard-question"></i> Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-work"><i aria-hidden="true" class="fa-solid fa-chalkboard-user"></i> In-Class Work</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assignments"><i aria-hidden="true" class="fa-solid fa-list-check"></i> Assignments</a></li>
 </ul>
   </nav></div>
 

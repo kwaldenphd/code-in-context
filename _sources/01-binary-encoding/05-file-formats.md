@@ -14,13 +14,13 @@ Some chapters or chapter sections will involve downloading paticular files onto 
 Typically, these files will be in your computer's `Downloads` folder. Prof. Walden recommends you move them to somewhere on your computer (or cloud, i.e. Google Drive) that you'll be able to easily find and access.
 ```
 
-For this section of the chapter, you'll need to download three different text files:
+For this section of the chapter, you'll need to download three different files:
 - `hello_world.txt`
 - `hello_world.rtf`
 - `hello_world.docx`
 
 ```{admonition} File Downloads 
-Links to download each file are included below:
+Links to download each file:
 - {Download}`hello_world.txt</files/ch1/hello-world.txt>`
 - {Download}`hello_world.rtf</files/ch1/hello-world.rtf>`
 - {Download}`hello_world.docx</files/ch1/hello-world.docx>`

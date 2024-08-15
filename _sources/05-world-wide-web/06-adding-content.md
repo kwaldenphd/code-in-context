@@ -1,6 +1,10 @@
 # Adding Content
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/HTML_Page_Structure.png?raw=true" width="500"></p>
+```{image} ../images/ch5/HTML_Page_Structure.png
+:alt: HTML Page Structure
+:width: 500px
+:align: center
+```
 
 Now that we have a template for a valid, well-formed HTML page, we can start adding content to the page. Between the `<head>` tags you will see a set of `<title>` tags. The `<head>` of the document is reserved for metadata, but also includes the `<title>` of the page which is represented in the tabs in some web browsers. 
 
@@ -23,21 +27,33 @@ A couple things to notice:
 
 We'll want to complete the `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. Some IDEs include an auto-complete function to help you prevent errors in your code and create valid documents.
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Image_5.jpg?raw=true" width="500"></p>
+```{image} ../images/ch5/Image_5.jpg
+:alt: IDE syntax
+:width: 500px
+:align: center
+```
 
 Go ahead and enter some content between the `<h1>` and `</h1>` tags. `<h1>` is preformatted as first level heading text. We’ll see how it looks in a minute. 
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Image_6.jpg?raw=true" width="500"></p>
-
+```{image} ../images/ch5/Image_6.jpg
+:alt: Headers
+:width: 500px
+:align: center
+```
 Next add a `<p>` paragraph tag (and closing `</p>` tag). 
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Fig_J.png?raw=true" width="500"></p>
+```{image} ../images/ch5/Fig_J.png
+:alt: Paragraphs
+:width: 500px
+:align: center
+```
 
 ```{warning}
 Very few desktop text editors auto-save. Be sure to save regularly!
 ```
 
-```{note}
+```{admonition} Viewing Your Webpage
+:class: tip
 Save the `.html` file and open it in a web browser to see your updated work.
 ```
 

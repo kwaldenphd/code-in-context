@@ -31,18 +31,10 @@ This lab's lecture segments were adapted from the following PBS *[Crash Course C
 
 ## <i class="fa-regular fa-bookmark" aria-hidden="true"></i> Companion Content
 
-Mar Hicks, “When Did the Fire Start?” in [*Your Computer Is On Fire* (MIT Press, 2021)](https://drive.google.com/file/d/1lwhi6N9JK3uOx7e3An8fCsadHMLqXsc1/view?usp=drive_link): 11-25.
-- Framing questions:
-  * What are some of the arguments Hicks makes about computing technology? What kinds of details, examples, or evidence do they draw on?
-  * What connections can you make with prior course conversations, or your own experiences with computing technology?
-  * What questions do you have from this content? What do you want to know more about?
-  
-
-United States Conference of Catholic Bishops, “[Seven Themes of Catholic Social Teaching](https://www.usccb.org/beliefs-and-teachings/what-we-believe/catholic-social-teaching/seven-themes-of-catholic-social-teaching)” *UCCSB* (n.d.)
-- Framing questions 
-  * What was your level of familiarity with CST coming into this week? What from this content was familiar? What was new?
-  * Even though this content doesn't explicitly mention computing, data, or technology, what connections do you see? We can also be thinking about prior course conversations, or your own experiences with computing technology.
-  * What questions do you have from this content? What do you want to know more about?
+Michael S. Mahoney. “The Histories of Computing(s).” *Interdisciplinary Science Reviews, vol. 30, no. 2* (June 2005): 119–135. [doi.org/10.1179/030801805X25927](https://doi.org/10.1179/030801805X25927)
+  - Framing questions:
+    * What are some of the arguments Mahoney makes about the nature of computing history? How does he talk about change over time, or the nature of evolution and revolution?
+	* Don't get too fixated on specific examples or developments mentioned in the article. Think about the arguments he makes about the relationship of computing technologies, individual people, and larger societal structures.
 
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
 
@@ -55,11 +47,12 @@ United States Conference of Catholic Bishops, “[Seven Themes of Catholic Socia
 
 ## <i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i> In-Class Work
 
-- 9/3 (T): Hicks & CST discussion
-- 9/5 (R): Collaborative problem solving (file formats & encoding schema)
+- 9/10 (T): Mahoney discussion
+- 9/12 (R): Collaborative problem solving (exploring computer architecture)
+
 
 ## <i class="fa-solid fa-list-check" aria-hidden="true"></i> Assignments 
 
-- Week #2 reflection (due end of day Friday, submit on Canvas)
+- Weekly reflection (due end of day Friday, submit on Canvas)
 - Individual application questions (due end of day Friday, submit on Canvas)
 - Collaborative problem solving (due end of class Thursday, group submission on Canvas)

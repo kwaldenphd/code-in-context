@@ -223,12 +223,11 @@
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/03-cli-intro.html">Getting Started at the Command Line</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/04-shell-tutorial.html">Tutorial: Opening Your Shell</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/05-wayfinding-tutorial.html">Tutorial: Terminal Wayfinding</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/06-terminal-commands-tutorial.html">Tutorial: Typing Commands in Your Terminal</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/07-file-system.html">Tutorial: Navigating Your File System</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/08-cli-application.html">Command Line Application Questions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/06-terminal-commands-tutorial.html">Tutorial: Working in Your Terminal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/07-cli-application.html">Command Line Application Questions</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/09-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/08-application.html">Application Questions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../04-computer-networks/00-intro.html">4. Computer Networks &amp; the Internet</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -585,7 +584,7 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#css-declarations">CSS Declarations</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-to-css">Linking to CSS</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application">Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application"><i aria-hidden="true" class="fa-solid fa-clipboard-question"></i> Application</a></li>
 </ul>
             </nav>
         </div>
@@ -600,17 +599,20 @@ document.write(`
   <section id="cascading-style-sheets">
 <h1>Cascading Style Sheets<a class="headerlink" href="#cascading-style-sheets" title="Link to this heading">#</a></h1>
 <p>You can customize HTML using style attributes, but imagine you want all instances of the <code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;</span></code> or <code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span></code> tag in your website to have the same formatting. Doing this with <code class="docutils literal notranslate"><span class="pre">style</span></code> would require adding code every time you use these elements.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Cascading Style Sheets (CSS) provides a more elegant way to add these style attributes across the pages in our site. For those familiar with website-building tools like WordPress, Weebly, or Wix, CSS is a main part of how different site “themes” are managed.</p>
+<p>Cascading Style Sheets (CSS) provide a more elegant way to add these style attributes across the pages in our site. For those familiar with website-building tools like WordPress, Weebly, or Wix, CSS is a main part of how different site “themes” are managed.</p>
 <ul class="simple">
 <li><p>For more on CSS: <a class="reference external" href="https://www.w3schools.com/css/css_intro.asp">https://www.w3schools.com/css/css_intro.asp</a></p></li>
 </ul>
-</div>
 <p>Let’s create a simple external CSS for our site. The CSS is cascading because there is a hierarchy to the way that styles are applied.</p>
 <p>If styles are defined within the document (as in the previous example), then they are applied before those in the stylesheet. This lets us override the stylsheet if there is particular content that we would like to style differently.</p>
+<div class="admonition-file-downloads admonition">
+<p class="admonition-title">File Downloads</p>
+<ul class="simple">
+<li><p>{Download} <code class="docutils literal notranslate"><span class="pre">style.css&lt;/files/ch5/style.css&gt;</span></code></p></li>
+</ul>
+</div>
 <p>Open this chapter’s<code class="docutils literal notranslate"><span class="pre">style.css</span></code> file. The CSS file doesn’t contain any content, it only defines the styles for the various elements in HTML files.</p>
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Image_15.png?raw=true" width="500"></p>
+<a class="reference internal image-reference" href="../_images/Image_15.png"><img alt="CSS" class="align-center" src="../_images/Image_15.png" style="width: 500px;" /></a>
 <p>Let’s get started by adding a few styles for the background, <code class="docutils literal notranslate"><span class="pre">&lt;h1&gt;</span></code>, and <code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span></code>. Each tag is defined first- these are referred to as the selectors.</p>
 <p>Our style instructions for each tag are enclosed in <code class="docutils literal notranslate"><span class="pre">{</span> <span class="pre">}</span></code>. These are called declarations. We can add as many style declarations as we would like in between the brackets, separating each with a semicolon. Each declaration has a property followed by a colon and then a value.</p>
 <p>It is common practice to place each declaration on a new line and to indent the declarations, but this is only to make the file easier for us to read and edit. The spacing has no impact on how the computer reads and interprets the code.</p>
@@ -653,12 +655,12 @@ document.write(`
 </ul>
 </li>
 </ul>
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Image_17.jpg?raw=true" width="500"></p>
+<a class="reference internal image-reference" href="../_images/Image_17.jpg"><img alt="Output" class="align-center" src="../_images/Image_17.jpg" style="width: 500px;" /></a>
 <p>Open the <code class="docutils literal notranslate"><span class="pre">index.html</span></code> file in a web browser to see the updated CSS.</p>
 <p>However, if you click on the link to <code class="docutils literal notranslate"><span class="pre">page2.html</span></code>, it will look the same as it did before. This is because we need to link the stylesheet to each of the pages. Add the same <code class="docutils literal notranslate"><span class="pre">&lt;link</span> <span class="pre">rel=&quot;stylesheet&quot;</span> <span class="pre">type=&quot;text/css&quot;</span> <span class="pre">href=&quot;mystyle.css&quot;&gt;</span></code> to <code class="docutils literal notranslate"><span class="pre">page2.html</span></code>. Now both pages should share the same style.</p>
 </section>
 <section id="application">
-<h2>Application<a class="headerlink" href="#application" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application<a class="headerlink" href="#application" title="Link to this heading">#</a></h2>
 <p>If you haven’t already, experiment with creating a CSS and linking it to your HTML pages.</p>
 </section>
 </section>
@@ -729,7 +731,7 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#css-declarations">CSS Declarations</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#linking-to-css">Linking to CSS</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application">Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application"><i aria-hidden="true" class="fa-solid fa-clipboard-question"></i> Application</a></li>
 </ul>
   </nav></div>
 

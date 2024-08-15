@@ -1,6 +1,6 @@
 # Operating Systems
 
-## Lecture
+## <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Lecture
 
 <table>
  <tr><td>
@@ -9,12 +9,17 @@
   </tr>
   </table>
 
-## Key Concepts
+## <i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts
 
-<p align="center"><img src="https://github.com/kwaldenphd/computer-interfaces/blob/main/images/OS_Diagram.png?raw=true" width="500"></p>
+```{image} ../images/ch3/os-diagram.png
+:alt: OS Diagram
+:width: 500px
+:align: center
+```
 
-**Operating System**
-- "An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs...For hardware functions such as input and output and memory allocation, the operating system acts as an intermediary between programs and the computer hardware...Operating systems are found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers" ([Wikipedia](https://en.wikipedia.org/wiki/Operating_system))
+```{admonition} Operating System
+:class: tip, dropdown
+"An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs...For hardware functions such as input and output and memory allocation, the operating system acts as an intermediary between programs and the computer hardware...Operating systems are found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers" ([Wikipedia](https://en.wikipedia.org/wiki/Operating_system))
 
 Core OS tasks:
 - Process management: allocates resources, executes programs, calls processes
@@ -28,38 +33,63 @@ Examples of specific operating systems include:
 - Linux
 - Android
 - Chromium
+```
 
-<p align="center"><img src="https://github.com/kwaldenphd/computer-interfaces/blob/main/images/OS_Layers.png?raw=true" width="500"></p>
+```{image} ../images/ch3/os-layers.png
+:alt: OS Layers
+:width: 500px
+:align: center
+```
 
-**The Kernel**
-- core of the OS, controls access to computer hardware, performs scheduling tasks
+```{admonition} The Kernel
+:class: tip, dropdown
+Core of the OS, controls access to computer hardware, performs scheduling tasks
+```
 
-**Device Drivers**
-- software that allows the OS to interface with hardware (graphics cards, printers, network adapters, etc.)
+```{admonition} Device Drivers
+:class: tip, dropdown
+Software that allows the OS to interface with hardware (graphics cards, printers, network adapters, etc.)
+```
 
-**Application Programming Interfaces (APIs) & Application Software**
-- software that allows the user to interact with the OS
+```{admonition} Application Programming Interfaces (APIs) & Application Software
+:class: tip, dropdown
+Software that allows the user to interact with the OS
+```
 
-**Virtual Memory**
-- An approach to managing memory that provides "an idealized abstraction of the storage resources that are actually avaialble on a given machine" (Abhishek Bhattacharjee and Daniel Lustig, *[Architectural and Operating System Support for Virtual Memory](https://link.springer.com/book/10.1007/978-3-031-01757-5).* Springer, 2017. pp. 1) 
+```{admonition} Virtual Memory
+:class: tip, dropdown
+An approach to managing memory that provides "an idealized abstraction of the storage resources that are actually avaialble on a given machine" (Abhishek Bhattacharjee and Daniel Lustig, *[Architectural and Operating System Support for Virtual Memory](https://link.springer.com/book/10.1007/978-3-031-01757-5).* Springer, 2017. pp. 1) 
+```
 
-<p align="center"><img src="https://github.com/kwaldenphd/computer-interfaces/blob/main/images/Computer_Terminal.png?raw=true" width="500"></p>
+```{image} ../images/ch3/terminal.png
+:alt: Terminal
+:width: 500px
+:align: center
+```
 
-**Computer Terminal**
-- "[a] device usually made up of a display unit and a keyboard which allows entry and display of information when on-line to central computer system" ([Wikipedia](https://simple.wikipedia.org/wiki/Computer_terminal))
+```{admonition} Computer Terminal
+:class: tip, dropdown
+"[A] device usually made up of a display unit and a keyboard which allows entry and display of information when on-line to central computer system" ([Wikipedia](https://simple.wikipedia.org/wiki/Computer_terminal))
+```
 
-**Unix**
-- "a family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, whose development started in 1969 at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others" ([Wikipedia](https://en.wikipedia.org/wiki/Unix))
+```{admonition} Unix
+:class: tip, dropdown
+"A family of multitasking, multiuser computer operating systems that derive from the original AT&T Unix, whose development started in 1969 at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others" ([Wikipedia](https://en.wikipedia.org/wiki/Unix))
 - [Click here](https://www.opengroup.org/membership/forums/platform/unix) to learn more about Unix and its parent organization, The Open Group.
+```
 
-<p align="center"><img src="https://github.com/kwaldenphd/computer-interfaces/blob/main/images/Personal_Computer.png?raw=true" width="500"></p>
+```{image} ../images/ch3/personal-computer.png
+:alt: Personal Computer
+:width: 500px
+:align: center
+```
 
-**Personal Computer**
-- "A personal computer (PC) is a multi-purpose microcomputer whose size, capabilities, and price make it feasible for individual use. Personal computers are intended to be operated directly by an end user, rather than by a computer expert or technician" ([Wikipedia](https://en.wikipedia.org/wiki/Personal_computer))
+```{admonition} Personal Computer
+:class: tip, dropdown
+"A personal computer (PC) is a multi-purpose microcomputer whose size, capabilities, and price make it feasible for individual use. Personal computers are intended to be operated directly by an end user, rather than by a computer expert or technician" ([Wikipedia](https://en.wikipedia.org/wiki/Personal_computer))
+```
 
-[Click here](https://github.com/kwaldenphd/computer-interfaces/blob/main/key-concepts.md) for a full list of key concepts and definitions for this lab.
-
-## Comprehension Check
+## <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i> Comprehension Check
 
 <table>
  <tr><td>
@@ -68,7 +98,7 @@ Examples of specific operating systems include:
   </tr>
   </table>
   
-## Application
+## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 Q1a: Use the links provided below (or other guides as needed) to find what operating system your computer is running, and if applicable what OS version.
 - [Windows](https://www.wikihow.com/Find-System-Specs#Windows_ntoc)

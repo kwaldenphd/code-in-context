@@ -2,9 +2,17 @@
 
 Let's take a look at a well-formed HTML document. Open this chapter's `index.html` sample file in a web browser.
 
+```{admonition} File Downloads 
+- {Download} `index.html</files/ch5/index.html>`
+```
+
 On the surface level, it looks the same as your `hello-world.html` file.
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Fig_A.png?raw=true" width="500"></p>
+```{image} ../images/ch5/Fig_A.png
+:alt: HTML text
+:width: 500px
+:align: center
+```
 
 But open it in a text editor and you'll see lots of technical information.
 

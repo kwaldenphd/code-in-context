@@ -223,12 +223,11 @@
 <li class="toctree-l3"><a class="reference internal" href="03-cli-intro.html">Getting Started at the Command Line</a></li>
 <li class="toctree-l3"><a class="reference internal" href="04-shell-tutorial.html">Tutorial: Opening Your Shell</a></li>
 <li class="toctree-l3"><a class="reference internal" href="05-wayfinding-tutorial.html">Tutorial: Terminal Wayfinding</a></li>
-<li class="toctree-l3"><a class="reference internal" href="06-terminal-commands-tutorial.html">Tutorial: Typing Commands in Your Terminal</a></li>
-<li class="toctree-l3"><a class="reference internal" href="07-file-system.html">Tutorial: Navigating Your File System</a></li>
-<li class="toctree-l3"><a class="reference internal" href="08-cli-application.html">Command Line Application Questions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06-terminal-commands-tutorial.html">Tutorial: Working in Your Terminal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="07-cli-application.html">Command Line Application Questions</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2"><a class="reference internal" href="09-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="08-application.html">Application Questions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../04-computer-networks/00-intro.html">4. Computer Networks &amp; the Internet</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -583,10 +582,10 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture">Lecture</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts">Key Concepts</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check">Comprehension Check</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application">Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture"><i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i> Lecture</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts"><i aria-hidden="true" class="fa-solid fa-key"></i> Key Concepts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check"><i aria-hidden="true" class="fa-solid fa-clipboard-check"></i> Comprehension Check</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application"><i aria-hidden="true" class="fa-solid fa-clipboard-question"></i> Application</a></li>
 </ul>
             </nav>
         </div>
@@ -601,7 +600,7 @@ document.write(`
   <section id="operating-systems">
 <h1>Operating Systems<a class="headerlink" href="#operating-systems" title="Link to this heading">#</a></h1>
 <section id="lecture">
-<h2>Lecture<a class="headerlink" href="#lecture" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Lecture<a class="headerlink" href="#lecture" title="Link to this heading">#</a></h2>
 <table>
  <tr><td>
 <img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
@@ -610,12 +609,11 @@ document.write(`
   </table>
 </section>
 <section id="key-concepts">
-<h2>Key Concepts<a class="headerlink" href="#key-concepts" title="Link to this heading">#</a></h2>
-<p align="center"><img src="https://github.com/kwaldenphd/computer-interfaces/blob/main/images/OS_Diagram.png?raw=true" width="500"></p>
-<p><strong>Operating System</strong></p>
-<ul class="simple">
-<li><p>“An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs…For hardware functions such as input and output and memory allocation, the operating system acts as an intermediary between programs and the computer hardware…Operating systems are found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers” (<a class="reference external" href="https://en.wikipedia.org/wiki/Operating_system">Wikipedia</a>)</p></li>
-</ul>
+<h2><i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts<a class="headerlink" href="#key-concepts" title="Link to this heading">#</a></h2>
+<a class="reference internal image-reference" href="../_images/os-diagram.png"><img alt="OS Diagram" class="align-center" src="../_images/os-diagram.png" style="width: 500px;" /></a>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Operating System</p>
+<p>“An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs…For hardware functions such as input and output and memory allocation, the operating system acts as an intermediary between programs and the computer hardware…Operating systems are found on many devices that contain a computer – from cellular phones and video game consoles to web servers and supercomputers” (<a class="reference external" href="https://en.wikipedia.org/wiki/Operating_system">Wikipedia</a>)</p>
 <p>Core OS tasks:</p>
 <ul class="simple">
 <li><p>Process management: allocates resources, executes programs, calls processes</p></li>
@@ -631,42 +629,44 @@ document.write(`
 <li><p>Android</p></li>
 <li><p>Chromium</p></li>
 </ul>
-<p align="center"><img src="https://github.com/kwaldenphd/computer-interfaces/blob/main/images/OS_Layers.png?raw=true" width="500"></p>
-<p><strong>The Kernel</strong></p>
+</div>
+<a class="reference internal image-reference" href="../_images/os-layers.png"><img alt="OS Layers" class="align-center" src="../_images/os-layers.png" style="width: 500px;" /></a>
+<div class="tip dropdown admonition">
+<p class="admonition-title">The Kernel</p>
+<p>Core of the OS, controls access to computer hardware, performs scheduling tasks</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Device Drivers</p>
+<p>Software that allows the OS to interface with hardware (graphics cards, printers, network adapters, etc.)</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Application Programming Interfaces (APIs) &amp; Application Software</p>
+<p>Software that allows the user to interact with the OS</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Virtual Memory</p>
+<p>An approach to managing memory that provides “an idealized abstraction of the storage resources that are actually avaialble on a given machine” (Abhishek Bhattacharjee and Daniel Lustig, <em><a class="reference external" href="https://link.springer.com/book/10.1007/978-3-031-01757-5">Architectural and Operating System Support for Virtual Memory</a>.</em> Springer, 2017. pp. 1)</p>
+</div>
+<a class="reference internal image-reference" href="../_images/terminal.png"><img alt="Terminal" class="align-center" src="../_images/terminal.png" style="width: 500px;" /></a>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Computer Terminal</p>
+<p>“[A] device usually made up of a display unit and a keyboard which allows entry and display of information when on-line to central computer system” (<a class="reference external" href="https://simple.wikipedia.org/wiki/Computer_terminal">Wikipedia</a>)</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Unix</p>
+<p>“A family of multitasking, multiuser computer operating systems that derive from the original AT&amp;T Unix, whose development started in 1969 at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others” (<a class="reference external" href="https://en.wikipedia.org/wiki/Unix">Wikipedia</a>)</p>
 <ul class="simple">
-<li><p>core of the OS, controls access to computer hardware, performs scheduling tasks</p></li>
-</ul>
-<p><strong>Device Drivers</strong></p>
-<ul class="simple">
-<li><p>software that allows the OS to interface with hardware (graphics cards, printers, network adapters, etc.)</p></li>
-</ul>
-<p><strong>Application Programming Interfaces (APIs) &amp; Application Software</strong></p>
-<ul class="simple">
-<li><p>software that allows the user to interact with the OS</p></li>
-</ul>
-<p><strong>Virtual Memory</strong></p>
-<ul class="simple">
-<li><p>An approach to managing memory that provides “an idealized abstraction of the storage resources that are actually avaialble on a given machine” (Abhishek Bhattacharjee and Daniel Lustig, <em><a class="reference external" href="https://link.springer.com/book/10.1007/978-3-031-01757-5">Architectural and Operating System Support for Virtual Memory</a>.</em> Springer, 2017. pp. 1)</p></li>
-</ul>
-<p align="center"><img src="https://github.com/kwaldenphd/computer-interfaces/blob/main/images/Computer_Terminal.png?raw=true" width="500"></p>
-<p><strong>Computer Terminal</strong></p>
-<ul class="simple">
-<li><p>“[a] device usually made up of a display unit and a keyboard which allows entry and display of information when on-line to central computer system” (<a class="reference external" href="https://simple.wikipedia.org/wiki/Computer_terminal">Wikipedia</a>)</p></li>
-</ul>
-<p><strong>Unix</strong></p>
-<ul class="simple">
-<li><p>“a family of multitasking, multiuser computer operating systems that derive from the original AT&amp;T Unix, whose development started in 1969 at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others” (<a class="reference external" href="https://en.wikipedia.org/wiki/Unix">Wikipedia</a>)</p></li>
 <li><p><a class="reference external" href="https://www.opengroup.org/membership/forums/platform/unix">Click here</a> to learn more about Unix and its parent organization, The Open Group.</p></li>
 </ul>
-<p align="center"><img src="https://github.com/kwaldenphd/computer-interfaces/blob/main/images/Personal_Computer.png?raw=true" width="500"></p>
-<p><strong>Personal Computer</strong></p>
-<ul class="simple">
-<li><p>“A personal computer (PC) is a multi-purpose microcomputer whose size, capabilities, and price make it feasible for individual use. Personal computers are intended to be operated directly by an end user, rather than by a computer expert or technician” (<a class="reference external" href="https://en.wikipedia.org/wiki/Personal_computer">Wikipedia</a>)</p></li>
-</ul>
-<p><a class="reference external" href="https://github.com/kwaldenphd/computer-interfaces/blob/main/key-concepts.md">Click here</a> for a full list of key concepts and definitions for this lab.</p>
+</div>
+<a class="reference internal image-reference" href="../_images/personal-computer.png"><img alt="Personal Computer" class="align-center" src="../_images/personal-computer.png" style="width: 500px;" /></a>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Personal Computer</p>
+<p>“A personal computer (PC) is a multi-purpose microcomputer whose size, capabilities, and price make it feasible for individual use. Personal computers are intended to be operated directly by an end user, rather than by a computer expert or technician” (<a class="reference external" href="https://en.wikipedia.org/wiki/Personal_computer">Wikipedia</a>)</p>
+</div>
 </section>
 <section id="comprehension-check">
-<h2>Comprehension Check<a class="headerlink" href="#comprehension-check" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-clipboard-check" aria-hidden="true"></i> Comprehension Check<a class="headerlink" href="#comprehension-check" title="Link to this heading">#</a></h2>
 <table>
  <tr><td>
 <img src="https://github.com/kwaldenphd/computer-interfaces/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
@@ -675,7 +675,7 @@ document.write(`
   </table>
 </section>
 <section id="application">
-<h2>Application<a class="headerlink" href="#application" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application<a class="headerlink" href="#application" title="Link to this heading">#</a></h2>
 <p>Q1a: Use the links provided below (or other guides as needed) to find what operating system your computer is running, and if applicable what OS version.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.wikihow.com/Find-System-Specs#Windows_ntoc">Windows</a></p></li>
@@ -780,10 +780,10 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture">Lecture</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts">Key Concepts</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check">Comprehension Check</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application">Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lecture"><i aria-hidden="true" class="fa-solid fa-person-chalkboard"></i> Lecture</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#key-concepts"><i aria-hidden="true" class="fa-solid fa-key"></i> Key Concepts</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check"><i aria-hidden="true" class="fa-solid fa-clipboard-check"></i> Comprehension Check</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application"><i aria-hidden="true" class="fa-solid fa-clipboard-question"></i> Application</a></li>
 </ul>
   </nav></div>
 
