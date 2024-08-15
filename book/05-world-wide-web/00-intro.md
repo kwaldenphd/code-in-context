@@ -6,7 +6,7 @@ This chapter provides an introduction to HTML and CSS, the building blocks for m
 
 This lab is inspired by the "Project 3: HTML/CSS" project materials developed by [Lindsay K. Mattock](http://lindsaymattock.net/) from the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
-## <i class="fa-solid fa-gears" aria-hidden="true"> Setup
+## <i class="fa-solid fa-gears" aria-hidden="true"></i> Setup
 
 In this chapter, you'll need to download two different files:
 - `index.html`
