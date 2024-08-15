@@ -1,6 +1,6 @@
 # The World Wide Web
 
-## Lecture
+## <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Lecture
 
 <table>
  <tr><td>
@@ -9,49 +9,85 @@
   </tr>
   </table>
 
-## Key Concepts
+## <i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/WWW_Berners_Lee.png?raw=true" width="500"></p>
+```{image} ../images/ch5/WWW_Berners_Lee.png
+:alt: Tim Berners Lee
+:width: 500px
+:align: center
+```
 
-**World Wide Web (WWW)**
-- "The World Wide Web (WWW), commonly known as the Web, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://www.example.com/), which may be interlinked by hypertext, and are accessible over the Internet. The resources of the WWW are transferred via the Hypertext Transfer Protocol (HTTP) and may be accessed by users by a software application called a web browser and are published by a software application called a web server" ([Wikipedia](https://en.wikipedia.org/wiki/World_Wide_Web))
+```{admonition} World Wide Web (WWW)
+:class: tip, dropdown
+"The World Wide Web (WWW), commonly known as the Web, is an information system where documents and other web resources are identified by Uniform Resource Locators (URLs, such as https://www.example.com/), which may be interlinked by hypertext, and are accessible over the Internet. The resources of the WWW are transferred via the Hypertext Transfer Protocol (HTTP) and may be accessed by users by a software application called a web browser and are published by a software application called a web server" ([Wikipedia](https://en.wikipedia.org/wiki/World_Wide_Web))
+```
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Hypertext.png?raw=true" width="500"></p>
+```{image} ../images/ch5/Hypertext.png
+:alt: Hypertext
+:width: 500px
+:align: center
+```
 
-**Hyerlinks & Hypertext**
-- "In computing, a hyperlink, or simply a link, is a reference to data that the user can follow by clicking or tapping. A hyperlink points to a whole document or to a specific element within a document. Hypertext is text with hyperlinks" ([Wikipedia](https://en.wikipedia.org/wiki/Hyperlink))
+```{admonition} Hyerlinks & Hypertext
+:class: tip, dropdown
+"In computing, a hyperlink, or simply a link, is a reference to data that the user can follow by clicking or tapping. A hyperlink points to a whole document or to a specific element within a document. Hypertext is text with hyperlinks" ([Wikipedia](https://en.wikipedia.org/wiki/Hyperlink))
+```
 
-**Web Browsers**
-- "A web browser (also referred to as an Internet browser or simply a browser) is application software for accessing the World Wide Web or a local website. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the user's device" ([Wikipedia](https://en.wikipedia.org/wiki/Web_browser))
+```{admonition} Web Browsers
+:class: tip, dropdown
+"A web browser (also referred to as an Internet browser or simply a browser) is application software for accessing the World Wide Web or a local website. When a user requests a web page from a particular website, the web browser retrieves the necessary content from a web server and then displays the page on the user's device" ([Wikipedia](https://en.wikipedia.org/wiki/Web_browser))
 - Sample web browsers: Internet Exporer, Microsoft Edge, Mozilla Firefox, Safari, Google Chrome
+```
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/URL.png?raw=true" width="500"></p>
+```{image} ../images/ch5/URL.png
+:alt: URL
+:width: 500px
+:align: center
+```
 
-**Uniform Resource Locator (URL)**
-- "A Uniform Resource Locator (URL), colloquially termed a web address, is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of Uniform Resource Identifier (URI), although many people use the two terms interchangeably" ([Wikipedia](https://en.wikipedia.org/wiki/URL))
+```{admonition} Uniform Resource Locator (URL)
+:class: tip, dropdown
+"A Uniform Resource Locator (URL), colloquially termed a web address, is a reference to a web resource that specifies its location on a computer network and a mechanism for retrieving it. A URL is a specific type of Uniform Resource Identifier (URI), although many people use the two terms interchangeably" ([Wikipedia](https://en.wikipedia.org/wiki/URL))
+```
 
-**Web Server**
-- "A web server is computer software and underlying hardware that accepts requests via HTTP (the network protocol created to distribute web content) or its secure variant HTTPS" ([Wikipedia](https://en.wikipedia.org/wiki/Web_server))
+```{admonition} Web Server
+:class: tip, dropdown
+"A web server is computer software and underlying hardware that accepts requests via HTTP (the network protocol created to distribute web content) or its secure variant HTTPS" ([Wikipedia](https://en.wikipedia.org/wiki/Web_server))
+```
 
-**Hypertext Transfer Protocol (HTTP)**
-- "The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser" ([Wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol))
+```{admonition} Hypertext Transfer Protocol (HTTP)
+:class: tip, dropdown
+"The Hypertext Transfer Protocol (HTTP) is an application protocol for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser" ([Wikipedia](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol))
+```
 
-**Markup Language**
-- "In computer text processing, a markup language is a system for annotating a document in a way that is syntactically distinguishable from the text, meaning when the document is processed for display, the markup language is not shown, and is only used to format the text" ([Wikipedia](https://en.wikipedia.org/wiki/Markup_language))
+```{admonition} Markup Language
+:class: tip, dropdown
+"In computer text processing, a markup language is a system for annotating a document in a way that is syntactically distinguishable from the text, meaning when the document is processed for display, the markup language is not shown, and is only used to format the text" ([Wikipedia](https://en.wikipedia.org/wiki/Markup_language))
 - [Click here](https://youtu.be/C0ivP3KYO3A) to learn more about markup languages.
+```
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/HTML_Tag.png?raw=true" width="500"></p>
+```{image} ../images/ch5/HTML_Tag.png
+:alt: Tim Berners Lee
+:width: 500px
+:align: center
+```
 
-**Hypertext Markup Language (HTML)**
-- “HyperText Markup Language, invented by Tim Berners-Lee as the basis for the World Wide Web….based on the international standard SGML (Standardized Generalized Markup Language), which was originally developed for the representation of print documents in electronic form. HTML created a notation for hypertext that has become the global standard, and provided the basis for the standardized linking and display of documents independent of the platform, operating system, and application in which they were created.” (Janet Murray, *[Inventing the Medium: Principles of Interaction Design as a Cultural Practice](https://mitpress.mit.edu/9780262016148/inventing-the-medium/)*, pp. 424)
+```{admonition} Hypertext Markup Language (HTML)
+:class: tip, dropdown
+“HyperText Markup Language, invented by Tim Berners-Lee as the basis for the World Wide Web….based on the international standard SGML (Standardized Generalized Markup Language), which was originally developed for the representation of print documents in electronic form. HTML created a notation for hypertext that has become the global standard, and provided the basis for the standardized linking and display of documents independent of the platform, operating system, and application in which they were created.” (Janet Murray, *[Inventing the Medium: Principles of Interaction Design as a Cultural Practice](https://mitpress.mit.edu/9780262016148/inventing-the-medium/)*, pp. 424)
+```
 
-**Tag**
-- “A heading in a web page as indexing, structural, or formatting terms. Formatting tags identify structural parts of a document, such as <heading> or display <italics>.” (Janet Murray, *[Inventing the Medium: Principles of Interaction Design as a Cultural Practice](https://mitpress.mit.edu/9780262016148/inventing-the-medium/)*, pp. 440)
+```{admonition} Tag
+:class: tip, dropdown
+“A heading in a web page as indexing, structural, or formatting terms. Formatting tags identify structural parts of a document, such as <heading> or display <italics>.” (Janet Murray, *[Inventing the Medium: Principles of Interaction Design as a Cultural Practice](https://mitpress.mit.edu/9780262016148/inventing-the-medium/)*, pp. 440)
+```
 
-**Cascading Style Sheets (CSS)**
-- "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML" ([Wikipedia](https://en.wikipedia.org/wiki/CSS))
+```{admonition} Cascading Style Sheets (CSS)
+:class: tip, dropdown
+"Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML" ([Wikipedia](https://en.wikipedia.org/wiki/CSS))
+```
 
-## Comprehension Check
+## <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i> Comprehension Check
 
 <table>
  <tr><td>

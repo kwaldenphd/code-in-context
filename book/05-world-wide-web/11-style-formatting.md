@@ -2,7 +2,11 @@
 
 HTML allows us to add style to our pages internally, or inline, using HTML tags. We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates preformatted text that is larger than the `<p>` or paragraph text. But, what if we want to add color or change the font on our page? 
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Image_13.jpg?raw=true" width="500"></p>
+```{image} ../images/ch5/Image_13.jpg
+:alt: Style
+:width: 500px
+:align: center
+```
 
 We can add style to individual HTML element tags using `style` attributes. The syntax for style attributes is `style="STYLE_PROPERTY:PROPERTY_VALUE;"`
 
@@ -29,7 +33,11 @@ All style elements are enclosed in quotation marks and include a semicolon after
 </body>
 ```
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Image_14.png?raw=true" width="500"></p>
+```{image} ../images/ch5/Image_14.png
+:alt: Style
+:width: 500px
+:align: center
+```
 
 We can see how the style attributes are changing how the web page content displays:
 - The `<h1>` heading has has a blue text color and is center-aligned
@@ -43,6 +51,6 @@ For more on HTML styles:
 
 Take a look at the W3Schools [HTML Colors](https://www.w3schools.com/html/html_colors.asp) page. See anything familiar? HTML supports multiple formats for representing color.
 
-## Application
+## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 If you haven't already, experiment with modifying your existing HTML pages to include some of these (or other) style elements.

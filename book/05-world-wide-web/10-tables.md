@@ -57,6 +57,6 @@ Additional attributes like `align`, `style`, etc. can be used with many of these
 - [W3Schools, "HTML Tables"](https://www.w3schools.com/html/html_tables.asp)
 - [W3Schools, "HTML table tag"](https://www.w3schools.com/tags/tag_table.asp)
 
-## Application
+## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 Add a table to one of your HTML pages (index.html or page2.html). You could create fictional data or add meaningful data from another source.

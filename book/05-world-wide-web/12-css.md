@@ -2,18 +2,24 @@
 
 You can customize HTML using style attributes, but imagine you want all instances of the `<h1>` or `<p>` tag in your website to have the same formatting. Doing this with `style` would require adding code every time you use these elements.
 
-```{note}
-Cascading Style Sheets (CSS) provides a more elegant way to add these style attributes across the pages in our site. For those familiar with website-building tools like WordPress, Weebly, or Wix, CSS is a main part of how different site "themes" are managed. 
+Cascading Style Sheets (CSS) provide a more elegant way to add these style attributes across the pages in our site. For those familiar with website-building tools like WordPress, Weebly, or Wix, CSS is a main part of how different site "themes" are managed. 
 - For more on CSS: https://www.w3schools.com/css/css_intro.asp
-```
 
 Let’s create a simple external CSS for our site. The CSS is cascading because there is a hierarchy to the way that styles are applied. 
 
 If styles are defined within the document (as in the previous example), then they are applied before those in the stylesheet. This lets us override the stylsheet if there is particular content that we would like to style differently.
 
+```{admonition} File Downloads 
+- {Download} `style.css</files/ch5/style.css>`
+```
+
 Open this chapter's`style.css` file. The CSS file doesn’t contain any content, it only defines the styles for the various elements in HTML files. 
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Image_15.png?raw=true" width="500"></p>
+```{image} ../images/ch5/Image_15.png
+:alt: CSS
+:width: 500px
+:align: center
+```
 
 Let's get started by adding a few styles for the background, `<h1>`, and `<p>`. Each tag is defined first- these are referred to as the selectors. 
 
@@ -60,13 +66,17 @@ This line can appear anywhere between the `<head>` and `</head>`.
 - In this case the `rel` attribute defines the relationship between the HTML file and the linking document. 
 - The `type` defines the type and `href` contains the URL or location reference for the file.
   * To learn more about the `<link rel>` tag: http://www.w3schools.com/tags/att_link_rel.asp
-
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Image_17.jpg?raw=true" width="500"></p>
+  
+```{image} ../images/ch5/Image_17.jpg
+:alt: Output
+:width: 500px
+:align: center
+```
 
 Open the `index.html` file in a web browser to see the updated CSS. 
 
 However, if you click on the link to `page2.html`, it will look the same as it did before. This is because we need to link the stylesheet to each of the pages. Add the same `<link rel="stylesheet" type="text/css" href="mystyle.css">` to `page2.html`. Now both pages should share the same style.
 
-## Application
+## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 If you haven't already, experiment with creating a CSS and linking it to your HTML pages.

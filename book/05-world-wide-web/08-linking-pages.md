@@ -9,7 +9,11 @@ The tag syntax is as follows: `<a href="URL to page">Text that will appear as th
 Below your paragraph tag on the `index.html` page add the line `<a href=”page2.html”>Link to page 2</a>.`
 - Learn more about the `<a href>` tag via W3Schools: http://www.w3schools.com/TAGS/att_a_href.asp
 
-<p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/Image_10.png?raw=true" width="500"></p>
+```{image} ../images/ch5/Image_10.png
+:alt: Linking
+:width: 500px
+:align: center
+```
 
 Open `index.html` in a web browser to see the updated file with a link.
 
@@ -20,6 +24,6 @@ When you click on “Link to page 2” your `page2.html` file should open. In th
 
 If we had saved this file to another folder or directory, we would need to include the full file path, including any directory information. For example if we had put `page2.html` in a folder titled "pages," the `a href` tag would look like `<a href="pages/page2.html">`.
 
-## Application
+## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 If you haven't already, create a second page and link to it from `index.html`.
