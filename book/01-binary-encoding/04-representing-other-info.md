@@ -1,6 +1,6 @@
 # Representing Other Information in Binary
 
-## Lecture <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i>
+## <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i> Lecture
 
 <table>
  <tr><td>
@@ -19,14 +19,13 @@ The end of the "Encoding Schema" lecture mentioned how binary numbers are also u
 :align: center
 ```
 
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Bit_Comparison.png?raw=true" width="500"></p>
-
 What about color? If we use a single byte or 8-bits to represent color, we can represent a total of 256 different colors. However, we perceive a much wider range of colors, so to extend the palette we can represent colors using more bits. 
 
-<fig>
- <p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Image_13.png?raw=true"></p>
- <p align="center"><figcaption>Image from http://i.imgur.com/UqHhN.png</figcaption></p>
- </fig>
+```{image} ../images/ch1/mario.png
+:alt: mario
+:width: 500px
+:align: center
+```
 
 Consider the difference between the color palette on old video game systems as compared to what you see on your computer screen today. Mario is a great example. The original Nintendo used 8-bit color, but Super Nintendo used 16-bit color giving a wider range of colors to represent the graphics in the game.
 
@@ -36,8 +35,6 @@ Consider the difference between the color palette on old video game systems as c
 :align: center
 ```
 
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Hot_Air_Balloons.png?raw=true" width="500"></p>
-
 In 8-bit color, each color is represented in 8-bits or 1 Byte giving a color palette of 256 colors.  16-bit color increases the number of colors in the palette by a factor of two, representing over 65,000 different colors by using 16-bits or 2 Bytes to represent each color (256 x 256 = 65,536). 
 
 ```{image} ../images/ch1/rgb-color-circles.png
@@ -45,8 +42,6 @@ In 8-bit color, each color is represented in 8-bits or 1 Byte giving a color pal
 :width: 500px
 :align: center
 ```
-
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Image_17.png?raw=true" height="500"></p>
 
 As with text encoding standards, there are many different color encoding schemas. We can represent color using discrete values for the primary colors red, green, and blue.
 
@@ -56,8 +51,6 @@ As with text encoding standards, there are many different color encoding schemas
 :align: center
 ```
 
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Color_Table.png?raw=true" width="500"></p>
-
 An `RGB` (red-green-blue) color system can be represented using hex or decimal values.
 
 ```{image} ../images/ch1/mario.png 
@@ -66,11 +59,9 @@ An `RGB` (red-green-blue) color system can be represented using hex or decimal v
 :align: center
 ```
 
-<p align="center"><img src="https://github.com/kwaldenphd/bits-bytes/blob/main/images/Image_15.png?raw=true" height="500"></p>
-
 The Mario example featured 8-bit and 16-bit color. If you've ever seen Red-Green-Blue color sliders, you've seen a 3 byte (24-bit) color system in action.
 
-## Key Concepts <i class="fa-solid fa-key" aria-hidden="true"></i>
+## <i class="fa-solid fa-key" aria-hidden="true"></i> Key Concepts
 
 ```{admonition} Color Depth 
 :class: tip, dropdown
@@ -87,7 +78,7 @@ The Mario example featured 8-bit and 16-bit color. If you've ever seen Red-Green
 "The RGB color model is an additive color model in which the red, green, and blue primary colors of light are added together in various ways to reproduce a broad array of colors. The name of the model comes from the initials of the three additive primary colors, red, green, and blue. The main purpose of the RGB color model is for the sensing, representation, and display of images in electronic systems, such as televisions and computers" ([Wikipedia](https://en.wikipedia.org/wiki/RGB_color_model))
 ```
 
-## Comprehension Check <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i>
+## <i class="fa-solid fa-clipboard-check" aria-hidden="true"></i> Comprehension Check
 
 <table>
  <tr><td>
@@ -96,7 +87,7 @@ The Mario example featured 8-bit and 16-bit color. If you've ever seen Red-Green
   </tr>
   </table>
 
-## Application <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i>
+## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 Q4: How would the colors Magenta, Cyan, and Yellow be represented in binary, hex, and decimal? 
 - [RGB Color Table](http://www.rapidtables.com/web/color/RGB_Color.htm)
