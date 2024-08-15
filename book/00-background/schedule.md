@@ -1,12 +1,16 @@
 # Course Schedule
 
-**Week #1: What is a computer?**
+```{admonition} **Week #1: What is a computer?**
+:class: tip, dropdown
 - Matt Richtel. “[Reading, Writing, Arithmetic, and Increasingly, Coding](https://www.nytimes.com/2014/05/11/us/reading-writing-arithmetic-and-lately-coding.html).” *New York Times*, May 10, 2014.
 - The Most Reverend Paul Tighe, “[Catholic Social Teaching in the Digital Age](https://www.centesimusannus.org/wp-content/uploads/2018/09/Tighe-ENG-1.pdf),”  *Centesimus Annus Pro Pontifice* (January 26-27, 2017).
+```
 
-**Week #2: How do computers understand information?**
+```{admonition} **Week #2: How do computers understand information?**
+:class: tip, dropdown
 - Mar Hicks, “When Did the Fire Start?” in *Your Computer Is On Fire* (MIT Press, 2021): 11-25.
 - United States Conference of Catholic Bishops, “[Seven Themes of Catholic Social Teaching](https://www.usccb.org/beliefs-and-teachings/what-we-believe/catholic-social-teaching/seven-themes-of-catholic-social-teaching)” *UCCSB* (n.d.)
+```
 
 **Week #3: How did we get computers? How do computers "work"? (part 1: the computer as a data processing machine)**
 - Michael S. Mahoney. “The Histories of Computing(s).” *Interdisciplinary Science Reviews, vol. 30, no. 2* (June 2005): 119–135

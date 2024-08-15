@@ -22,11 +22,9 @@ chapters:
         title: Encoding Schema 
       - file: 01-binary-encoding/04-representing-other-info
         title: Representing Other Information 
-      - file: 01-binary-encoding/05-putting-it-all-together
-        title: Putting It All Together 
-      - file: 01-binary-encoding/06-file-formats
+      - file: 01-binary-encoding/05-file-formats
         title: File Formats
-      - file: 01-binary-encoding/07-application
+      - file: 01-binary-encoding/06-application
         title: Application Questions
     - file: 02-computer-architecture/00-intro
       title: 2. Computer Hardware & Architecture 
@@ -53,7 +51,7 @@ chapters:
         - file: 02-computer-architecture/10-fetch-execute-scenario 
           title: "Scenario #3: Assembly Language, the CPU & the Fetch-Execute Cycle"
     - file: 03-systems-interfaces/00-intro 
-      title: 3. Operating Systems & Computer Interfaces
+      title: 3. Operating Systems & Interfaces
       sections:
       - file: 03-systems-interfaces/01-operating-systems 
         title: Operating Systems 
