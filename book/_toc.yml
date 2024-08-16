@@ -6,11 +6,19 @@ root: intro
 chapters:
     - file: how-to
       title: How to Interact With This Book
-    - file: 00-background/background
-      title: Background
+    - file: 00-background/overview
+      title: Course Overview
       sections:
-      - file: 00-background/schedule
-        title: Course Schedule 
+      - file: 00-background/01-background
+        title: Background 
+      - file: 00-background/02-schedule 
+        title: Schedule    
+      - file: 00-background/03-assessments
+        title: "Assignments & Assessments"
+      - file: 00-background/04-grading
+        title: How Grading Works in This Course 
+      - file: 00-background/05-preparation
+        title: Preparing for Class         
     - file: 01-binary-encoding/00-intro 
       title: 1. Binary Number Systems & Encoding Schema
       sections:
@@ -26,6 +34,8 @@ chapters:
         title: File Formats
       - file: 01-binary-encoding/06-application
         title: Application Questions
+      - file: 01-binary-encoding/07-activities 
+        title: Collaborative Activities
     - file: 02-computer-architecture/00-intro
       title: 2. Computer Hardware & Architecture 
       sections:
@@ -42,7 +52,7 @@ chapters:
       - file: 02-computer-architecture/06-application 
         title: Application Questions
       - file: 02-computer-architecture/07-scenarios 
-        title: Scenarios 
+        title: Scenarios  
         sections:
         - file: 02-computer-architecture/08-alu-memory-scenario 
           title: "Scenario #1: ALU & Memory" 
@@ -70,6 +80,8 @@ chapters:
           title: Command Line Application Questions 
       - file: 03-systems-interfaces/08-application 
         title: Application Questions
+      - file: 03-systems-interfaces/09-activities 
+        title: Collaborative Activities 
     - file: 04-computer-networks/00-intro
       title: 4. Computer Networks & the Internet 
       sections:
@@ -83,7 +95,7 @@ chapters:
       - file: 04-computer-networks/04-application-questions 
         title: Application Questions
       - file: 04-computer-networks/05-activities
-        title: Interactive Activities
+        title: Collaborative Activities
         sections:
         - file: 04-computer-networks/06-packet-switching
           title: Packet Switching Network Relay
@@ -121,6 +133,13 @@ chapters:
         title: Application Questions
       - file: 05-world-wide-web/14-additional-resources 
         title: Additional Resources
+      - file: 05-world-wide-web/15-collaborative-activities
+        title: Collaborative Activities 
+        sections: 
+        - file: 05-world-wide-web/16-web-search
+          title: Web Search Activities 
+        - file: 05-world-wide-web/17-hypertext 
+          title: Hypertext Activities
     - file: 06-python-fundamentals/00-intro
       title: "6. Programming Fundamentals in Python"
       sections:
