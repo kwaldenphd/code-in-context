@@ -48,7 +48,7 @@ United States Conference of Catholic Bishops, “[Seven Themes of Catholic Socia
   * What questions do you have from this content? What do you want to know more about?
 ```
 
-## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
+## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Contents
 
 ```{tableofcontents}
 ```
