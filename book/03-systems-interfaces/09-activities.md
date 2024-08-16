@@ -18,7 +18,7 @@ This set of activities give students different entry points for thinking about o
 Students use a template spreadsheet to explore particular operating systems, with some opportunities to engage with software simulations. Their collaborative annotations are submitted via Ga Google Form to make a collaborative timeline using [TimelineJS](https://timeline.knightlab.com/).
 
 ```{admonition} Templates 
-- [Google Sheet]() with tabs for OS information and the Timeline JS template
+- [Google Sheet](https://docs.google.com/spreadsheets/d/1HNoN4sp8YqXdQuMsUbV6vqo4nYHtIUZnd_1G0uA-vTQ/edit?usp=sharing) with tabs for OS information and the Timeline JS template
 - [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSd_YwyAumQB7-yRla2uK9GTeVW_aKTvq-xO9OS3KPpiU_bUSg/viewform?usp=sf_link) for student data entry
 
 If using copies of these materials, you will need to [link the Form results](https://support.google.com/docs/answer/2917686?hl=en) with the Google Sheet.
