@@ -185,7 +185,7 @@ chapters:
         title: Strings 
       - file: 07-data-structures/03-lists 
         title: Lists
-        section: 
+        sections: 
         - file: 07-data-structures/04-other-linear-arrays 
           title: Other Linear Arrays 
       - file: 07-data-structures/05-dictionaries 
