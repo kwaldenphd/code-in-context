@@ -29,6 +29,7 @@ If your group is not able to complete a task or solve a problem during class tim
 ```
 
 ```{admonition} Group Roles 
+class: tip
 - **Note Taker**: Primary notetaker in a shared space
 - **Driver**: Primary person responsible for testing things on a computer and sharing their screen with the group 
 - **Navigator**: Primary person responsible for translating and communicating instructors for the group 
@@ -41,10 +42,12 @@ If your group is not able to complete a task or solve a problem during class tim
 This set of activities gives students an opportunity to build skills with moving across binary, hexadecimal, and decimal systems, under the umbrella of ASCII. This version of the activity involved a scavenger hunt that ended with each student getting a mini rubber duck and a poem from a [poetry bot](https://evanwill.github.io/poemBot/).
 
 ```{admonition} Discuss
+class: tip
 What are some of the differences between the decimal digit, the hex representation, and ASCII code? Explain in your own words.
 ```
 
 ```{admonition} Solve 
+class: tip
 Resources:
 - [Decimal – Hexadecimal – Binary Conversion Table](https://github.com/kwaldenphd/bits-bytes/blob/main/ASCII-Conversion-Chart.pdf)
 - [WikiHow, "How to Convert Binary to Decimal" (26 July 2022)](https://www.wikihow.com/Convert-from-Binary-to-Decimal)
@@ -81,10 +84,12 @@ To download all three files as a compressed folder:
 ```
 
 ```{admonition} Discuss 
+class: tip
 Why does the proprietary versus open file format distinction matter in relation to character encoding? Explain in your own words.
 ```
 
 ```{admonition} Solve 
+class: tip
 Step #1: Open the `hello-world.txt` file in your computer's text editor (Notepad for Windows, TextEdit for Mac) or an online hex editor ([HexEd.it](https://hexed.it/)). What are you seeing in the file? How large would you expect this file to be (in bits and bytes)?
 
 Step #2: Test your prediction using your own computer’s file manager or the online hex editor. Was your prediction accurate? If not, why?
@@ -98,6 +103,7 @@ Step #5: Open the `hello-world.docx` file in a text editor (on your computer or 
 Step #6: Test your prediction using your own computer’s file manager or the online hex editor. Was your prediction accurate? If not, why?
 ```
 
-```{admonition} Discuss 
+```{admonition} Discuss
+class: tip
 Using the definitions of physical, logical, and conceptual objects from earlier in this lab, explain these layers of a digital object in your own works, referring to the helloworld examples and your experience using the hex editor.
 ```

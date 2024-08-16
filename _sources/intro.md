@@ -6,7 +6,7 @@
 
 This site hosts instructional materials for the University of Notre Dame's "Code in Context: Computing & the Liberal Arts" course, a newly-designed course offering that combines hands-on introduction to the basic concepts and technologies of computing with critical discussion of the historical, social, and cultural dimensions of computing, data, and digital technology. The work of the course includes discussions of content that foregrounds the cultural, social, and historical dimensions of computing technologies along with exploration and foundational skill building with various computing tools and methods.
 
-This course is part of the College of Arts and Letters [Technology & Digital Studies Program](https://altech.nd.edu/). Visit the "[Background](00-background/background.md)" page for additional information about the course.
+This course is part of the College of Arts and Letters [Technology & Digital Studies Program](https://altech.nd.edu/). Visit the "[Course Overview](00-background/overview.md)" chapter for additional information about the course.
 
 ## Adaptation & Reuse
 
