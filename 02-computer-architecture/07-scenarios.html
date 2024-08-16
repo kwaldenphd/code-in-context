@@ -189,8 +189,12 @@
     <div class="bd-toc-item navbar-nav active">
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../how-to.html">How to Interact With This Book</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../00-background/background.html">Background</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../00-background/schedule.html">Course Schedule</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../00-background/00-overview.html">Course Overview</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/01-background.html">Background</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/02-schedule.html">Schedule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/03-assessments.html">Assignments &amp; Assessments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/04-grading.html">How Grading Works in This Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/05-preparation.html">Preparing for Class</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../01-binary-encoding/00-intro.html">1. Binary Number Systems &amp; Encoding Schema</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -200,6 +204,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/04-representing-other-info.html">Representing Other Information</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/05-file-formats.html">File Formats</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/06-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/07-activities.html">Collaborative Activities</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="00-intro.html">2. Computer Hardware &amp; Architecture</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
@@ -228,6 +233,7 @@
 </ul>
 </details></li>
 <li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/08-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/09-activities.html">Collaborative Activities</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../04-computer-networks/00-intro.html">4. Computer Networks &amp; the Internet</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -237,7 +243,7 @@
 </ul>
 </details></li>
 <li class="toctree-l2"><a class="reference internal" href="../04-computer-networks/04-application-questions.html">Application Questions</a></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="../04-computer-networks/05-activities.html">Interactive Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../04-computer-networks/05-activities.html">Collaborative Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l3"><a class="reference internal" href="../04-computer-networks/06-packet-switching.html">Packet Switching Network Relay</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../04-computer-networks/07-dns-roleplay.html">I Think Therefore ICANN (A Roleplaying Game About Domain Names)</a></li>
 </ul>
@@ -261,6 +267,11 @@
 </details></li>
 <li class="toctree-l2"><a class="reference internal" href="../05-world-wide-web/13-application.html">Application Questions</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../05-world-wide-web/14-additional-resources.html">Additional Resources</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../05-world-wide-web/15-activities.html">Collaborative Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/16-web-search.html">Web Search Activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/17-hypertext.html">Hypertext Activities</a></li>
+</ul>
+</details></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../06-python-fundamentals/00-intro.html">6. Programming Fundamentals in Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -599,7 +610,17 @@ document.write(`
 <h1>Scenarios<a class="headerlink" href="#scenarios" title="Link to this heading">#</a></h1>
 <p>The three scenarios at the end of this chapter are designed to give additional practice and application with the computer architecture concepts covered earlier in the semester.</p>
 <p>Each uses an interactive Pep/9 simulator to apply concepts related to Von Neumann architecture, including data path, memory, and CPU/ALU operation.</p>
-<p>Each scenario has its own set of application questions.</p>
+<p>Each scenario has its own set of application questions. These scenarios function as the collaborative problem solving activities for this chapter.</p>
+<div class="admonition-group-roles admonition">
+<p class="admonition-title">Group Roles</p>
+<ul class="simple">
+<li><p><strong>Note Taker</strong>: Primary notetaker in a shared space</p></li>
+<li><p><strong>Driver</strong>: Primary person responsible for testing things on a computer and sharing their screen with the group</p></li>
+<li><p><strong>Navigator</strong>: Primary person responsible for translating and communicating instructors for the group</p></li>
+<li><p><strong>Reporter</strong>: Primary person responsible for sharing highlights with the larger group &amp; submitting the group’s work</p></li>
+<li><p><strong>Time Keeper</strong>: Primary person responsible for keeping an eye on the clock and keeping the group on task</p></li>
+</ul>
+</div>
 <section id="acknowledgements">
 <h2><i class="fa-solid fa-hands-clapping" aria-hidden="true"></i> Acknowledgements<a class="headerlink" href="#acknowledgements" title="Link to this heading">#</a></h2>
 <p>Sections of this lab are based on the “Data path &amp; memory” lab:</p>

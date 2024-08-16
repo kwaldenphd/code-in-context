@@ -3,7 +3,7 @@
 Let's take a look at a well-formed HTML document. Open this chapter's `index.html` sample file in a web browser.
 
 ```{admonition} File Downloads 
-- {Download} `index.html</files/ch5/index.html>`
+- {Download}`index.html</files/ch5/index.html>`
 ```
 
 On the surface level, it looks the same as your `hello-world.html` file.

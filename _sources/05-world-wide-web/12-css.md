@@ -10,7 +10,7 @@ Let’s create a simple external CSS for our site. The CSS is cascading because 
 If styles are defined within the document (as in the previous example), then they are applied before those in the stylesheet. This lets us override the stylsheet if there is particular content that we would like to style differently.
 
 ```{admonition} File Downloads 
-- {Download} `style.css</files/ch5/style.css>`
+- {Download}`style.css</files/ch5/style.css>`
 ```
 
 Open this chapter's`style.css` file. The CSS file doesn’t contain any content, it only defines the styles for the various elements in HTML files. 

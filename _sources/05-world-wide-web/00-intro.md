@@ -14,11 +14,11 @@ In this chapter, you'll need to download two different files:
 
 ```{admonition} File Downloads 
 Links to download each file:
-- {Download} `index.html</files/ch5/index.html>`
-- {Download} `style.css</files/ch5/style.css>`
+- {Download}`index.html</files/ch5/index.html>`
+- {Download}`style.css</files/ch5/style.css>`
 
 To download both files as a compressed folder:
-- {Download} `html.zip</files/ch5/html.zip>`
+- {Download}`html.zip</files/ch5/html.zip>`
 ```
 
 ## <i class="fa-regular fa-bookmark" aria-hidden="true"></i> Companion Content

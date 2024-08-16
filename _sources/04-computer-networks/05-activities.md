@@ -2,7 +2,15 @@
 
 The remaining sections of this chapter include interactive activities based on and adapted from the Networks Land project. They offer scalable, low-bandwidth activity frameworks that can be used in a variety of instructional contexts.
 
-Each activity includes discussion & reflection prompts.
+Each activity includes discussion & reflection prompts. These function as the collaborative problem solving activities for this chapter.
+
+```{admonition} Group Roles 
+- **Note Taker**: Primary notetaker in a shared space
+- **Driver**: Primary person responsible for testing things on a computer and sharing their screen with the group 
+- **Navigator**: Primary person responsible for translating and communicating instructors for the group 
+- **Reporter**: Primary person responsible for sharing highlights with the larger group & submitting the group's work 
+- **Time Keeper**: Primary person responsible for keeping an eye on the clock and keeping the group on task 
+```
 
 ## Networks Land
 
