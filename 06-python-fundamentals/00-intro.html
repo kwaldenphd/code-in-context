@@ -76,7 +76,7 @@
     <link rel="icon" href="../_static/favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Your First Program" href="01-first-program.html" />
+    <link rel="next" title="Python in Spyder" href="01-spyder.html" />
     <link rel="prev" title="Hypertext Activities" href="../05-world-wide-web/17-hypertext.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -275,30 +275,27 @@
 </ul>
 </details></li>
 <li class="toctree-l1 current active has-children"><a class="current reference internal" href="#">6. Programming Fundamentals in Python</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2 has-children"><a class="reference internal" href="01-first-program.html">Your First Program</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="02-data-types.html">Data Types</a></li>
-<li class="toctree-l3"><a class="reference internal" href="03-comments.html">Comments</a></li>
-<li class="toctree-l3"><a class="reference internal" href="04-running-programs.html">Running Your Program</a></li>
+<li class="toctree-l2"><a class="reference internal" href="01-spyder.html">Python in Spyder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02-jupyter-notebooks.html">Python in Jupyter Notebooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="03-ides.html">Making IDE Choices</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="04-your-first-program.html">Your First Program!</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="05-variables-assignment.html">Variables &amp; Assignment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="06-arithmetic-operators.html">Arithmetic Operators</a></li>
+<li class="toctree-l3"><a class="reference internal" href="07-concatenation.html">Concatenation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="08-input-output.html">Input/Output</a></li>
+<li class="toctree-l3"><a class="reference internal" href="09-converting-data-types.html">Converting Data Types</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2"><a class="reference internal" href="05-variables-assignment.html">Variables &amp; Assignment Operators</a></li>
-
-<li class="toctree-l2"><a class="reference internal" href="06-arithmetic-operators.html">Arithmetic Operators</a></li>
-<li class="toctree-l2"><a class="reference internal" href="07-concatenation.html">Concatenation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="08-input-output.html">Input/Output</a></li>
-<li class="toctree-l2"><a class="reference internal" href="09-converting-data-types.html">Converting Data Types</a></li>
 <li class="toctree-l2 has-children"><a class="reference internal" href="10-comparison-operators.html">Comparison Operators</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="11-boolean-logic.html">Boolean Logic</a></li>
-<li class="toctree-l3"><a class="reference internal" href="12-comparison-operator-examples.html">Comparison Operator Examples</a></li>
-<li class="toctree-l3"><a class="reference internal" href="13-comparison-operator-application.html">Comparison Operator Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="11-advanced-comparison.html">More Advanced Comparisons</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2 has-children"><a class="reference internal" href="14-complex-conditional-statements.html">Complex Conditional Statements</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l3"><a class="reference internal" href="15-logical-operators.html">Logical Operators</a></li>
-<li class="toctree-l3"><a class="reference internal" href="16-operator-application.html">Additional Operator Application</a></li>
+<li class="toctree-l2"><a class="reference internal" href="12-application.html">Application Questions</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="13-activities.html">Collaborative Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="14-python-activities.html">Python Activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="15-microbit-activities.html">Microbit Activities</a></li>
 </ul>
 </details></li>
-<li class="toctree-l2"><a class="reference internal" href="17-application-questions.html">Application Questions</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../07-data-structures/00-intro.html">7. Data Structures in Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -593,9 +590,13 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">Acknowledgements</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application">Application</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-contents">Section Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements"><i aria-hidden="true" class="fa-solid fa-hands-clapping"></i> Acknowledgements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup"><i aria-hidden="true" class="fa-solid fa-gears"></i>  Setup</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#companion-content"><i aria-hidden="true" class="fa-regular fa-bookmark"></i> Companion Content</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chapter-contents"><i aria-hidden="true" class="fa-solid fa-list-ol"></i> Chapter Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application"><i aria-hidden="true" class="fa-solid fa-clipboard-question"></i> Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-work"><i aria-hidden="true" class="fa-solid fa-chalkboard-user"></i> In-Class Work</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assignments"><i aria-hidden="true" class="fa-solid fa-list-check"></i> Assignments</a></li>
 </ul>
             </nav>
         </div>
@@ -609,7 +610,7 @@ document.write(`
                   
   <section id="programming-fundamentals-in-python-variables-data-types-operators">
 <h1>Programming Fundamentals in Python: Variables, Data Types &amp; Operators<a class="headerlink" href="#programming-fundamentals-in-python-variables-data-types-operators" title="Link to this heading">#</a></h1>
-<p>This chapter provides an overview of foundational programming concepts, with a focus on Python syntax.</p>
+<p>This chapter provides an overview of foundational programming concepts, with a focus on Python syntax. It also introduces two different Python IDEs- Spyder and Google Colaboratory.</p>
 <p>Topics covered include:</p>
 <ul class="simple">
 <li><p>Variables &amp; assignment operators</p></li>
@@ -621,7 +622,7 @@ document.write(`
 <li><p>Boolean logic &amp; logical operators</p></li>
 </ul>
 <section id="acknowledgements">
-<h2>Acknowledgements<a class="headerlink" href="#acknowledgements" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-hands-clapping" aria-hidden="true"></i> Acknowledgements<a class="headerlink" href="#acknowledgements" title="Link to this heading">#</a></h2>
 <p>Portions of this lab are adapted from the <a class="reference external" href="https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/labs/python1.html">“Lab: Programming in Python”</a> and <a class="reference external" href="https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/labs/python2.html">“Lab: Numbers in Python”</a> lab materials developed by <a class="reference external" href="https://cs.whitman.edu/~davisj/">Janet Davis</a> for the the <a class="reference external" href="https://www.cs.grinnell.edu/~davisjan/csc/105/2012S/">CSC 105 “The Digital Age” course</a>.</p>
 <p>This lab also incorporates elements of <a class="reference external" href="https://www3.nd.edu/~cpennycu/">Corey Pennycuff’s</a> <a class="reference external" href="https://www3.nd.edu/~cpennycu/2019/assets/fall/EOC/19.08.29.ipynb">“Intro to Python/Jupyter” Jupyter notebook</a> from <a class="reference external" href="https://www3.nd.edu/~cpennycu/2019/fa-CSE10101-CDT30010.html">CSE 10101 Elements of Computing (Fall 2019)</a>.</p>
 <p>Definitions and explanations in this lab are adapted from:</p>
@@ -630,8 +631,56 @@ document.write(`
 <li><p>Kenneth Leroy Busbee and Dave Braunschweig, <em><a class="reference external" href="https://press.rebus.community/programmingfundamentals/">Programming Fundamentals: A Modular Structured Approach, 2nd Edition</a></em> (Rebus Press, 2018)</p></li>
 </ul>
 </section>
+<section id="setup">
+<h2><i class="fa-solid fa-gears" aria-hidden="true"></i>  Setup<a class="headerlink" href="#setup" title="Link to this heading">#</a></h2>
+<p>One of the Python IDE’s we’ll be exploring in this chapter does require a software download. Spyder is “ a free and open source scientific environment written in Python, for Python, and designed by and for scientists, engineers and data analysts” (<a class="reference external" href="https://www.spyder-ide.org/">Spyder documentation</a>).</p>
+<p>To install Spyder as a stand-alone program: <a class="reference external" href="https://www.spyder-ide.org">spyder-ide.org</a></p>
+<p>The other Python IDE introduced in this chapter is the web-based Google Colaboratory.</p>
+<p>To install Spyder as a stand-alone program: <a class="reference external" href="https://www.spyder-ide.org">spyder-ide.org</a></p>
+</section>
+<section id="companion-content">
+<h2><i class="fa-regular fa-bookmark" aria-hidden="true"></i> Companion Content<a class="headerlink" href="#companion-content" title="Link to this heading">#</a></h2>
+<p>Paul Ford, “<a class="reference external" href="https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/">What Is Code?</a>” <em>Bloomberg</em> (11 June 2015)</p>
+<p>Clive Thompson. “<a class="reference external" href="https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html">The Secret History of Women in Coding</a>.” <em>New York Times Magazine</em> (13 February 2019)</p>
+<p>Framing questions:</p>
+<ul class="simple">
+<li><p>What do these authors say about what constitutes coding or programming? How does that compare or connect with your prior coding/programming experience?</p>
+<ul>
+<li><p>Folks can be thinking about types of work, as well as the nature or character of that work.</p></li>
+</ul>
+</li>
+<li><p>What do these authors say about who is a coder or programmer? How does that compare or connect with your prior coding/programming experience?</p>
+<ul>
+<li><p>Folks can be thinking about individual people along with organizations or entities. It’s also worth thinking about how particular structures or practices impact individual people (or groups of people).</p></li>
+</ul>
+</li>
+<li><p>How do these authors describe or framing computing/programming history?</p>
+<ul>
+<li><p>Folks can be thinking about change over time and organizing principles. We can also be thinking about comparisons or connections with prior course conversations around computing history.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="chapter-contents">
+<h2><i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Contents<a class="headerlink" href="#chapter-contents" title="Link to this heading">#</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="01-spyder.html">Python in Spyder</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02-jupyter-notebooks.html">Python in Jupyter Notebooks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03-ides.html">Making IDE Choices</a></li>
+<li class="toctree-l1"><a class="reference internal" href="04-your-first-program.html">Your First Program!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="10-comparison-operators.html">Comparison Operators</a></li>
+<li class="toctree-l1"><a class="reference internal" href="12-application.html">Application Questions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="13-activities.html">Collaborative Activities</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="14-python-activities.html">Python Activities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="15-microbit-activities.html">Microbit Activities</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
 <section id="application">
-<h2>Application<a class="headerlink" href="#application" title="Link to this heading">#</a></h2>
+<h2><i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application<a class="headerlink" href="#application" title="Link to this heading">#</a></h2>
 <p>Your answers to this chapter’s application questions should be added to the notebook template.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://colab.research.google.com/drive/1ccYINXCxjiHL2hyfhLlx8g8FgWna2Q2j?usp=sharing">Google Colab link</a> (ND users only)</p></li>
@@ -639,27 +688,21 @@ document.write(`
 <p>Your Google Colab notebook should be located in the <code class="docutils literal notranslate"><span class="pre">wk7-python-fundamentals</span></code> <a class="reference external" href="https://drive.google.com/drive/folders/1btaMEcpz_IoKgNZU4fTmf4l_n9dsga1V?usp=drive_link">Google Drive folder</a> (ND users only)</p>
 <p>Submit the Colab link on Canvas for the assignment submission.</p>
 </section>
-<section id="section-contents">
-<h2>Section Contents<a class="headerlink" href="#section-contents" title="Link to this heading">#</a></h2>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="01-first-program.html">Your First Program</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="02-data-types.html">Data Types</a></li>
-<li class="toctree-l2"><a class="reference internal" href="03-comments.html">Comments</a></li>
-<li class="toctree-l2"><a class="reference internal" href="04-running-programs.html">Running Your Program</a></li>
+<section id="in-class-work">
+<h2><i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i> In-Class Work<a class="headerlink" href="#in-class-work" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>10/8 (T):  Ford &amp; Thompson discussion</p></li>
+<li><p>10/10 ®: Collaborative problem solving (Python foundations)</p></li>
 </ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="05-variables-assignment.html">Variables &amp; Assignment Operators</a></li>
-<li class="toctree-l1"><a class="reference internal" href="05-variables-assignment.html#application">Application</a></li>
-<li class="toctree-l1"><a class="reference internal" href="06-arithmetic-operators.html">Arithmetic Operators</a></li>
-<li class="toctree-l1"><a class="reference internal" href="07-concatenation.html">Concatenation</a></li>
-<li class="toctree-l1"><a class="reference internal" href="08-input-output.html">Input/Output</a></li>
-<li class="toctree-l1"><a class="reference internal" href="09-converting-data-types.html">Converting Data Types</a></li>
-<li class="toctree-l1"><a class="reference internal" href="10-comparison-operators.html">Comparison Operators</a></li>
-<li class="toctree-l1"><a class="reference internal" href="14-complex-conditional-statements.html">Complex Conditional Statements</a></li>
-<li class="toctree-l1"><a class="reference internal" href="17-application-questions.html">Application Questions</a></li>
+</section>
+<section id="assignments">
+<h2><i class="fa-solid fa-list-check" aria-hidden="true"></i> Assignments<a class="headerlink" href="#assignments" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Week #7 reflection (due end of day Friday, submit on Canvas)</p></li>
+<li><p>Individual application questions (due end of day Friday, submit on Canvas)</p></li>
+<li><p>Collaborative problem solving (due end of class Thursday, group submission on Canvas)</p></li>
+<li><p>OPTIONAL: Concept map #1 draft (due end of day Friday, submit on Canvas)</p></li>
 </ul>
-</div>
 </section>
 </section>
 
@@ -703,11 +746,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="01-first-program.html"
+       href="01-spyder.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Your First Program</p>
+        <p class="prev-next-title">Python in Spyder</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -727,9 +770,13 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements">Acknowledgements</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application">Application</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#section-contents">Section Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#acknowledgements"><i aria-hidden="true" class="fa-solid fa-hands-clapping"></i> Acknowledgements</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setup"><i aria-hidden="true" class="fa-solid fa-gears"></i>  Setup</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#companion-content"><i aria-hidden="true" class="fa-regular fa-bookmark"></i> Companion Content</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#chapter-contents"><i aria-hidden="true" class="fa-solid fa-list-ol"></i> Chapter Contents</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application"><i aria-hidden="true" class="fa-solid fa-clipboard-question"></i> Application</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-work"><i aria-hidden="true" class="fa-solid fa-chalkboard-user"></i> In-Class Work</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#assignments"><i aria-hidden="true" class="fa-solid fa-list-check"></i> Assignments</a></li>
 </ul>
   </nav></div>
 
