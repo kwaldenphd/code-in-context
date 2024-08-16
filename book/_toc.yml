@@ -143,43 +143,37 @@ chapters:
     - file: 06-python-fundamentals/00-intro
       title: "6. Programming Fundamentals in Python"
       sections:
-      - file: 06-python-fundamentals/01-first-program
-        title: Your First Program
-        sections:
-        - file: 06-python-fundamentals/02-data-types 
-          title: Data Types 
-        - file: 06-python-fundamentals/03-comments 
-          title: Comments 
-        - file: 06-python-fundamentals/04-running-programs 
-          title: Running Your Program 
-      - file: 06-python-fundamentals/05-variables-assignment
-        title: "Variables & Assignment"
-      - file: 06-python-fundamentals/06-arithmetic-operators 
-        title: Arithmetic Operators
-      - file: 06-python-fundamentals/07-concatenation
-        title: Concatenation 
-      - file: 06-python-fundamentals/08-input-output 
-        title: Input/Output 
-      - file: 06-python-fundamentals/09-converting-data-types 
-        title: Converting Data Types 
+      - file: 06-python-fundamentals/01-spyder 
+        title: Python in Spyder 
+      - file: 06-python-fundamentals/02-jupyter-notebooks 
+        title: Python in Jupyter Notebooks 
+      - file: 06-python-fundamentals/03-ides 
+        title: Making IDE Choices 
+      - file: 06-python-fundamentals/04-your-first-program 
+        title: Your First Program!
+        sections: 
+        - file: 06-python-fundamentals/06-variables-assignment
+          title: "Variables & Assignment" 
+        - file: 06-python-fundamentals/07-concatenation 
+          title: Concatenation 
+        - file: 06-python-fundamentals/08-input-output 
+          title: Input/Output 
+        - file: 06-python-fundamentals/09-converting-data-types 
+          title: Converting Data Types 
       - file: 06-python-fundamentals/10-comparison-operators 
         title: Comparison Operators
         sections:
-        - file: 06-python-fundamentals/11-boolean-logic 
-          title: Boolean Logic
-        - file: 06-python-fundamentals/12-comparison-operator-examples
-          title: Comparison Operator Examples 
-        - file: 06-python-fundamentals/13-comparison-operator-application 
-          title: Comparison Operator Application
-      - file: 06-python-fundamentals/14-complex-conditional-statements
-        title: Complex Conditional Statements 
+        - file: 06-python-fundamentals/11-advanced-comparison 
+          title: More Advanced Comparisons
+      - file: 06-python-fundamentals/12-application 
+        title: Application Questions 
+      - file: 06-python-fundamentals/13-activities 
+        title: Collaborative Activities 
         sections:
-        - file: 06-python-fundamentals/15-logical-operators 
-          title: Logical Operators 
-        - file: 06-python-fundamentals/16-operator-application 
-          title: Additional Operator Application
-      - file: 06-python-fundamentals/17-application-questions
-        title: Application Questions
+        - file: 06-python-fundamentals/14-python-activities 
+          title: Python Activities 
+        - file: 06-python-fundamentals/15-microbit-activities 
+          title: Microbit Activities
     - file: 07-data-structures/00-intro
       title: "7. Data Structures in Python"
       sections:

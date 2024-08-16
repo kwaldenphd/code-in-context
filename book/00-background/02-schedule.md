@@ -76,3 +76,10 @@
   - [Detroit Digital Justice Principles](https://www.detroitdjc.org/principles) (n.d.)
   - [Association for Computing Machinery Code of Ethics & Professional Conduct](https://www.acm.org/code-of-ethics) (2018)
 ```
+
+```{admonition} Week #15: Deliberative Tech & Peacebuilding 
+:class: tip, dropdown
+- Lisa Schirch, *Defending Democracy With Deliberative Technologies* (Keough School Policy Brief Series, 2024). https://doi.org/10.7274/25338103 
+- BBC Click, “[Can Taiwan Reboot Democracy?](https://youtu.be/VbCZvU7i7VY?si=uf_RQzBOZMqxLvFy)” *YouTube* (29 October 2019) 8 minutes
+- Pope Francis, “[Communication at the Service of an Authentic Culture of Encounter](https://www.vatican.va/content/francesco/en/messages/communications/documents/papa-francesco_20140124_messaggio-comunicazioni-sociali.html)” *message for 48th world communications day* (1 June 2014)
+```

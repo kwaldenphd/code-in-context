@@ -27,7 +27,7 @@ Step #2: Spend some time exploring the literary work, taking structured notes on
 
 This activity gives students the opportunity to explore twine as an implementation of hypertext.
 
-```{admonition} Twine Stories 
+````{admonition} Twine Stories 
 The Ceramic Uncertainty
 - [About](https://falpal.itch.io/the-ceramic-uncertainty?download)
 - [Play Online](https://philome.la/falloneus/the-ceramic-uncertainty-v12/index.html)
@@ -57,9 +57,9 @@ Who Stole My Bone
 - [About](https://kryptickitty.itch.io/who-stole-my-bone)
 - [Play Online](https://kryptickitty.itch.io/who-stole-my-bone)
 ```
-```
+````
 
-```{admonition} Activity
+````{admonition} Activity
 Step #1: Twine projects run the gamut from a preliminary introduction to hypertext to immersive interactive narratives to role-playing or scenario-based games. As a group, select one of the options from the “Start Here” section to explore as a group. Read the “About” information and choose the “Play Online” option to start interacting with the game.
 
 Step #2: As your group moves through the Twine project, create a visual representation that attempts to keep track of how hypertext is being used or how the elements of the scenario fit together. 
@@ -94,4 +94,4 @@ If you really want to dig in to Twine:
 - Anastasia Salter and Stuart Moulthrop, [*Twining: Critical & Creative Approaches to Hypertext Narratives*](https://www.fulcrum.org/concern/monographs/ms35tb924) (Amherst College Press, 2021)
 - Nick Montfort, [*Twisty Little Passages: An Approach to Interactive Fiction*](https://onesearch.library.nd.edu/permalink/f/7uudnk/TN_cdi_askewsholts_vlebooks_9780262297110) (MIT Press, 2005)
 ```
-```
+````
