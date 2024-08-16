@@ -1,6 +1,6 @@
 # Putting It All Together
 
-NOTE: For the following lab notebook questions, write two programs for each- one that uses a `while` loop and one that uses a `for` loop to accomplish the same task.
+NOTE: For the following application questions, write two programs for each- one that uses a `while` loop and one that uses a `for` loop to accomplish the same task.
 
 ## Question 7
 
@@ -38,4 +38,7 @@ happy
 10
 ```
 
-HINT: How could an `if` statement be helpful to achieve this output?
+```{admonition} Hint
+:class: tip, dropdown
+How could an `if` statement be helpful to achieve this output?
+```

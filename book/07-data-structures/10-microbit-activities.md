@@ -14,12 +14,6 @@ This chapter's activities continue our work with the BBC micro:bit.
 :align: center
 ```
 
-```{image} ../images/ch1/bits-bytes-explanation.png
-:alt: University of Notre Dame main building
-:width: 500px
-:align: center
-```
-
 ```{admonition} Resources
 :class: tip, dropdown
 - [Getting started](https://microbit.org/get-started/getting-started/introduction/)
@@ -62,8 +56,6 @@ Want to work collaboratively with microbits in your group? Various tutorials use
 ```{note}
 These activities may require a battery pack (which we have).
 ```
-
-
 
 Step #3: Select [one of the other tutorials](https://microbit.org/projects/make-it-code-it/?filters=beginner,makecode) to explore. Again, there are different ways folks can work individually and collaboratively. Gauge the level of complexity you want to take on based on how things have been going so far and where we are with time.
 

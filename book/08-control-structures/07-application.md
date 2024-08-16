@@ -142,5 +142,3 @@ happy
 9
 10
 ```
-
-HINT: How could an `if` statement be helpful to achieve this output?

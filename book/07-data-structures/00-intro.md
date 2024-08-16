@@ -52,16 +52,16 @@ Elements of this chapter were adapted from materials developed by:
 ## <i class="fa-regular fa-bookmark" aria-hidden="true"></i> Companion Content
 
 Nathan Ensmenger. "Chapter 3: Chess Players, Music Lovers, and Mathematicians." In [*The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise*](https://mitpress.mit.edu/9780262517966/the-computer-boys-take-over/) (Cambridge: MIT Press, 2010): 51-82
+- Framing questions:
+  *What does Ensmenger say about what constitutes coding or programming? How does that compare or connect with your prior coding/programming experience?
+    * Folks can be thinking about types of work, as well as the nature or character of that work.
+  * What does Ensmenger say about the stakeholders (companies, groups, organizations) that shaped early programming work?
+    * Folks can be thinking about the background information provided about these stakeholders, their motivations and priorities, and their hiring practices.
+  * What does Ensmenger say about the aptitude tests and measurement instruments that were used in this period to determine programming expertise?
+    * Folks can be thinking about the background information provided about these tests, their purpose and intent, and impacts and consequences.
 
-r/learnprogramming, “[Is programming creative?](https://www.reddit.com/r/learnprogramming/comments/60npf3/is_programming_creative/)” *Reddit* (2017)
-
-Framing questions:
-- What do these pieces of content say about what constitutes coding or programming? How does that compare or connect with your prior coding/programming experience?
-  * Folks can be thinking about types of work, as well as the nature or character of that work.
-- What does Ensmenger say about the stakeholders (companies, groups, organizations) that shaped early programming work?
-  * Folks can be thinking about the background information provided about these stakeholders, their motivations and priorities, and their hiring practices.
-- What does Ensmenger say about the aptitude tests and measurement instruments that were used in this period to determine programming expertise?
-  * Folks can be thinking about the background information provided about these tests, their purpose and intent, and impacts and consequences.
+See also:
+- r/learnprogramming, “[Is programming creative?](https://www.reddit.com/r/learnprogramming/comments/60npf3/is_programming_creative/)” *Reddit* (2017)
 
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
 
