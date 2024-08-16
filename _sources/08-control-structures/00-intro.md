@@ -10,7 +10,12 @@ According to Busbee and Braunschweig's "[Structured Programming](https://press.r
 - Event-controlled and count-controlled loops
 - Looping structures in Python (`for` and `while`)
 
-## Acknowledgements
+```{admonition} <i class="fa-solid fa-hands-clapping" aria-hidden="true"></i> Acknowledgements
+:class: tip, dropdown 
+PLACEHOLDER
+```
+
+## <i class="fa-solid fa-hands-clapping" aria-hidden="true"></i> Acknowledgements
 
 When building this lab, the author consulted materials developed by:
 - [Dr. Peter Bui](http://www3.nd.edu/~pbui/) for the [CSE 10101 "Elements of Computing I" course](https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/).
@@ -26,7 +31,26 @@ When building this lab, the author consulted materials developed by:
 Definitions and explanations in this lab are adapted from Kenneth Leroy Busbee and Dave Braunschweig, *[Programming Fundamentals: A Modular Structured Approach, 2nd Edition](https://press.rebus.community/programmingfundamentals/)* (Rebus Press, 2018)
 - [Chapter V, Loops](https://press.rebus.community/programmingfundamentals/part/loops/)
 
-## Application
+## <i class="fa-regular fa-bookmark" aria-hidden="true"></i> Companion Content
+
+Nathan Ensmenger. "Chapter 5: The Rise of Computer Science." In [*The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise*](https://onesearch.library.nd.edu/permalink/f/1phik6l/ndu_aleph005788353) (Cambridge: MIT Press, 2010): 111-136.
+- Framing questions:
+  * What does Ensmenger say in this chapter about what constitutes coding/programming?
+    * Folks fan be thinking about types of work, as well as the nature of that work. We can also pay attention to the types of skills emphasized, and the influence of academic institutions or structures. 
+	* Academic institutions or structures can be particular college or universities....but they can also be fields of study or disciplines.
+  * What does Ensmenger say about the academic communities and stakeholders that shaped the early Computer Science field?
+    * Folks can be thinking about background information presented in the chapter, motivations and priorities, and hiring practices.
+  * After reading the chapter, how are you thinking about what computer science "is"? 
+    * Is it science, formal logic, mathematics....or something else entirely?
+	* How might the history we're reading about influence or shape the current computing/programming landscape?
+	* What connections can folks make with your experiences/impressions around computing as an academic pursuit?
+
+## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Contents
+
+```{tableofcontents}
+```
+
+## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 Your answers to this chapter's application questions should be added to the notebook template.
 - [Google Colab link](https://colab.research.google.com/drive/1HVYyphtxpPUzhVISngj-PWfeZ7OPcmd7?usp=sharing) (ND users only)
@@ -35,7 +59,13 @@ Your Google Colab notebook should be located in the `wk10-control-structures` [G
 
 Submit the Colab link on Canvas for the assignment submission.
 
-## Section Contents 
+## <i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i> In-Class Work
 
-```{tableofcontents}
-```
+- 10/29 (T): Ensmenger discussion
+- 10/31 (R): Collaborative problem solving (Python control structures)
+
+## <i class="fa-solid fa-list-check" aria-hidden="true"></i> Assignments 
+
+- Week #10 reflection (due end of day Friday, submit on Canvas)
+- Individual application questions (due end of day Friday, submit on Canvas)
+- Collaborative problem solving (due end of class Thursday, group submission on Canvas)

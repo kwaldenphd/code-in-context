@@ -1,0 +1,1028 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Python Activities &#8212; Code in Context, Computing &amp; the Liberal Arts</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-VWMRSQ9VGT"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-VWMRSQ9VGT');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-VWMRSQ9VGT');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '07-data-structures/09-python-activities';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="canonical" href="https://kwaldenphd/github.io/code-in-context/07-data-structures/09-python-activities.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Microbit Activities" href="10-microbit-activities.html" />
+    <link rel="prev" title="Activities" href="08-activities.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/favicon.png" class="logo__image only-light" alt="Code in Context, Computing & the Liberal Arts - Home"/>
+    <script>document.write(`<img src="../_static/favicon.png" class="logo__image only-dark" alt="Code in Context, Computing & the Liberal Arts - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../how-to.html">How to Interact With This Book</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../00-background/00-overview.html">Course Overview</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/01-background.html">Background</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/02-schedule.html">Schedule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/03-assessments.html">Assignments &amp; Assessments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/04-grading.html">How Grading Works in This Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/05-preparation.html">Preparing for Class</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../01-binary-encoding/00-intro.html">1. Binary Number Systems &amp; Encoding Schema</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/01-digital-objects.html">Physical, Logical &amp; Conceptual Objects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/02-binary-number-systems.html">Binary Number Systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/03-encoding-schema.html">Encoding Schema</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/04-representing-other-info.html">Representing Other Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/05-file-formats.html">File Formats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/06-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/07-activities.html">Collaborative Activities</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../02-computer-architecture/00-intro.html">2. Computer Hardware &amp; Architecture</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../02-computer-architecture/01-von-neumann.html">Von Neumann Architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-computer-architecture/02-alu-memory.html">ALU &amp; Memory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-computer-architecture/03-cpu-fetch-execute.html">CPU &amp; the Fetch-Execute Cycle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-computer-architecture/04-assembly-language.html">Assembly Language</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-computer-architecture/05-putting-it-all-together.html">Putting It All Together</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-computer-architecture/06-application.html">Application Questions</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../02-computer-architecture/07-scenarios.html">Scenarios</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../02-computer-architecture/08-alu-memory-scenario.html">Scenario #1: ALU &amp; Memory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../02-computer-architecture/09-alu-memory-scenario.html">Scenario #2: ALU &amp; Memory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../02-computer-architecture/10-fetch-execute-scenario.html">Scenario #3: Assembly Language, the CPU &amp; the Fetch-Execute Cycle</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../03-systems-interfaces/00-intro.html">3. Operating Systems &amp; Interfaces</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/01-operating-systems.html">Operating Systems</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../03-systems-interfaces/02-cli-overview.html">Introduction to the Command Line Interface</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/03-cli-intro.html">Getting Started at the Command Line</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/04-shell-tutorial.html">Tutorial: Opening Your Shell</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/05-wayfinding-tutorial.html">Tutorial: Terminal Wayfinding</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/06-terminal-commands-tutorial.html">Tutorial: Working in Your Terminal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/07-cli-application.html">Command Line Application Questions</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/08-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/09-activities.html">Collaborative Activities</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../04-computer-networks/00-intro.html">4. Computer Networks &amp; the Internet</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../04-computer-networks/01-computer-networks.html">Computer Networks</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../04-computer-networks/02-internet.html">The Internet</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../04-computer-networks/03-additional-resources.html">Additional Resources</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../04-computer-networks/04-application-questions.html">Application Questions</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../04-computer-networks/05-activities.html">Collaborative Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../04-computer-networks/06-packet-switching.html">Packet Switching Network Relay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../04-computer-networks/07-dns-roleplay.html">I Think Therefore ICANN (A Roleplaying Game About Domain Names)</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../05-world-wide-web/00-intro.html">5. The World Wide Web</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../05-world-wide-web/01-world-wide-web.html">What is the World Wide Web?</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../05-world-wide-web/02-tutorial.html">HTML &amp; CSS Tutorials</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/03-first-page.html">Your first webpage!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/04-valid-html.html">Well-Formed HTML</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/05-second-page.html">Your second webpage!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/06-adding-content.html">Adding Content</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/07-adding-pages.html">Adding Pages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/08-linking-pages.html">Linking Pages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/09-images.html">Images</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/10-tables.html">Tables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/11-style-formatting.html">Style &amp; Formatting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/12-css.html">Cascading Style Sheets</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../05-world-wide-web/13-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../05-world-wide-web/14-additional-resources.html">Additional Resources</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../05-world-wide-web/15-activities.html">Collaborative Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/16-web-search.html">Web Search Activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/17-hypertext.html">Hypertext Activities</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../06-python-fundamentals/00-intro.html">6. Programming Fundamentals in Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../06-python-fundamentals/01-spyder.html">Python in Spyder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../06-python-fundamentals/02-jupyter-notebooks.html">Python in Jupyter Notebooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../06-python-fundamentals/03-ides.html">Making IDE Choices</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../06-python-fundamentals/04-your-first-program.html">Your First Program!</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/05-variables-assignment.html">Variables &amp; Assignment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/06-arithmetic-operators.html">Arithmetic Operators</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/07-concatenation.html">Concatenation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/08-input-output.html">Input/Output</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/09-converting-data-types.html">Converting Data Types</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../06-python-fundamentals/10-comparison-operators.html">Comparison Operators</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/11-advanced-comparison.html">More Advanced Comparisons</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../06-python-fundamentals/12-application.html">Application Questions</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../06-python-fundamentals/13-activities.html">Collaborative Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/14-python-activities.html">Python Activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/15-microbit-activities.html">Microbit Activities</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="00-intro.html">7. Data Structures in Python</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01-indexing.html">Indexing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02-strings.html">Strings</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="03-lists.html">Lists</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="04-other-linear-arrays.html">Other Linear Arrays</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="05-dictionaries.html">Dictionaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-putting-it-all-together.html">Putting It All Together</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07-application.html">Application</a></li>
+
+<li class="toctree-l2 current active has-children"><a class="reference internal" href="08-activities.html">Collaborative Activities</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l3 current active"><a class="current reference internal" href="#">Python Activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="10-microbit-activities.html">Microbit Activities</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../08-control-structures/00-intro.html">8. Control Structures in Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../08-control-structures/01-conditional-execution.html">Conditional Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../08-control-structures/02-iteration-loops.html">Iteration</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../08-control-structures/06-putting-it-all-together.html">Putting It All Together</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../08-control-structures/07-application.html">Application Questions</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../08-control-structures/08-activities.html">Collaborative Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../08-control-structures/09-python-activities.html">Python Activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../08-control-structures/10-microbit-activities.html">Microbit Activities</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../09-reuse-modularity/00-intro.html">9. Code Reuse &amp; Modularity</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../09-reuse-modularity/01-python-functions.html">Functions in Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../09-reuse-modularity/02-built-in-functions.html">Built-In Functions</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../09-reuse-modularity/03-named-functions.html">Named Functions</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="../09-reuse-modularity/04-how-named-functions-work.html">How Named Functions Work</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../09-reuse-modularity/05-python-example.html">Python Example A</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../09-reuse-modularity/06-python-example.html">Python Example B</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../09-reuse-modularity/07-python-example.html">Python Example C</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3"><a class="reference internal" href="../09-reuse-modularity/08-parameters-scoping.html">Parameters &amp; Scoping</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../09-reuse-modularity/09-functions-application.html">Function Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../09-reuse-modularity/10-putting-it-all-together.html">Putting It All Together</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../09-reuse-modularity/11-reuse-modularity.html">Code Reuse &amp; Modularity</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../09-reuse-modularity/12-application.html">Application Questions</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../10-structured-data/00-intro.html">10. Structured Data in Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../10-structured-data/01-file-io.html">File I/O</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/02-open.html">Opening Files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/03-access-modes.html">Access Modes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/04-python-examples.html">Python Examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/05-write.html">Writing Data to a File</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../10-structured-data/06-structured-data.html">Structured Data</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/07-delimited-data.html">Delimited Data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/08-csv-files.html">CSV Files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/09-json.html">JavaScript Object Notation</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../10-structured-data/10-pandas.html">Enter Pandas</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../10-structured-data/11-data-structures.html">Pandas Data Structures</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="../10-structured-data/12-series.html">Series</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../10-structured-data/13-data-frame.html">Data Frame</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/14-file-to-df.html">From Data File to DataFrame</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/15-interacting.html">Interacting With a Data Frame</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/16-writing-output.html">From Data Frame to Data File</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/17-pandas-application.html">Pandas Application Questions</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../10-structured-data/18-application-questions.html">Application Questions</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/kwaldenphd/code-in-context/blob/main/book/07-data-structures/09-python-activities.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/kwaldenphd/code-in-context" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/kwaldenphd/code-in-context/issues/new?title=Issue%20on%20page%20%2F07-data-structures/09-python-activities.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/07-data-structures/09-python-activities.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Python Activities</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mascot-guessing-game">Mascot Guessing Game</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#color-guessing-game">Color Guessing Game</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mad-lib-generator">Mad Lib Generator</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creative-text-generation">Creative Text Generation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dadaist-poem">Dadaist Poem</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#house-of-dust">House of Dust</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="python-activities">
+<h1>Python Activities<a class="headerlink" href="#python-activities" title="Link to this heading">#</a></h1>
+<p>The first group of collaborative activities give students opportunities to apply foundational Python concepts, using a madlib generator, a mascot guessing game, and color guessing game.</p>
+<section id="mascot-guessing-game">
+<h2>Mascot Guessing Game<a class="headerlink" href="#mascot-guessing-game" title="Link to this heading">#</a></h2>
+<p>Write a program that asks a user to input their current or former Notre Dame residence hall and returns or outputs that hall’s mascot. How might the data structures covered in this chapter be useful?</p>
+<div class="tip admonition">
+<p class="admonition-title">Residence Hall Mascots</p>
+<p>Fuzzy on your ND mascot trivia? <a class="reference external" href="https://en.wikipedia.org/wiki/University_of_Notre_Dame_residence_halls#List">Wikipedia</a> has you covered.</p>
+</div>
+<p>Sample output for this program:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Howard</span> <span class="n">Hall</span><span class="s1">&#39;s mascot is the ducks!</span>
+</pre></div>
+</div>
+<p><strong>Step #1: Start to develop a pseudocode outline for your program.</strong></p>
+<ul class="simple">
+<li><p>Start with a word problem, or a narrative description of the task</p>
+<ul>
+<li><p>What is the goal</p></li>
+<li><p>What are the parameters or constraints</p></li>
+<li><p>Any particular commands or syntax you’re asked to use</p></li>
+</ul>
+</li>
+<li><p>Start breaking down the tasks into steps, thinking about how programming languages (specifically Python) approach logic</p>
+<ul>
+<li><p>Input/output, variables, operators (arithmetic, comparison)</p></li>
+<li><p>What are the programming building blocks that connect to aspects of the task</p></li>
+<li><p>BUT still write things out in plain language (not programming syntax)</p></li>
+</ul>
+</li>
+<li><p>Continue breaking the task into steps</p>
+<ul>
+<li><p>The goal is one programming step (or statement) per line</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Step #2: Now we’re ready to start writing the Python program! Leverage the group roles to start translating your pseudocode outline into a Python program.</strong></p>
+<p><strong>Step #3: Continue to work on debugging and testing your program, switching up group roles as needed.</strong></p>
+<p><strong>Step #4: Spend a few minutes as a group discussing and reflecting on the experience. What challenges did your group encounter, and how did you solve them? Other comments or observations?</strong></p>
+</section>
+<section id="color-guessing-game">
+<h2>Color Guessing Game<a class="headerlink" href="#color-guessing-game" title="Link to this heading">#</a></h2>
+<p>Write a program that asks the user to enter a color value and returns an output message indicating whether the color is a primary, secondary, or tertiary color. How might the data structures covered in this chapter be useful?</p>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Hint</p>
+<p>Your group might also find it useful to think about comparison operators, if-then-else logic, and Boolean logical operators.</p>
+</div>
+<a class="reference internal image-reference" href="https://www.color-meanings.com/wp-content/uploads/color-wheel-primary-secondary-tertiary-colors.png"><img alt="Color wheel" class="align-center" src="https://www.color-meanings.com/wp-content/uploads/color-wheel-primary-secondary-tertiary-colors.png" style="width: 750px;" /></a>
+<p><strong>Step #1: Start to develop a pseudocode outline for your program.</strong></p>
+<ul class="simple">
+<li><p>Start with a word problem, or a narrative description of the task</p>
+<ul>
+<li><p>What is the goal</p></li>
+<li><p>What are the parameters or constraints</p></li>
+<li><p>Any particular commands or syntax you’re asked to use</p></li>
+</ul>
+</li>
+<li><p>Start breaking down the tasks into steps, thinking about how programming languages (specifically Python) approach logic</p>
+<ul>
+<li><p>Input/output, variables, operators (arithmetic, comparison)</p></li>
+<li><p>What are the programming building blocks that connect to aspects of the task</p></li>
+<li><p>BUT still write things out in plain language (not programming syntax)</p></li>
+</ul>
+</li>
+<li><p>Continue breaking the task into steps</p>
+<ul>
+<li><p>The goal is one programming step (or statement) per line</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Step #2: Now we’re ready to start writing the Python program! Leverage the group roles to start translating your pseudocode outline into a Python program.</strong></p>
+<p><strong>Step #3: Continue to work on debugging and testing your program, switching up group roles as needed.</strong></p>
+<p><strong>Step #4: Spend a few minutes as a group discussing and reflecting on the experience. What challenges did your group encounter, and how did you solve them? Other comments or observations?</strong></p>
+</section>
+<section id="mad-lib-generator">
+<h2>Mad Lib Generator<a class="headerlink" href="#mad-lib-generator" title="Link to this heading">#</a></h2>
+<p>Last week, folks had the chance to build their own mad lib. A mad lib is a word game that prompts you to supply words that are added to a template to generate a story. In a traditional analog mad lib, one person has the template, another person supplies the words, and hilarity ensues.</p>
+<p>We can return to that workflow, incorporating this chapter’s data structures. For example, instead of just making single word substitutions, we could have groups of terms and make random selections from the group.</p>
+<p>Let’s look at another version of our Byron example:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">random</span> <span class="c1"># import random module</span>
+
+<span class="n">terms</span> <span class="o">=</span> <span class="p">{</span>
+	<span class="s1">&#39;verbs&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;runs&#39;</span><span class="p">,</span> <span class="s1">&#39;crawls&#39;</span><span class="p">,</span> <span class="s1">&#39;begs&#39;</span><span class="p">,</span> <span class="s1">&#39;rides&#39;</span><span class="p">,</span> <span class="s1">&#39;sings&#39;</span><span class="p">],</span> <span class="c1"># list of verbs</span>
+	<span class="s1">&#39;prepositions&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;in&#39;</span><span class="p">,</span> <span class="s1">&#39;on&#39;</span><span class="p">,</span> <span class="s1">&#39;under&#39;</span><span class="p">,</span> <span class="s1">&#39;over&#39;</span><span class="p">,</span> <span class="s1">&#39;through&#39;</span><span class="p">],</span> <span class="c1"># list of prepositions</span>
+	<span class="s1">&#39;adjectives&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;small&#39;</span><span class="p">,</span> <span class="s1">&#39;warm&#39;</span><span class="p">,</span> <span class="s1">&#39;angry&#39;</span><span class="p">,</span> <span class="s1">&#39;happy&#39;</span><span class="p">],</span> <span class="c1"># list of adjectives</span>
+	<span class="s1">&#39;nouns&#39;</span> <span class="p">:</span> <span class="p">[</span><span class="s1">&#39;cloud&#39;</span><span class="p">,</span> <span class="s1">&#39;terrace&#39;</span><span class="p">,</span> <span class="s1">&#39;castle&#39;</span><span class="p">,</span> <span class="s1">&#39;woods&#39;</span><span class="p">]</span>
+	<span class="p">}</span>
+
+<span class="c1"># poem madlib</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;She &quot;</span> <span class="o">+</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">terms</span><span class="p">[</span><span class="s1">&#39;verbs&#39;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot; in beauty, like the &quot;</span> <span class="o">+</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">terms</span><span class="p">[</span><span class="s1">&#39;nouns&#39;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2"> Of &quot;</span> <span class="o">+</span>
+      <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">terms</span><span class="p">[</span><span class="s1">&#39;adjectives&#39;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">terms</span><span class="p">[</span><span class="s1">&#39;nouns&#39;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot; and &quot;</span> <span class="o">+</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">terms</span><span class="p">[</span><span class="s1">&#39;adjectives&#39;</span><span class="p">])</span> <span class="o">+</span> <span class="s2">&quot; &quot;</span> <span class="o">+</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">terms</span><span class="p">[</span><span class="s1">&#39;nouns&#39;</span><span class="p">]))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p><strong>Step #1: As a group, decide on the template for your mad lib.</strong></p>
+<ul class="simple">
+<li><p>Poetry is one option, and the <a class="reference external" href="https://www.poetryfoundation.org/">Poetry Foundation’s website</a> is a great starting point.</p></li>
+<li><p>If you want to experiment with a generative AI tool (i.e. ChatGPT), that’s also fair game to get a story template.</p></li>
+<li><p><a class="reference external" href="https://www.pinterest.com/deegrem/mad-libs/">Pinterest board with different mad lib story ideas</a></p></li>
+<li><p>Song lyrics can also be a good genre (even the <a class="reference external" href="https://fightingirish.com/trads-nd-fightsong-html/">Notre Dame Victory March</a>)</p></li>
+<li><p>But your group can also create your own!</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>While folks are welcome to write a mad lib that takes inputs from the user, you’re also welcome to focus on text generation in Python and create your own lists of terms to draw on.</p>
+</div>
+<p><strong>Step #2: Once you have a mad lib template, start to develop a pseudocode outline for your program</strong></p>
+<ul class="simple">
+<li><p>Start with a word problem, or a narrative description of the task</p>
+<ul>
+<li><p>What is the goal</p></li>
+<li><p>What are the parameters or constraints</p></li>
+<li><p>Any particular commands or syntax you’re asked to use</p></li>
+</ul>
+</li>
+<li><p>Start breaking down the tasks into steps, thinking about how programming languages (specifically Python) approach logic</p>
+<ul>
+<li><p>Input/output, variables, operators (arithmetic, comparison)</p></li>
+<li><p>What are the programming building blocks that connect to aspects of the task</p></li>
+<li><p>BUT still write things out in plain language (not programming syntax)</p></li>
+</ul>
+</li>
+<li><p>Continue breaking the task into steps</p>
+<ul>
+<li><p>The goal is one programming step (or statement) per line</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Step #3: Now we’re ready to start writing the Python program! Leverage the group roles to start translating your pseudocode outline into a Python program.</strong></p>
+<p><strong>Step #4: Continue to work on debugging and testing your program, switching up group roles as needed.</strong></p>
+<p><strong>Step #5: Spend a few minutes as a group discussing and reflecting on the experience. What challenges did your group encounter, and how did you solve them? Other comments or observations?</strong></p>
+</section>
+<section id="creative-text-generation">
+<h2>Creative Text Generation<a class="headerlink" href="#creative-text-generation" title="Link to this heading">#</a></h2>
+<p>Want to try a different form of creative text generation? Since the early days of computers, artists and writers have been thinking about how computers might facilitate different forms of text generation and creative expression.</p>
+<section id="dadaist-poem">
+<h3>Dadaist Poem<a class="headerlink" href="#dadaist-poem" title="Link to this heading">#</a></h3>
+<p>Avant-garde 20th century Poet Tristan Tzara developed a <a class="reference external" href="https://www.writing.upenn.edu/~afilreis/88v/tzara.html">framework for making a Dadaist poem</a> (circa 1920). We can implement a similar approach in Python using list methods. The program below is based on <a class="reference external" href="https://github.com/aparrish/rwet/blob/master/some-poetry-generators.ipynb">Allison Parrish’s implementation</a>, but you can modify the original text and output format to make your own creation!</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># based on: https://www.writing.upenn.edu/~afilreis/88v/tzara.html</span>
+
+<span class="kn">import</span> <span class="nn">random</span><span class="o">,</span> <span class="nn">textwrap</span> <span class="c1"># import Python modules</span>
+
+<span class="c1"># paragraph of  text</span>
+<span class="n">newspaper</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+<span class="s2">Dada was an informal international movement, with</span>
+<span class="s2">participants in Europe and North America. The</span>
+<span class="s2">beginnings of Dada correspond to the outbreak of</span>
+<span class="s2">World War I. For many participants, the movement</span>
+<span class="s2">was a protest against the bourgeois nationalist</span>
+<span class="s2">and colonialist interests, which many Dadaists</span>
+<span class="s2">believed were the root cause of the war, and</span>
+<span class="s2">against the cultural and intellectual</span>
+<span class="s2">conformity — in art and more broadly in</span>
+<span class="s2">society — that corresponded to the war.&quot;&quot;&quot;</span>
+
+<span class="n">words</span> <span class="o">=</span> <span class="n">newspaper</span><span class="o">.</span><span class="n">split</span><span class="p">()</span> <span class="c1"># split newspaper variable into list of words</span>
+<span class="n">random</span><span class="o">.</span><span class="n">shuffle</span><span class="p">(</span><span class="n">words</span><span class="p">)</span> <span class="c1"># shuffle list of words</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="n">textwrap</span><span class="o">.</span><span class="n">fill</span><span class="p">(</span><span class="s2">&quot; &quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">words</span><span class="p">),</span> <span class="mi">60</span><span class="p">))</span> <span class="c1"># recreate paragraph from shuffled list</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="house-of-dust">
+<h3>House of Dust<a class="headerlink" href="#house-of-dust" title="Link to this heading">#</a></h3>
+<p>Alison Knowles and James Tenney were American artists associated with the Fluxus in the mid-20th century. Their 1967 poem “<a class="reference external" href="https://www.newyorker.com/goings-on-about-town/art/the-house-of-dust-by-alison-knowles">A House of Dust</a>”, originally written in FORTRAN, was one of the first computational poems. Folks can <a class="reference external" href="https://youtu.be/-68Z708lFsY?si=oMk6t1x3dBMovojO">watch a video</a> of Knowles reciting the poem!</p>
+<p>The program below is a Python implementation of the original FORTRAN program, based on <a class="reference external" href="https://github.com/aparrish/rwet/blob/master/some-poetry-generators.ipynb">Allison Parrish’s</a> and <a class="reference external" href="https://nickm.com/memslam/the_house_of_dust.html">Nick Montfort’s</a> work. But you can modify the original text and output format to make your own creation!</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># based on: https://github.com/aparrish/rwet/blob/master/some-poetry-generators.ipynb &amp; https://nickm.com/memslam/the_house_of_dust.html</span>
+
+<span class="kn">import</span> <span class="nn">random</span> <span class="c1"># import random</span>
+
+<span class="n">materials</span> <span class="o">=</span> <span class="p">[</span> <span class="c1"># list of materials</span>
+    <span class="s1">&#39;brick&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;broken dishes&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;discarded clothing&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;dust&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;glass&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;leaves&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;mud&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;paper&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;plastic&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;roots&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;sand&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;steel&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;stone&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;straw&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;tin&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;weeds&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;wood&#39;</span>
+<span class="p">]</span>
+
+
+
+<span class="n">locations</span> <span class="o">=</span> <span class="p">[</span> <span class="c1"># list of locations</span>
+    <span class="s1">&#39;among high mountains&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;among other houses&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;among small hills&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;by a river&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;by an abandoned lake&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;by the sea&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in a cold, windy climate&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in a deserted airport&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in a deserted church&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in a deserted factory&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in a green, mossy terrain&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in a hot climate&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in a metropolis&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in a place with both heavy rain and bright sun&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in an overpopulated area&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in dense woods&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in heavy jungle undergrowth&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in japan&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in michigan&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;in southern france&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;inside a mountain&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;on an island&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;on the sea&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;underwater&#39;</span>
+<span class="p">]</span>
+
+
+
+<span class="n">lights</span> <span class="o">=</span> <span class="p">[</span> <span class="c1"># list of lighting options</span>
+    <span class="s1">&#39;all available lighting&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;candles&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;electricity&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;natural light&#39;</span>
+<span class="p">]</span>
+
+
+
+<span class="n">inhabitants</span> <span class="o">=</span> <span class="p">[</span> <span class="c1"># list of inhabitant options</span>
+    <span class="s1">&#39;all races of men represented wearing predominantly red clothing&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;children and old people&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;collectors of all types&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;fishermen and families&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;french and german speaking people&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;friends&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;friends and enemies&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;horses and birds&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;little boys&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;lovers&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;people from many walks of life&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;people speaking many languages wearing little or no clothing&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;people who eat a great deal&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;people who enjoy eating together&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;people who love to read&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;people who sleep almost all the time&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;people who sleep very little&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;various birds and fish&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;vegetarians&#39;</span><span class="p">,</span>
+    <span class="s1">&#39;very tall people&#39;</span>
+<span class="p">]</span>
+
+<span class="n">stanza_count</span> <span class="o">=</span> <span class="mi">7</span> <span class="c1"># number of stanzas for the poem</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">stanza_count</span><span class="p">):</span> <span class="c1"># create number of stanzas</span>
+    <span class="nb">print</span><span class="p">()</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;A house of &quot;</span> <span class="o">+</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">materials</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;     &quot;</span> <span class="o">+</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">locations</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;          using &quot;</span> <span class="o">+</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">lights</span><span class="p">))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;                inhabited by &quot;</span> <span class="o">+</span> <span class="n">random</span><span class="o">.</span><span class="n">choice</span><span class="p">(</span><span class="n">inhabitants</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./07-data-structures"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="08-activities.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Activities</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="10-microbit-activities.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Microbit Activities</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mascot-guessing-game">Mascot Guessing Game</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#color-guessing-game">Color Guessing Game</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mad-lib-generator">Mad Lib Generator</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creative-text-generation">Creative Text Generation</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dadaist-poem">Dadaist Poem</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#house-of-dust">House of Dust</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By <a href="https://americanstudies.nd.edu/faculty/katherine-walden/">Dr. Katherine Walden</a>
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
+<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="license" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> This book is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 License</a>.
+</p>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

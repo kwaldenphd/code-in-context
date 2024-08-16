@@ -1,0 +1,1173 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Lists &#8212; Code in Context, Computing &amp; the Liberal Arts</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../_static/documentation_options.js?v=9eb32ce0"></script>
+    <script src="../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/clipboard.min.js?v=a7894cd8"></script>
+    <script src="../_static/copybutton.js?v=f281be69"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?v=887ef09a"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js?v=f930bc37"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-VWMRSQ9VGT"></script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-VWMRSQ9VGT');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){ dataLayer.push(arguments); }
+                gtag('js', new Date());
+                gtag('config', 'G-VWMRSQ9VGT');
+            </script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '07-data-structures/03-lists';</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="canonical" href="https://kwaldenphd/github.io/code-in-context/07-data-structures/03-lists.html" />
+    <link rel="icon" href="../_static/favicon.png"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Other Linear Array Structures in Python" href="04-other-linear-arrays.html" />
+    <link rel="prev" title="Strings" href="02-strings.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/favicon.png" class="logo__image only-light" alt="Code in Context, Computing & the Liberal Arts - Home"/>
+    <script>document.write(`<img src="../_static/favicon.png" class="logo__image only-dark" alt="Code in Context, Computing & the Liberal Arts - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../how-to.html">How to Interact With This Book</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../00-background/00-overview.html">Course Overview</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/01-background.html">Background</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/02-schedule.html">Schedule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/03-assessments.html">Assignments &amp; Assessments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/04-grading.html">How Grading Works in This Course</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../00-background/05-preparation.html">Preparing for Class</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../01-binary-encoding/00-intro.html">1. Binary Number Systems &amp; Encoding Schema</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/01-digital-objects.html">Physical, Logical &amp; Conceptual Objects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/02-binary-number-systems.html">Binary Number Systems</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/03-encoding-schema.html">Encoding Schema</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/04-representing-other-info.html">Representing Other Information</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/05-file-formats.html">File Formats</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/06-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01-binary-encoding/07-activities.html">Collaborative Activities</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../02-computer-architecture/00-intro.html">2. Computer Hardware &amp; Architecture</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../02-computer-architecture/01-von-neumann.html">Von Neumann Architecture</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-computer-architecture/02-alu-memory.html">ALU &amp; Memory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-computer-architecture/03-cpu-fetch-execute.html">CPU &amp; the Fetch-Execute Cycle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-computer-architecture/04-assembly-language.html">Assembly Language</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-computer-architecture/05-putting-it-all-together.html">Putting It All Together</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02-computer-architecture/06-application.html">Application Questions</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../02-computer-architecture/07-scenarios.html">Scenarios</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../02-computer-architecture/08-alu-memory-scenario.html">Scenario #1: ALU &amp; Memory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../02-computer-architecture/09-alu-memory-scenario.html">Scenario #2: ALU &amp; Memory</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../02-computer-architecture/10-fetch-execute-scenario.html">Scenario #3: Assembly Language, the CPU &amp; the Fetch-Execute Cycle</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../03-systems-interfaces/00-intro.html">3. Operating Systems &amp; Interfaces</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/01-operating-systems.html">Operating Systems</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../03-systems-interfaces/02-cli-overview.html">Introduction to the Command Line Interface</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/03-cli-intro.html">Getting Started at the Command Line</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/04-shell-tutorial.html">Tutorial: Opening Your Shell</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/05-wayfinding-tutorial.html">Tutorial: Terminal Wayfinding</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/06-terminal-commands-tutorial.html">Tutorial: Working in Your Terminal</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../03-systems-interfaces/07-cli-application.html">Command Line Application Questions</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/08-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03-systems-interfaces/09-activities.html">Collaborative Activities</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../04-computer-networks/00-intro.html">4. Computer Networks &amp; the Internet</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../04-computer-networks/01-computer-networks.html">Computer Networks</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../04-computer-networks/02-internet.html">The Internet</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../04-computer-networks/03-additional-resources.html">Additional Resources</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../04-computer-networks/04-application-questions.html">Application Questions</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../04-computer-networks/05-activities.html">Collaborative Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../04-computer-networks/06-packet-switching.html">Packet Switching Network Relay</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../04-computer-networks/07-dns-roleplay.html">I Think Therefore ICANN (A Roleplaying Game About Domain Names)</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../05-world-wide-web/00-intro.html">5. The World Wide Web</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../05-world-wide-web/01-world-wide-web.html">What is the World Wide Web?</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../05-world-wide-web/02-tutorial.html">HTML &amp; CSS Tutorials</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/03-first-page.html">Your first webpage!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/04-valid-html.html">Well-Formed HTML</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/05-second-page.html">Your second webpage!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/06-adding-content.html">Adding Content</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/07-adding-pages.html">Adding Pages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/08-linking-pages.html">Linking Pages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/09-images.html">Images</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/10-tables.html">Tables</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/11-style-formatting.html">Style &amp; Formatting</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/12-css.html">Cascading Style Sheets</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../05-world-wide-web/13-application.html">Application Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../05-world-wide-web/14-additional-resources.html">Additional Resources</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../05-world-wide-web/15-activities.html">Collaborative Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/16-web-search.html">Web Search Activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../05-world-wide-web/17-hypertext.html">Hypertext Activities</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../06-python-fundamentals/00-intro.html">6. Programming Fundamentals in Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../06-python-fundamentals/01-spyder.html">Python in Spyder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../06-python-fundamentals/02-jupyter-notebooks.html">Python in Jupyter Notebooks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../06-python-fundamentals/03-ides.html">Making IDE Choices</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../06-python-fundamentals/04-your-first-program.html">Your First Program!</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/05-variables-assignment.html">Variables &amp; Assignment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/06-arithmetic-operators.html">Arithmetic Operators</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/07-concatenation.html">Concatenation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/08-input-output.html">Input/Output</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/09-converting-data-types.html">Converting Data Types</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../06-python-fundamentals/10-comparison-operators.html">Comparison Operators</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/11-advanced-comparison.html">More Advanced Comparisons</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../06-python-fundamentals/12-application.html">Application Questions</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../06-python-fundamentals/13-activities.html">Collaborative Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/14-python-activities.html">Python Activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../06-python-fundamentals/15-microbit-activities.html">Microbit Activities</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="00-intro.html">7. Data Structures in Python</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="01-indexing.html">Indexing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="02-strings.html">Strings</a></li>
+<li class="toctree-l2 current active has-children"><a class="current reference internal" href="#">Lists</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="04-other-linear-arrays.html">Other Linear Arrays</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="05-dictionaries.html">Dictionaries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="06-putting-it-all-together.html">Putting It All Together</a></li>
+<li class="toctree-l2"><a class="reference internal" href="07-application.html">Application</a></li>
+
+<li class="toctree-l2 has-children"><a class="reference internal" href="08-activities.html">Collaborative Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="09-python-activities.html">Python Activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="10-microbit-activities.html">Microbit Activities</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../08-control-structures/00-intro.html">8. Control Structures in Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../08-control-structures/01-conditional-execution.html">Conditional Execution</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../08-control-structures/02-iteration-loops.html">Iteration</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../08-control-structures/06-putting-it-all-together.html">Putting It All Together</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../08-control-structures/07-application.html">Application Questions</a></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../08-control-structures/08-activities.html">Collaborative Activities</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../08-control-structures/09-python-activities.html">Python Activities</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../08-control-structures/10-microbit-activities.html">Microbit Activities</a></li>
+</ul>
+</details></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../09-reuse-modularity/00-intro.html">9. Code Reuse &amp; Modularity</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../09-reuse-modularity/01-python-functions.html">Functions in Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../09-reuse-modularity/02-built-in-functions.html">Built-In Functions</a></li>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../09-reuse-modularity/03-named-functions.html">Named Functions</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="../09-reuse-modularity/04-how-named-functions-work.html">How Named Functions Work</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../09-reuse-modularity/05-python-example.html">Python Example A</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../09-reuse-modularity/06-python-example.html">Python Example B</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../09-reuse-modularity/07-python-example.html">Python Example C</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3"><a class="reference internal" href="../09-reuse-modularity/08-parameters-scoping.html">Parameters &amp; Scoping</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../09-reuse-modularity/09-functions-application.html">Function Application</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../09-reuse-modularity/10-putting-it-all-together.html">Putting It All Together</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../09-reuse-modularity/11-reuse-modularity.html">Code Reuse &amp; Modularity</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../09-reuse-modularity/12-application.html">Application Questions</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../10-structured-data/00-intro.html">10. Structured Data in Python</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../10-structured-data/01-file-io.html">File I/O</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/02-open.html">Opening Files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/03-access-modes.html">Access Modes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/04-python-examples.html">Python Examples</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/05-write.html">Writing Data to a File</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../10-structured-data/06-structured-data.html">Structured Data</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/07-delimited-data.html">Delimited Data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/08-csv-files.html">CSV Files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/09-json.html">JavaScript Object Notation</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2 has-children"><a class="reference internal" href="../10-structured-data/10-pandas.html">Enter Pandas</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l3 has-children"><a class="reference internal" href="../10-structured-data/11-data-structures.html">Pandas Data Structures</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l4"><a class="reference internal" href="../10-structured-data/12-series.html">Series</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../10-structured-data/13-data-frame.html">Data Frame</a></li>
+</ul>
+</details></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/14-file-to-df.html">From Data File to DataFrame</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/15-interacting.html">Interacting With a Data Frame</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/16-writing-output.html">From Data Frame to Data File</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../10-structured-data/17-pandas-application.html">Pandas Application Questions</a></li>
+</ul>
+</details></li>
+<li class="toctree-l2"><a class="reference internal" href="../10-structured-data/18-application-questions.html">Application Questions</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/kwaldenphd/code-in-context/blob/main/book/07-data-structures/03-lists.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/kwaldenphd/code-in-context" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/kwaldenphd/code-in-context/issues/new?title=Issue%20on%20page%20%2F07-data-structures/03-lists.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/07-data-structures/03-lists.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Lists</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#list-basics">List basics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-list-methods">Additional List Methods</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#modifying-values">Modifying Values</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-values">Adding Values</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#removing-values">Removing Values</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#slicing">Slicing</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#testing-for-membership">Testing for Membership</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#searching-sorting">Searching &amp; Sorting</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#sorting">Sorting</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary-statistics">Summary Statistics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#list-syntax-digest">List Syntax Digest</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check">Comprehension Check</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application-questions">Application Questions</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="lists">
+<h1>Lists<a class="headerlink" href="#lists" title="Link to this heading">#</a></h1>
+<p align="center"><img src="https://github.com/kwaldenphd/python-data-structures/blob/main/images/One_Dimensional_Array.jpg?raw=true" width="500"></p>
+<p>“In computer science, an array is a data structure consisting of a collection of elements (values or variables), each identified by at least one array index or key…The simplest type of data structure is a linear array, also called one-dimensional array” (<a class="reference external" href="https://en.wikipedia.org/wiki/Array_(data_structure)">Wikipedia, “Array (data structure)</a>”)</p>
+<p>We can think of arrays as one-dimensional, linear data structures made up of a collection of items. As the definitions note, we can access specific elements in the array by using an index or key value. In Python, an list is a single-dimension array.</p>
+<section id="list-basics">
+<h2>List basics<a class="headerlink" href="#list-basics" title="Link to this heading">#</a></h2>
+<p>We can create lists using square brackets <code class="docutils literal notranslate"><span class="pre">[]</span></code> or the <code class="docutils literal notranslate"><span class="pre">list()</span></code> function.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># creating a list of numbers using square brackets</span>
+<span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+
+<span class="c1"># checking data type</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>We can determine the number of elements in the list using the <code class="docutils literal notranslate"><span class="pre">len()</span></code> function.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">len</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Another example, this time with a list of strings.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># creating a list of strings using the list function</span>
+<span class="n">words</span> <span class="o">=</span> <span class="nb">list</span><span class="p">((</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span> <span class="s2">&quot;banana&quot;</span><span class="p">,</span> <span class="s2">&quot;blueberry&quot;</span><span class="p">,</span> <span class="s2">&quot;cherry&quot;</span><span class="p">))</span> <span class="c1"># note the double round bracket syntax</span>
+
+<span class="c1"># check data type</span>
+<span class="nb">type</span><span class="p">(</span><span class="n">words</span><span class="p">)</span>
+
+<span class="c1"># determine number of elements in list</span>
+<span class="nb">len</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Python lists also support negative indexing- we can use negative index values to count right-to-left.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Negative indexing starts counting at <code class="docutils literal notranslate"><span class="pre">-1</span></code></p>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># access last value</span>
+<span class="n">fruits</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+
+<span class="c1"># access next to last value</span>
+<span class="n">fruits</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>We can also use the <code class="docutils literal notranslate"><span class="pre">.index()</span></code> method to output the position for specific values (if they are present in the structure).</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># return index for cherry</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The index for cherry is &quot;</span><span class="p">,</span> <span class="n">fruits</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s2">&quot;cherry&quot;</span><span class="p">))</span>
+
+<span class="c1"># return index for pear</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The index for pear is &quot;</span><span class="p">,</span> <span class="n">fruits</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s2">&quot;pear&quot;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>The last line of the program returns an <code class="docutils literal notranslate"><span class="pre">IndexError</span></code> message because <code class="docutils literal notranslate"><span class="pre">pear</span></code> is not a value in the list.</p>
+</section>
+<section id="additional-list-methods">
+<h2>Additional List Methods<a class="headerlink" href="#additional-list-methods" title="Link to this heading">#</a></h2>
+<p>Python includes a number of built-in methods we can use to interact with lists. Brief explanations and examples are provided in each section.</p>
+<section id="modifying-values">
+<h3>Modifying Values<a class="headerlink" href="#modifying-values" title="Link to this heading">#</a></h3>
+<p>Unlike strings, lists in Python are mutable, meaning they can be modified after they have been created. We can use the index and assignment operators (<code class="docutils literal notranslate"><span class="pre">[]</span></code> and <code class="docutils literal notranslate"><span class="pre">=</span></code>) to modify specific values.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># list of string objects</span>
+<span class="n">fruits</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;apple&quot;</span><span class="p">,</span> <span class="s2">&quot;banana&quot;</span><span class="p">,</span> <span class="s2">&quot;blueberry&quot;</span><span class="p">,</span> <span class="s2">&quot;cherry&quot;</span><span class="p">]</span>
+
+<span class="c1"># modify second value</span>
+<span class="n">fruits</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;peach&quot;</span>
+
+<span class="c1"># show new list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">fruits</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="adding-values">
+<h3>Adding Values<a class="headerlink" href="#adding-values" title="Link to this heading">#</a></h3>
+<p>We can add values to a list using <code class="docutils literal notranslate"><span class="pre">.append()</span></code>, <code class="docutils literal notranslate"><span class="pre">.insert()</span></code>, or <code class="docutils literal notranslate"><span class="pre">.extend()</span></code>.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">.append()</span></code> adds or appends a value to the end of a list</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.insert()</span></code> adds or inserts a value at a specific position</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.extend()</span></code> extends a list by adding specific elements to the end of the current list</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># create list of numbers</span>
+<span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">]</span>
+
+<span class="c1"># add value to end of list using append</span>
+<span class="n">numbers</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">13</span><span class="p">)</span>
+
+<span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+
+<span class="c1"># insert value at specific position</span>
+<span class="n">numbers</span><span class="o">.</span><span class="n">insert</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="mi">11</span><span class="p">)</span>
+
+<span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+
+<span class="c1"># create second list of number values</span>
+<span class="n">num2</span> <span class="o">=</span> <span class="p">[</span><span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">,</span> <span class="mi">19</span><span class="p">]</span>
+
+<span class="c1"># add num2 to numbers using extend</span>
+<span class="n">numbers</span><span class="o">.</span><span class="n">extend</span><span class="p">(</span><span class="n">num2</span><span class="p">)</span>
+
+<span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For lists with string objects, <code class="docutils literal notranslate"><span class="pre">.extend()</span></code> works similarly to concatenation.</p>
+</div>
+</section>
+<section id="removing-values">
+<h3>Removing Values<a class="headerlink" href="#removing-values" title="Link to this heading">#</a></h3>
+<p>We can remove values from a list using <code class="docutils literal notranslate"><span class="pre">.remove()</span></code>, <code class="docutils literal notranslate"><span class="pre">.pop()</span></code>, or <code class="docutils literal notranslate"><span class="pre">del</span></code>.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">.remove()</span></code> removes the first matching element from a list</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.pop()</span></code> removes an item at a specific position; if no index is supplied, last element is removed</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">del</span></code> removes or deletes the value at a specific position</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+
+<span class="c1"># remove 19 using remove</span>
+<span class="n">numbers</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="mi">19</span><span class="p">)</span>
+
+<span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+
+<span class="c1"># remove 17 using pop</span>
+<span class="n">numbers</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+
+<span class="c1"># remove 15 using del</span>
+<span class="k">del</span> <span class="n">numbers</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span>
+
+<span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">numbers</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="slicing">
+<h3>Slicing<a class="headerlink" href="#slicing" title="Link to this heading">#</a></h3>
+<p align="center"><img src="https://github.com/kwaldenphd/python-data-structures/blob/main/images/Python_List_Slicing.png?raw=true" width="500"></p>
+<p>We can also modify a list using a technique called <strong>list slicing</strong>, selecting multiple values in the list using their position.</p>
+<p>In Python, we use a combination of index operators <code class="docutils literal notranslate"><span class="pre">[]</span></code> and index values for list slicing.</p>
+<div class="note dropdown admonition">
+<p class="admonition-title">Additional Resources</p>
+<p>For more on list slicing in PythoN:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.geeksforgeeks.org/python-list-slicing/">Geeks for Geeks, “Python List Slicing”</a></p></li>
+</ul>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># list of strings</span>
+<span class="n">dorms</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;alumni&quot;</span><span class="p">,</span> <span class="s2">&quot;badin&quot;</span><span class="p">,</span> <span class="s2">&quot;baumer&quot;</span><span class="p">,</span> <span class="s2">&quot;breen-phillips&quot;</span><span class="p">,</span> <span class="s2">&quot;carroll&quot;</span><span class="p">,</span> <span class="s2">&quot;cavanaugh&quot;</span><span class="p">,</span> <span class="s2">&quot;dillon&quot;</span><span class="p">,</span> <span class="s2">&quot;duncan&quot;</span><span class="p">,</span> <span class="s2">&quot;dunne&quot;</span><span class="p">,</span> <span class="s2">&quot;farley&quot;</span><span class="p">,</span> <span class="s2">&quot;fisher&quot;</span><span class="p">,</span> <span class="s2">&quot;flaherty&quot;</span><span class="p">,</span> <span class="s2">&quot;howard&quot;</span><span class="p">,</span> <span class="s2">&quot;johnson&quot;</span><span class="p">,</span> <span class="s2">&quot;keenan&quot;</span><span class="p">,</span> <span class="s2">&quot;keough&quot;</span><span class="p">,</span> <span class="s2">&quot;knott&quot;</span><span class="p">,</span> <span class="s2">&quot;lewis&quot;</span><span class="p">,</span> <span class="s2">&quot;lyons&quot;</span><span class="p">,</span> <span class="s2">&quot;mcglinn&quot;</span><span class="p">,</span> <span class="s2">&quot;morrissey&quot;</span><span class="p">,</span> <span class="s2">&quot;oneill&quot;</span><span class="p">,</span> <span class="s2">&quot;pangborn&quot;</span><span class="p">,</span> <span class="s2">&quot;pasquerilla east&quot;</span><span class="p">,</span> <span class="s2">&quot;pasquerilla west&quot;</span><span class="p">,</span> <span class="s2">&quot;ryan&quot;</span><span class="p">,</span> <span class="s2">&quot;st. edward&#39;s&quot;</span><span class="p">,</span> <span class="s2">&quot;sigfried&quot;</span><span class="p">,</span> <span class="s2">&quot;sorin&quot;</span><span class="p">,</span> <span class="s2">&quot;stanford&quot;</span><span class="p">,</span> <span class="s2">&quot;walsh&quot;</span><span class="p">,</span> <span class="s2">&quot;welsh&quot;</span><span class="p">,</span> <span class="s2">&quot;zahm&quot;</span><span class="p">]</span>
+
+<span class="c1"># use list slicing to show first 3 strings</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dorms</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">3</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="testing-for-membership">
+<h3>Testing for Membership<a class="headerlink" href="#testing-for-membership" title="Link to this heading">#</a></h3>
+<p>We can also test for membership using the <code class="docutils literal notranslate"><span class="pre">in</span></code> and <code class="docutils literal notranslate"><span class="pre">not</span> <span class="pre">in</span></code> operators.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># tests if welsh is in dorms list</span>
+<span class="s2">&quot;welsh&quot;</span> <span class="ow">in</span> <span class="n">dorms</span> <span class="c1"># returns True</span>
+
+<span class="c1"># tests if sophomore is not in dorms list</span>
+<span class="s2">&quot;sophomore&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">dorms</span> <span class="c1"># returns True</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># show list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dorms</span><span class="p">)</span>
+
+<span class="c1"># show nubmer of times howard appears in list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dorms</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="s2">&quot;howard&quot;</span><span class="p">))</span>
+
+<span class="c1"># show index position for lewis</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dorms</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s2">&quot;lewis&quot;</span><span class="p">))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="searching-sorting">
+<h3>Searching &amp; Sorting<a class="headerlink" href="#searching-sorting" title="Link to this heading">#</a></h3>
+<p>We can search for values in a list using <code class="docutils literal notranslate"><span class="pre">.count()</span></code> or <code class="docutils literal notranslate"><span class="pre">.index()</span></code>.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">.count()</span></code> returns the number of times a value appears in the list</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.index()</span></code> returns the specific position for a list item</p></li>
+</ul>
+<section id="sorting">
+<h4>Sorting<a class="headerlink" href="#sorting" title="Link to this heading">#</a></h4>
+<p>We can sort the values in the list using <code class="docutils literal notranslate"><span class="pre">.sort()</span></code>, <code class="docutils literal notranslate"><span class="pre">sorted()</span></code>, and <code class="docutils literal notranslate"><span class="pre">.reverse()</span></code>.</p>
+<p>A few notes on sorting lists in Python.</p>
+<ul class="simple">
+<li><p>Ascending order in Python is <code class="docutils literal notranslate"><span class="pre">[0,</span> <span class="pre">1,</span> <span class="pre">2,</span> <span class="pre">3..]</span></code> and <code class="docutils literal notranslate"><span class="pre">[a,</span> <span class="pre">b,</span> <span class="pre">c,</span> <span class="pre">d..]</span></code></p></li>
+<li><p>Sorting a list <strong>in-place</strong> changes the underlying order of items in a list</p></li>
+<li><p>Generating a sorted version of a list <strong>does not</strong> change the underlying item order</p></li>
+</ul>
+<p>So how do the sorting functions work in Python?</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">.sort()</span></code> does not have any output- it sorts the list in place; we can set the <code class="docutils literal notranslate"><span class="pre">reverse</span></code> parameter to <code class="docutils literal notranslate"><span class="pre">True</span></code> to sort in descending order</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.sorted()</span></code> returns a sorted version of the list</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.reverse()</span></code> does not have any output- it reverse sorts the list in place</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># show list of dorms</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dorms</span><span class="p">)</span>
+
+<span class="c1"># generate sorted version using sorted</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">sorted</span><span class="p">(</span><span class="n">dorms</span><span class="p">))</span>
+
+<span class="c1"># change underlying order using a reverse sort</span>
+<span class="n">dorms</span><span class="o">.</span><span class="n">sort</span><span class="p">(</span><span class="n">reverse</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span> <span class="c1"># remember sort does not have an output</span>
+
+<span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dorms</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Another workflow for sorting list values in descending order:</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># sort list alphabetically</span>
+<span class="n">dorms</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+
+<span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dorms</span><span class="p">)</span>
+
+<span class="c1"># reverse sort using reverse</span>
+<span class="n">dorms</span><span class="o">.</span><span class="n">reverse</span><span class="p">()</span>
+
+<span class="c1"># show updated list</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dorms</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="summary-statistics">
+<h3>Summary Statistics<a class="headerlink" href="#summary-statistics" title="Link to this heading">#</a></h3>
+<p>Python includes a few built-in fucntion that calculate summary statistics for lists with numeric values.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">.max()</span></code> identifies the highest value in the list</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.min()</span></code> identifies the lowest value in the list</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.sum()</span></code> calculates the sum for all values in the list</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># create list of numbers</span>
+<span class="n">numbers</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">9</span><span class="p">,</span> <span class="mi">11</span><span class="p">,</span> <span class="mi">13</span><span class="p">,</span> <span class="mi">15</span><span class="p">,</span> <span class="mi">17</span><span class="p">]</span>
+
+<span class="c1"># highest value</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The highest value in this list is &quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">numbers</span><span class="p">)))</span>
+
+<span class="c1"># lowest value</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The lowest value in this is list &quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span><span class="n">numbers</span><span class="p">)))</span>
+
+<span class="c1"># sum</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;The sum of the values in this list is &quot;</span><span class="p">,</span> <span class="nb">str</span><span class="p">(</span><span class="nb">sum</span><span class="p">(</span><span class="n">numbers</span><span class="p">)))</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="list-syntax-digest">
+<h2>List Syntax Digest<a class="headerlink" href="#list-syntax-digest" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>Creating a list: <code class="docutils literal notranslate"><span class="pre">[]</span></code> or <code class="docutils literal notranslate"><span class="pre">list()</span></code></p></li>
+<li><p>Checking length of list: <code class="docutils literal notranslate"><span class="pre">len()</span></code></p></li>
+<li><p>Accessing values using index: <code class="docutils literal notranslate"><span class="pre">fruits[0]</span></code>, <code class="docutils literal notranslate"><span class="pre">fruits.index(&quot;cherry&quot;)</span></code></p></li>
+<li><p>Testing for membership: <code class="docutils literal notranslate"><span class="pre">in</span></code> or <code class="docutils literal notranslate"><span class="pre">not</span> <span class="pre">in</span></code></p></li>
+<li><p>Modifying an existing list value: <code class="docutils literal notranslate"><span class="pre">fruits[1]</span> <span class="pre">=</span> <span class="pre">&quot;new</span> <span class="pre">value&quot;</span></code></p></li>
+<li><p>Appending a value to a list: <code class="docutils literal notranslate"><span class="pre">numbers.append(13)</span></code></p></li>
+<li><p>Inserting a value in a specific position: <code class="docutils literal notranslate"><span class="pre">numbers.insert(4,</span> <span class="pre">11)</span></code></p></li>
+<li><p>Extending a list (to include additional values): <code class="docutils literal notranslate"><span class="pre">numbers.extend(num2)</span></code></p></li>
+<li><p>Removing values from a list: <code class="docutils literal notranslate"><span class="pre">numbers.remove(19)</span></code>, <code class="docutils literal notranslate"><span class="pre">numbers.pop(-1)</span></code>, <code class="docutils literal notranslate"><span class="pre">del</span> <span class="pre">numbers[7]</span></code></p></li>
+<li><p>Slicing a list: <code class="docutils literal notranslate"><span class="pre">dorms[0:3]</span></code></p></li>
+<li><p>Searching for values: <code class="docutils literal notranslate"><span class="pre">.count()</span></code>, <code class="docutils literal notranslate"><span class="pre">.index()</span></code></p></li>
+<li><p>Sorting: <code class="docutils literal notranslate"><span class="pre">.sort()</span></code>, <code class="docutils literal notranslate"><span class="pre">.sorted()</span></code>, <code class="docutils literal notranslate"><span class="pre">.reverse()</span></code></p></li>
+<li><p>Summary statistics: <code class="docutils literal notranslate"><span class="pre">.max()</span></code>, <code class="docutils literal notranslate"><span class="pre">.min()</span></code>, <code class="docutils literal notranslate"><span class="pre">.sum()</span></code></p></li>
+</ul>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Additional Resources</p>
+<p>More on arrays/lists (general):</p>
+<ul class="simple">
+<li><p>Kenneth Leroy Busbee and Dave Braunschweig, “<a class="reference external" href="https://press.rebus.community/programmingfundamentals/chapter/arrays-and-lists/">Arrays and Lists</a>” in <em>Programming Fundamentals</em></p></li>
+</ul>
+<p>More on lists in Python:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.w3schools.com/python/python_lists.asp">W3Schools, Python Lists</a></p></li>
+<li><p><a class="reference external" href="https://www.w3schools.com/python/python_lists_methods.asp">W3Schools, Python List Methods</a></p></li>
+<li><p>Allen Downey, Chapter 10 “Lists” in <em><a class="reference external" href="https://www.oreilly.com/library/view/think-python-2nd/9781491939406/">Think Python: How To Think Like a Computer Scientist</a></em> (O’Reilly, 2016): 107-124.</p></li>
+</ul>
+</div>
+</section>
+<section id="comprehension-check">
+<h2>Comprehension Check<a class="headerlink" href="#comprehension-check" title="Link to this heading">#</a></h2>
+<table>
+ <tr><td>
+<img src="https://github.com/kwaldenphd/internet/blob/main/images/clipboard.png?raw=true" alt="Clipboard icon" width="50"/></td>
+  <td><a href="https://docs.google.com/forms/d/e/1FAIpQLSdJ6e9GsPUCYx3EVw-n9ajIGUo0zAJOEGolkfgNg4aVT0Ix8A/viewform?usp=sf_link">Lists in Python Comprehension Check</a></td>
+  </tr>
+  </table></section>
+<section id="application-questions">
+<h2>Application Questions<a class="headerlink" href="#application-questions" title="Link to this heading">#</a></h2>
+<p>Q4: Write a program that creates a list of numbers. Use the arguments and syntax presented in this section of the chapter to include code in your program that answers the following questions:</p>
+<ul class="simple">
+<li><p>What is the length of your list?</p></li>
+<li><p>What is the number position for each of the items in your list?</p></li>
+<li><p>How would you return the value of the first item?</p></li>
+<li><p>How would you return the value of the last item?</p></li>
+</ul>
+<p>Answer to this question includes program + comments that document process and explain your code.</p>
+<p>Q5: Modify your Q4 program (working with the same list), using arguments and syntax covered in this section of the chapter to accomplish the following tasks:</p>
+<ul class="simple">
+<li><p>Add a new item to your list</p></li>
+<li><p>Delete an item from your list</p></li>
+<li><p>Sort your list in-place</p></li>
+<li><p>Generate a sorted version of your list</p></li>
+<li><p>Reverse your list in-place</p></li>
+<li><p>Determine the min and max values for your list</p></li>
+</ul>
+<p>Answer to this question includes program + comments that document process and explain your code.</p>
+</section>
+<div class="toctree-wrapper compound">
+</div>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./07-data-structures"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="02-strings.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Strings</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="04-other-linear-arrays.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Other Linear Array Structures in Python</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#list-basics">List basics</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-list-methods">Additional List Methods</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#modifying-values">Modifying Values</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adding-values">Adding Values</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#removing-values">Removing Values</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#slicing">Slicing</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#testing-for-membership">Testing for Membership</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#searching-sorting">Searching &amp; Sorting</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#sorting">Sorting</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#summary-statistics">Summary Statistics</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#list-syntax-digest">List Syntax Digest</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehension-check">Comprehension Check</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#application-questions">Application Questions</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By <a href="https://americanstudies.nd.edu/faculty/katherine-walden/">Dr. Katherine Walden</a>
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+<div class="extra_footer">
+  <p>
+<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="license" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> This book is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 License</a>.
+</p>
+
+</div>
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>

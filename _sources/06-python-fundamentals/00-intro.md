@@ -33,9 +33,9 @@ To install Spyder as a stand-alone program: [spyder-ide.org](https://www.spyder-
 
 ## <i class="fa-regular fa-bookmark" aria-hidden="true"></i> Companion Content
 
-Paul Ford, “[What Is Code?](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)” *Bloomberg* (11 June 2015)
+- Paul Ford, “[What Is Code?](https://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)” *Bloomberg* (11 June 2015)
 
-Clive Thompson. “[The Secret History of Women in Coding](https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html).” *New York Times Magazine* (13 February 2019)
+- Clive Thompson. “[The Secret History of Women in Coding](https://www.nytimes.com/2019/02/13/magazine/women-coding-computer-programming.html).” *New York Times Magazine* (13 February 2019)
 
 Framing questions:
 - What do these authors say about what constitutes coding or programming? How does that compare or connect with your prior coding/programming experience?
