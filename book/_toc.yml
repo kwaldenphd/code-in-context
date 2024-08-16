@@ -179,40 +179,28 @@ chapters:
     - file: 07-data-structures/00-intro
       title: "7. Data Structures in Python"
       sections:
-      - file: 07-data-structures/01-linear-arrays
-        title: Linear Arrays
-        sections:
-        - file: 07-data-structures/02-indexing
-          title: Indexing in Python 
-        - file: 07-data-structures/03-strings
-          title: Strings 
-          sections:
-          - file: 07-data-structures/04-string-methods
-            title: String Methods 
-          - file: 07-data-structures/05-string-application 
-            title: String Application Questions 
-        - file: 07-data-structures/06-lists
-          title: Lists 
-          sections:
-          - file: 07-data-structures/07-list-methods
-            title: List Methods 
-          - file: 07-data-structures/08-list-syntax-review
-            title: List Syntax Review 
-          - file: 07-data-structures/09-list-application 
-            title: List Application Questions 
-        - file: 07-data-structures/10-other-linear-arrays
-          title: Other Linear Arrays
-      - file: 07-data-structures/11-associative-arrays
-        title: Associative Arrays
-        sections:
-        - file: 07-data-structures/12-dictionaries
-          title: Dictionaries 
-        - file: 07-data-structures/13-dictionary-application
-          title: Dictionary Application Questions 
-      - file: 07-data-structures/14-putting-it-all-together 
+      - file: 07-data-structures/01-indexing
+        title: Indexing
+      - file: 07-data-structures/02-strings
+        title: Strings 
+      - file: 07-data-structures/03-lists 
+        title: Lists
+        section: 
+        - file: 07-data-structures/04-other-linear-arrays 
+          title: Other Linear Arrays 
+      - file: 07-data-structures/05-dictionaries 
+        title: Dictionaries 
+      - file: 07-data-structures/06-putting-it-all-together 
         title: Putting It All Together
-      - file: 07-data-structures/15-application-questions
+      - file: 07-data-structures/07-application 
         title: Application Questions 
+      - file: 07-data-structures/08-activities 
+        title: Collaborative Activities 
+        sections:
+        - file: 07-data-structures/09-python-activities 
+          title: Python Activities 
+        - file: 07-data-structures/10-microbit-activities 
+          title: Microbit Activities 
     - file: 08-control-structures/00-intro
       title: "8. Control Structures in Python"
       sections:
