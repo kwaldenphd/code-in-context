@@ -6,7 +6,7 @@ root: intro
 chapters:
     - file: how-to
       title: How to Interact With This Book
-    - file: 00-background/overview
+    - file: 00-background/00-overview
       title: Course Overview
       sections:
       - file: 00-background/01-background
@@ -133,7 +133,7 @@ chapters:
         title: Application Questions
       - file: 05-world-wide-web/14-additional-resources 
         title: Additional Resources
-      - file: 05-world-wide-web/15-collaborative-activities
+      - file: 05-world-wide-web/15-activities
         title: Collaborative Activities 
         sections: 
         - file: 05-world-wide-web/16-web-search
