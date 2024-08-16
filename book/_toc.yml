@@ -152,8 +152,10 @@ chapters:
       - file: 06-python-fundamentals/04-your-first-program 
         title: Your First Program!
         sections: 
-        - file: 06-python-fundamentals/06-variables-assignment
+        - file: 06-python-fundamentals/05-variables-assignment
           title: "Variables & Assignment" 
+        - file: 06-python-fundamentals/06-arithmetic-operators 
+          title: Arithmetic Operators 
         - file: 06-python-fundamentals/07-concatenation 
           title: Concatenation 
         - file: 06-python-fundamentals/08-input-output 
