@@ -335,8 +335,6 @@
 <li class="toctree-l3 has-children"><a class="reference internal" href="../09-reuse-modularity/03-named-functions.html">Named Functions</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l4"><a class="reference internal" href="../09-reuse-modularity/04-how-named-functions-work.html">How Named Functions Work</a></li>
 <li class="toctree-l4"><a class="reference internal" href="../09-reuse-modularity/05-python-example.html">Python Example A</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../09-reuse-modularity/06-python-example.html">Python Example B</a></li>
-<li class="toctree-l4"><a class="reference internal" href="../09-reuse-modularity/07-python-example.html">Python Example C</a></li>
 </ul>
 </details></li>
 <li class="toctree-l3"><a class="reference internal" href="../09-reuse-modularity/08-parameters-scoping.html">Parameters &amp; Scoping</a></li>
@@ -695,12 +693,12 @@ document.write(`
 </div>
 </div>
 </div>
-<p>We can retrieve rows based on their position using the <code class="docutils literal notranslate"><span class="pre">loc</span></code> (location) attribute.</p>
+<p>We can retrieve rows based on their position using the <code class="docutils literal notranslate"><span class="pre">iloc</span></code> (index location) attribute.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">frame2</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s1">&#39;three&#39;</span><span class="p">]</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">frame2</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
 
-<span class="c1"># returns the third row in the dataframe</span>
+<span class="c1"># returns the fourth row in the dataframe</span>
 </pre></div>
 </div>
 </div>

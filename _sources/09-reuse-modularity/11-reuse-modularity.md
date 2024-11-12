@@ -11,7 +11,7 @@ Some modules, packages, and libraries are built-in to Python and require no addi
 
 ## Built-In Functions
 
-Built-in functions don't require any extra steps to be able to access them in the programming environment. For example, you can see the source code for the `print()` function, contained in Python's `[bltinmodule.c](https://github.com/python/cpython/blob/main/Python/bltinmodule.c#L1972)` file in the [source code](https://github.com/python/cpython/blob/). But all we have to do is use the function name in our program.
+Built-in functions don't require any extra steps to be able to access them in the programming environment. For example, you can see the source code for the `print()` function, contained in [bltinmodule.c](https://github.com/python/cpython/blob/91f4908798074db6c41925b4417bee1f933aca93/Python/bltinmodule.c#L2145) file in Python's [source code](https://github.com/python/cpython). But all we have to do is use the function name in our program.
 
 ## Modules & Packages
 

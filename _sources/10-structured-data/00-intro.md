@@ -2,9 +2,9 @@
 
 In programming languages and computing more broadly, `I/O` stands for `Input` and `Output`.
 
-We've seen `I/O` at work in previous labs, where we provided inputs to the computer (using a CPU simulator or working at the terminal), a task or operation was performed, and there was an endpoint or output for that process. A concrete example would be the assembly language program we wrote for Lab #2: How Comptuters Work (Hardware). We wrote assembly language instructions which served as inputs for the fetch-execute cycle, and the final output for the program was a data value stored in main memory.
+We've seen `I/O` at at work elsewhere in teh course, where we provided inputs to the computer (using a CPU simulator or working at the terminal), a task or operation was performed, and there was an endpoint or output for that process. 
 
-Similarly, programming languages can take a variety of inputs (user-provided values, data, files, etc) and return outputs in a variety of formats (data stored in memory, output that shows up in the console, newly-created or -modified files, etc). We've seen `I/O` in action in previous labs, with Python's `print()` and `input()` functions.
+Similarly, programming languages can take a variety of inputs (user-provided values, data, files, etc) and return outputs in a variety of formats (data stored in memory, output that shows up in the console, newly-created or -modified files, etc). We've seen `I/O` in action in previous units, with Python's `print()` and `input()` functions.
 
 In this chapter, we're going to look at aspects of `I/O` that have to do with reading and writing files, with a focus on two key data structures:
 - Tabular data, or data stored as a table consisting of rows and columns

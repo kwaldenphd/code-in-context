@@ -32,7 +32,7 @@ Q1C: How does the sample program compare to your approach? What was similar? Wha
 
 But let's say we don't want to use an `input()` statement as part of the function- what if we wanted to pass specific values to the function?
 
-Q2A: Modify the program you built for the previous section of the lab to take specific values as inputs (rather than get inputs as part of the function). Answer to this question includes program + comments that document process and explain your code.
+Q2A: Modify the program you built for the previous section to take specific values as inputs (rather than get inputs as part of the function). Answer to this question includes program + comments that document process and explain your code.
 
 Q2B: Then, create a named function and function call for this program. Answer to this question includes program + comments that document process and explain your code.
 
@@ -40,12 +40,12 @@ Q2C: What parts of the program were you able to get working? Where did you run i
 
 ### Question #3
 
-Q3: Write a function is_even that determines whether or not a number n is even. Include the function definition as well as a sample function call. Answer to this question includes program + comments that document process and explain your code.
+Q3: Write a function `is_even` that determines whether or not a number n is even. Include the function definition as well as a sample function call. Answer to this question includes program + comments that document process and explain your code.
 
 ### Question #4
 
-Q4: Write a function average that determines the average value of a list. Include the function definition as well as a sample function call. Answer to this question includes program + comments that document process and explain your code.
+Q4: Write a function `average` that determines the average value of a list. Include the function definition as well as a sample function call. Answer to this question includes program + comments that document process and explain your code.
 
 ### Question #5
 
-Q5: Write a function uniq that takes a list and returns a new list containing only unique values. Include the function definition as well as a sample function call. Answer to this question includes program + comments that document process and explain your code.
+Q5: Write a function `uniq` that takes a list and returns a new list containing only unique values. Include the function definition as well as a sample function call. Answer to this question includes program + comments that document process and explain your code.
