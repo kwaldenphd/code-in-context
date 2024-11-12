@@ -26,8 +26,7 @@ Q1A: Describe how you would start building out a program to accomplish this task
 
 Q1B: See where you can get with writing this program. What parts of the program were you able to get working? Where did you run into challenges? Answer to this question includes program + comments that document process and explain your code.
 
-```{note}
-MAKE THIS A DROPDOWN
+````{dropdown}
 
 Here is one approach to this task:
 
@@ -64,7 +63,7 @@ def printNTimes():
 # function call
 printNTimes()
 ```
-```
+````
 
 Q1C: How does the sample program compare to your approach? What was similar? What was different? How are you thinking differently (if at all) about how to approach this type of program?
 
@@ -72,7 +71,7 @@ Q1C: How does the sample program compare to your approach? What was similar? Wha
 
 But let's say we don't want to use an `input()` statement as part of the function- what if we wanted to pass specific values to the function?
 
-Q2A: Modify the program you built for the previous section of the lab to take specific values as inputs (rather than get inputs as part of the function). Answer to this question includes program + comments that document process and explain your code.
+Q2A: Modify the program you built for the previous section to take specific values as inputs (rather than get inputs as part of the function). Answer to this question includes program + comments that document process and explain your code.
 
 Q2B: Then, create a named function and function call for this program. Answer to this question includes program + comments that document process and explain your code.
 
