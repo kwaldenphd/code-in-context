@@ -5,8 +5,6 @@
 Your answers to this chapter's application questions should be added to the notebook template.
 - [Google Colab link](https://colab.research.google.com/drive/1DTF5vCYuvXrC-MIQJ7Evc_DNX5zg5c9M?usp=sharing) (ND users only)
 
-Your Google Colab notebook should be located in the `wk12-structured-data` [Google Drive folder](https://drive.google.com/drive/folders/1btaMEcpz_IoKgNZU4fTmf4l_n9dsga1V?usp=drive_link) (ND users only)
-
 Submit the Colab link on Canvas for the assignment submission.
 
 ## Application Questions

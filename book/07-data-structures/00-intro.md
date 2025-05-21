@@ -10,7 +10,7 @@ Up to this point, we've been working with what are called "primitive" data types
 
 But we can imagine scenarios where we want to be able to work with more complex data structures or more complex ways of storing and accessing information in a programming language.
 
-In this lab, we're going to focus on some of the one-dimensional (or linear) data structures available to us in Python. These include `strings`, `lists`, `tuples`, `sets`, and `dictionaries`.
+In this chapter, we're going to focus on some of the one-dimensional (or linear) data structures available to us in Python. These include `strings`, `lists`, `tuples`, `sets`, and `dictionaries`.
 
 <table><tr><th>Name</th><th>Syntax</th><th>Example</th><th>Description</th></tr>
   <tr><td>String</td><td><code>str(), ""</code><td><code>"Hello world!"</code></td><td>Sequence of characters</td></tr>
@@ -49,20 +49,6 @@ Elements of this chapter were adapted from materials developed by:
 - [Dr. Corey Pennycuff](https://www3.nd.edu/~cpennycu/) for the [CSE 10101 Elements of Computing (Fall 2019)](https://www3.nd.edu/~cpennycu/2019/fa-CSE10101-CDT30010.html).
 - [Dr. Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html).
 
-## <i class="fa-regular fa-bookmark" aria-hidden="true"></i> Companion Content
-
-Nathan Ensmenger. "Chapter 3: Chess Players, Music Lovers, and Mathematicians." In [*The Computer Boys Take Over: Computers, Programmers, and the Politics of Technical Expertise*](https://mitpress.mit.edu/9780262517966/the-computer-boys-take-over/) (Cambridge: MIT Press, 2010): 51-82
-- Framing questions:
-  *What does Ensmenger say about what constitutes coding or programming? How does that compare or connect with your prior coding/programming experience?
-    * Folks can be thinking about types of work, as well as the nature or character of that work.
-  * What does Ensmenger say about the stakeholders (companies, groups, organizations) that shaped early programming work?
-    * Folks can be thinking about the background information provided about these stakeholders, their motivations and priorities, and their hiring practices.
-  * What does Ensmenger say about the aptitude tests and measurement instruments that were used in this period to determine programming expertise?
-    * Folks can be thinking about the background information provided about these tests, their purpose and intent, and impacts and consequences.
-
-See also:
-- r/learnprogramming, “[Is programming creative?](https://www.reddit.com/r/learnprogramming/comments/60npf3/is_programming_creative/)” *Reddit* (2017)
-
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
 
 ```{tableofcontents}
@@ -73,19 +59,4 @@ See also:
 Your answers to this chapter's application questions should be added to the notebook template.
 - [Google Colab link](https://colab.research.google.com/drive/1Esk-yAc-DA-2Jr6vWk6j1IW6NXoeILWE?usp=sharing) (ND users only)
 
-Your Google Colab notebook should be located in the `wk8-data-structures` [Google Drive folder](https://drive.google.com/drive/folders/1btaMEcpz_IoKgNZU4fTmf4l_n9dsga1V?usp=drive_link) (ND users only)
-
 Submit the Colab link on Canvas for the assignment submission.
-
-## <i class="fa-solid fa-chalkboard-user" aria-hidden="true"></i> In-Class Work
-
-- 10/15 (T):  Ensmenger & Reddit discussion
-- 10/17 (R): Collaborative problem solving (Python fundamentals)
-
-## <i class="fa-solid fa-list-check" aria-hidden="true"></i> Assignments 
-
-- Weekly reflection (due end of day Friday, submit on Canvas)
-- Individual application questions (due end of day Friday, submit on Canvas)
-- Collaborative problem solving (due end of class Thursday, group submission on Canvas)
-- Concept Map #1 (due end of day Friday, submit on Canvas)
-- Midterm check-in (Google Form)

@@ -12,7 +12,7 @@ Code blocks are one way to think about these discrete parts of a program. A more
 
 ## Acknowledgements
 
-When building this lab, the author consulted materials developed by:
+When building this chapter, the author consulted materials developed by:
 - [Dr. Peter Bui](http://www3.nd.edu/~pbui/) for the [CSE 10101 "Elements of Computing I" course](https://www3.nd.edu/~pbui/teaching/cdt.30010.fa16/).
   * [Conditional and Alternative Execution](http://nbviewer.jupyter.org/urls/gitlab.com/snippets/25773/raw)
   * [Functions](http://nbviewer.jupyter.org/urls/gitlab.com/snippets/26619/raw)
@@ -24,19 +24,17 @@ When building this lab, the author consulted materials developed by:
   * [String functions and manipulation](https://www3.nd.edu/~cpennycu/2019/assets/fall/EOC/19.10.01.ipynb)
 - [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html).
 
-Definitions and explanations in this lab are adapted from Kenneth Leroy Busbee and Dave Braunschweig, *[Programming Fundamentals: A Modular Structured Approach, 2nd Edition](https://press.rebus.community/programmingfundamentals/)* (Rebus Press, 2018)
+Definitions and explanations in this chapter are adapted from Kenneth Leroy Busbee and Dave Braunschweig, *[Programming Fundamentals: A Modular Structured Approach, 2nd Edition](https://press.rebus.community/programmingfundamentals/)* (Rebus Press, 2018)
 - [Chapter III, Functions](https://press.rebus.community/programmingfundamentals/part/functions/)
+
+## Chapter Contents 
+
+```{tableofcontents}
+```
 
 ## Application
 
 Your answers to this chapter's application questions should be added to the notebook template.
 - [Google Colab link](https://colab.research.google.com/drive/1MNNieBi2tzpM_HokrnMdB_YO0uyozZhW?usp=sharing) (ND users only)
 
-Your Google Colab notebook should be located in the `wk11-reuse-modularity` [Google Drive folder](https://drive.google.com/drive/folders/1btaMEcpz_IoKgNZU4fTmf4l_n9dsga1V?usp=drive_link) (ND users only)
-
 Submit the Colab link on Canvas for the assignment submission.
-
-## Section Contents 
-
-```{tableofcontents}
-```
