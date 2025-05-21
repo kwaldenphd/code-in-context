@@ -8,9 +8,9 @@ A large body of computing education research indicates that [collaborative probl
 
 NOTE: I know experiences with group work can vary widely. One aspect of creating a rich collaborative learning environment involves clear expectations and frameworks that can help facilitate effective work in groups--that’s partly my (Prof. Walden’s) job. The other aspect of effective collaboration involves your preparation and active engagement. This kind of process-oriented, guided-inquiry learning is most effective when students are interacting with and learning from each other.
 
-Practically, that means that we’ll spend the bulk of class time on Thursdays applying the concepts we’re covering that week in real-world scenarios that benefit from multiple perspectives and forms of expertise to come up with a workable solution.
+Practically, that means that we’ll spend in-class time applying the concepts we’re covering that week in real-world scenarios that benefit from multiple perspectives and forms of expertise to come up with a workable solution.
 
-What this will typically look like during Thursday class meetings:
+What this will typically look like:
 - Class forms small groups & decides on group roles
 - Prof. Walden introduces the prompt/task/problem
 - Class works in small groups to develop a conceptual understanding of the problem space
@@ -37,7 +37,7 @@ class: tip
 - **Time Keeper**: Primary person responsible for keeping an eye on the clock and keeping the group on task 
 ```
 
-## Week #1 Activities 
+## Part #1 Activities 
 
 This set of activities gives students an opportunity to build skills with moving across binary, hexadecimal, and decimal systems, under the umbrella of ASCII. This version of the activity involved a scavenger hunt that ended with each student getting a mini rubber duck and a poem from a [poetry bot](https://evanwill.github.io/poemBot/).
 
@@ -64,7 +64,7 @@ Step #4: Translate the binary information on the second handout into text using 
 Step #5: Share more about your group's poem. Anything funny, interesting, or surprising?
 ```
 
-## Week #2 Activities 
+## Part #2 Activities 
 
 This set of activities focuses on file formats and character encoding. 
 

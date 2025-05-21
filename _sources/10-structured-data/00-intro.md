@@ -40,9 +40,9 @@ By the end of this chapter, students will be able to;
 
 ## Acknowledgements
 
-Peer review and editing on the CSV portion of this lab was provided by Spring 2021 graduate teaching assistant [Aidan Draper](https://github.com/adraper2).
+Peer review and editing on the CSV portion of this chapter was provided by Spring 2021 graduate teaching assistant [Aidan Draper](https://github.com/adraper2).
 
-Peer review and editing on the JSON portion of this lab was provided by Spring 2021 graduate teaching assistant [Subhadyuti Sahoo](https://github.com/SDSAHOO703).
+Peer review and editing on the JSON portion of this chapter was provided by Spring 2021 graduate teaching assistant [Subhadyuti Sahoo](https://github.com/SDSAHOO703).
 
 When building the CSV, JSON & file methods sections, the author consulted the following materials:
 - Al Sweigart [*Automate the Boring Stuff With Python*](https://nostarch.com/automatestuff2) (No Starch Press, 2020).
@@ -60,7 +60,7 @@ Information and exercises in the pandas sections were developed in consultation 
 
 ## Data Files
 
-You'll need four data files for this lab.
+You'll need four data files for this chapter.
 - `example.csv` ([GitHub](https://raw.githubusercontent.com/kwaldenphd/python-structured-data/main/data/example.csv), [Google Drive](https://drive.google.com/file/d/1loSl4xUf3ElVgWMfWai3SR3vpGhMK6MS/view?usp=drive_link))
 - `example.txt` ([GitHub](https://raw.githubusercontent.com/kwaldenphd/python-structured-data/main/data/example.txt), [Google Drive](https://drive.google.com/file/d/1Snl-QnDBz7X2qxf5SdXTd1b0Wc_4ysR5/view?usp=drive_link))
 - `example.xlsx` ([GitHub](https://github.com/kwaldenphd/python-structured-data/blob/main/data/example.xlsx), [Google Drive](https://docs.google.com/spreadsheets/d/1qh2ympB2aLcSDl-u8r6VD08xePTtsun7/edit?usp=drive_link))
@@ -75,11 +75,9 @@ You'll need to download these files and put them in the same folder as your Jupy
 Your answers to this chapter's application questions should be added to the notebook template.
 - [Google Colab link](https://colab.research.google.com/drive/1DTF5vCYuvXrC-MIQJ7Evc_DNX5zg5c9M?usp=sharing) (ND users only)
 
-Your Google Colab notebook should be located in the `wk12-structured-data` [Google Drive folder](https://drive.google.com/drive/folders/1btaMEcpz_IoKgNZU4fTmf4l_n9dsga1V?usp=drive_link) (ND users only)
-
 Submit the Colab link on Canvas for the assignment submission.
 
-## Section Contents 
+## Chapter Contents 
 
 ```{tableofcontents}
 ```

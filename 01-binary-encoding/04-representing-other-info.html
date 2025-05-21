@@ -28,8 +28,8 @@
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
 
-    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=fa44fd50" />
-    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=03e43079" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=eba8b062" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
@@ -600,17 +600,23 @@ document.write(`
 <section id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
 <p>The end of the “Encoding Schema” lecture mentioned how binary numbers are also used to represent things other than numbers, text, or characters.</p>
-<a class="reference internal image-reference" href="../_images/bit-comparison.png"><img alt="binary comparison" class="align-center" src="../_images/bit-comparison.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/bit-comparison.png"><img alt="binary comparison" class="align-center" src="../_images/bit-comparison.png" style="width: 500px;" />
+</a>
 <p>What about color? If we use a single byte or 8-bits to represent color, we can represent a total of 256 different colors. However, we perceive a much wider range of colors, so to extend the palette we can represent colors using more bits.</p>
-<a class="reference internal image-reference" href="../_images/mario.png"><img alt="mario" class="align-center" src="../_images/mario.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/mario.png"><img alt="mario" class="align-center" src="../_images/mario.png" style="width: 500px;" />
+</a>
 <p>Consider the difference between the color palette on old video game systems as compared to what you see on your computer screen today. Mario is a great example. The original Nintendo used 8-bit color, but Super Nintendo used 16-bit color giving a wider range of colors to represent the graphics in the game.</p>
-<a class="reference internal image-reference" href="../_images/hot-air-balloons.png"><img alt="Hot air balloons" class="align-center" src="../_images/hot-air-balloons.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/hot-air-balloons.png"><img alt="Hot air balloons" class="align-center" src="../_images/hot-air-balloons.png" style="width: 500px;" />
+</a>
 <p>In 8-bit color, each color is represented in 8-bits or 1 Byte giving a color palette of 256 colors.  16-bit color increases the number of colors in the palette by a factor of two, representing over 65,000 different colors by using 16-bits or 2 Bytes to represent each color (256 x 256 = 65,536).</p>
-<a class="reference internal image-reference" href="../_images/rgb-color-circles.png"><img alt="RGB color circles" class="align-center" src="../_images/rgb-color-circles.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/rgb-color-circles.png"><img alt="RGB color circles" class="align-center" src="../_images/rgb-color-circles.png" style="width: 500px;" />
+</a>
 <p>As with text encoding standards, there are many different color encoding schemas. We can represent color using discrete values for the primary colors red, green, and blue.</p>
-<a class="reference internal image-reference" href="../_images/color-table.png"><img alt="Color table" class="align-center" src="../_images/color-table.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/color-table.png"><img alt="Color table" class="align-center" src="../_images/color-table.png" style="width: 500px;" />
+</a>
 <p>An <code class="docutils literal notranslate"><span class="pre">RGB</span></code> (red-green-blue) color system can be represented using hex or decimal values.</p>
-<a class="reference internal image-reference" href="../_images/mario.png"><img alt="Mario" class="align-center" src="../_images/mario.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/mario.png"><img alt="Mario" class="align-center" src="../_images/mario.png" style="width: 500px;" />
+</a>
 <p>The Mario example featured 8-bit and 16-bit color. If you’ve ever seen Red-Green-Blue color sliders, you’ve seen a 3 byte (24-bit) color system in action.</p>
 </section>
 <section id="key-concepts">
