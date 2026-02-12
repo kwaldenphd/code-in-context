@@ -233,11 +233,11 @@ chapters:
           sections:
           - file: 09-reuse-modularity/04-how-named-functions-work 
             title: How Named Functions Work 
-          - file: 09-reuse-modularity/05-python-example
+          - file: 09-reuse-modularity/05-python-example.ipynb
             title: Python Example A
-          - file: 09-reuse-modularity/06-python-example 
+          - file: 09-reuse-modularity/06-python-example.ipynb
             title: Python Example B
-          - file: 09-reuse-modularity/07-python-example 
+          - file: 09-reuse-modularity/07-python-example.ipynb 
             title: Python Example C
         - file: 09-reuse-modularity/08-parameters-scoping
           title: Parameters & Scoping 
