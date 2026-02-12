@@ -111,34 +111,28 @@ chapters:
         sections:
         - file: 05-world-wide-web/03-first-page
           title: Your first webpage!
-        - file: 05-world-wide-web/04-valid-html
-          title: Well-Formed HTML 
-        - file: 05-world-wide-web/05-second-page 
-          title: Your second webpage!
-        - file: 05-world-wide-web/06-adding-content 
+        - file: 05-world-wide-web/04-adding-content 
           title: Adding Content 
-        - file: 05-world-wide-web/07-adding-pages 
+        - file: 05-world-wide-web/05-adding-pages 
           title: Adding Pages 
-        - file: 05-world-wide-web/08-linking-pages 
+        - file: 05-world-wide-web/06-linking-pages 
           title: Linking Pages 
-        - file: 05-world-wide-web/09-images 
+        - file: 05-world-wide-web/07-images 
           title: Images 
-        - file: 05-world-wide-web/10-tables 
-          title: Tables
-        - file: 05-world-wide-web/11-style-formatting 
+        - file: 05-world-wide-web/08-style-formatting 
           title: Style & Formatting 
-        - file: 05-world-wide-web/12-css 
+        - file: 05-world-wide-web/09-css 
           title: Cascading Style Sheets 
-      - file: 05-world-wide-web/13-application 
+      - file: 05-world-wide-web/10-application 
         title: Application Questions
-      - file: 05-world-wide-web/14-additional-resources 
+      - file: 05-world-wide-web/11-additional-resources 
         title: Additional Resources
-      - file: 05-world-wide-web/15-activities
+      - file: 05-world-wide-web/12-activities
         title: Collaborative Activities 
         sections: 
-        - file: 05-world-wide-web/16-web-search
+        - file: 05-world-wide-web/13-web-search
           title: Web Search Activities 
-        - file: 05-world-wide-web/17-hypertext 
+        - file: 05-world-wide-web/14-hypertext 
           title: Hypertext Activities
     - file: 06-python-fundamentals/00-intro
       title: "6. Programming Fundamentals in Python"

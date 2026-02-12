@@ -1,17 +1,22 @@
 # Your First Web Page!
 
-Open a text editor on your computer.
-- `Notepad` or `Notepad++` for Windows users
-- `TextEdit` for Mac users
-- `Text` for Chromebook users 
-- If you need to install a free text editor, [Brackets](https://brackets.io/) is a good option.
-
-Create a new file and type or paste in the content below.
+Create a new `.html` file and type or paste in the content below.
 
 ```HTML
+<!DOCTYPE html>
 <html>
-<body>Hello World</body>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
 </html>
 ```
 
-Save the file as `hello-world.html` and open it in a web browser.
+Save the file as `index.html` and open it in a web browser.
+
+This is a very basic HTML document. The HTML tags `<HTML>` identify this document as a html document. The body tags `<body>` enclose the content that will be visible on the page. You should see just the text “Hello World!” The browser has translated the HTML tags and returned only the text.

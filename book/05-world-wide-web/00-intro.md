@@ -8,18 +8,15 @@ This chapter is inspired by the "Project 3: HTML/CSS" project materials develope
 
 ## <i class="fa-solid fa-gears" aria-hidden="true"></i> Setup
 
-In this chapter, you'll need to download two different files:
-- `index.html`
-- `style.css` 
+This week’s application work will be a little different- you’ll be building a website! Having a dedicated folder or workspace for files as you work through this chapter is HIGHLY recommended. 
 
-```{admonition} File Downloads 
-Links to download each file:
-- {Download}`index.html</files/ch5/index.html>`
-- {Download}`style.css</files/ch5/style.css>`
+You will need a program that lets you create and edit `.html` and `.css` files.
+- Default options: Notepad or Notepad++ (PC); TextEdit (Mac)
+  * Mac users will need to configure some of their TextEdit settings: [more info](https://support.apple.com/guide/textedit/work-with-html-documents-txted0b6cd61/mac)
 
-To download both files as a compressed folder:
-- {Download}`html.zip</files/ch5/html.zip>`
-```
+- Safe, free things you could download and install: [Phoenix Code](https://phcode.dev/), [Visual Studio Code](https://code.visualstudio.com/) (VS Code)
+
+- Safe, free(mium) options that run in your browser: [Phoenix Code](https://phcode.dev/) (online version), [Replit](https://replit.com/)  
 
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
 
@@ -28,6 +25,6 @@ To download both files as a compressed folder:
 
 ## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
-Materials for this chapter's application question (i.e. your website) should go in the `wk6-html-css` assignment folder. Be sure to follow the directory sturcture from your computer.
+This week’s application work will be a little different- you’ll be building a website! Having a dedicated folder or workspace for files as you work through this chapter is HIGHLY recommended. 
 
-Submit the `wk6-html-css` folder link on Canvas for this assignment.
+All materials for your website should be added to a single Google Drive folder. Check sharing permissions, and submit the folder link on Canvas. 
