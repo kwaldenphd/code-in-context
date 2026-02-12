@@ -28,7 +28,7 @@ This material is licensed under a CC BY-NC-SA license. This license enables reus
 
 ### Suggested Citation
 
-<blockquote>Katherine Walden, <em>Code in Context: Computing & the Liberal Arts</em>, Version 1 (2024), <a href="">DOI PLACEHOLDEr</a>.</blockquote>
+<blockquote>Katherine Walden, <em>Code in Context: Computing & the Liberal Arts</em>, Version 2 (2025), <a href="">DOI PLACEHOLDEr</a>.</blockquote>
 
 ## Acknowledgements
 
