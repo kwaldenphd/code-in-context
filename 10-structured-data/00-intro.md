@@ -79,5 +79,7 @@ Submit the Colab link on Canvas for the assignment submission.
 
 ## Chapter Contents 
 
-```{tableofcontents}
+```{toc}
+:filter:
+	depth: 1
 ```

@@ -29,7 +29,9 @@ Definitions and explanations in this chapter are adapted from Kenneth Leroy Busb
 
 ## Chapter Contents 
 
-```{tableofcontents}
+```{toc}
+:filter:
+	depth: 1
 ```
 
 ## Application

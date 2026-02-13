@@ -5,7 +5,7 @@ According to Busbee and Braunschweig's "[Structured Programming](https://press.r
   * Selection [selects between two or more flows using condition or question]
   * Iteration [repeats same piece of code multiple times]
   
-This chapter provides an introduction to control structures in the Python programming langauge. Topics covered include:
+This chapter provides an introduction to control structures in the Python programming langauge. Topics covered include:
 - Control flow and control structures
 - Event-controlled and count-controlled loops
 - Looping structures in Python (`for` and `while`)
@@ -40,5 +40,7 @@ Submit the Colab link on Canvas for the assignment submission.
 
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Contents
 
-```{tableofcontents}
+```{toc}
+:filter:
+	depth: 1
 ```
