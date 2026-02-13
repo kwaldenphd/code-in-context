@@ -10,10 +10,6 @@ This chapter provides an introduction to control structures in the Python progra
 - Event-controlled and count-controlled loops
 - Looping structures in Python (`for` and `while`)
 
-```{admonition} <i class="fa-solid fa-hands-clapping" aria-hidden="true"></i> Acknowledgements
-:class: tip, dropdown 
-PLACEHOLDER
-```
 
 ## <i class="fa-solid fa-hands-clapping" aria-hidden="true"></i> Acknowledgements
 
@@ -40,7 +36,6 @@ Submit the Colab link on Canvas for the assignment submission.
 
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Contents
 
-```{toc}
-:filter:
-	depth: 1
+```{toctree}
+:maxdepth: 1
 ```

@@ -29,9 +29,8 @@ Definitions and explanations in this chapter are adapted from Kenneth Leroy Busb
 
 ## Chapter Contents 
 
-```{toc}
-:filter:
-	depth: 1
+```{toctree}
+:maxdepth: 1
 ```
 
 ## Application
