@@ -19,10 +19,10 @@ This chapter's lecture segments were adapted from the following PBS *[Crash Cour
 
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
 
-:::{toc}
-:context: project
-:depth: 1
-:::
+```{toctree} 
+:titlesonly:
+:maxdepth: 2
+```
 
 ## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
