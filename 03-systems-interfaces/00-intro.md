@@ -19,9 +19,9 @@ This chapter's lecture segments were adapted from the following PBS *[Crash Cour
 
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
 
-```{toc} 
-:context: section
-:depth: 2
+```{toctree} 
+:maxdepth: 1
+:glob:
 ```
 
 ## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
