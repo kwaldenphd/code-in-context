@@ -2,9 +2,8 @@ version: 1
 project:
   title: Code in Context, Computing & the Liberal Arts
   authors:
-    - name: <a href="https://americanstudies.nd.edu/faculty/katherine-walden/">Dr.
-        Katherine Walden</a>
-  copyright: '2024'
+    - name: [Dr. Katherine Walden](https://americanstudies.nd.edu/faculty/katherine-walden)
+  copyright: '2026'
   exclude:
     - _build
     - Thumbs.db
@@ -17,6 +16,8 @@ project:
     - '**/AppData/Local/Microsoft/Windows/INetCache/**'
     - '**/INetCache/Low/Content.IE5/**'
   github: kwaldenphd/code-in-context
+  launch_buttons:
+    colab_url: "https://colab.research.google.com"
   toc:
     - file: intro.md
     - file: how-to.md

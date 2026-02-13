@@ -26,6 +26,8 @@ Weeks #13-15 are spent working on final projects:
 
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Section Contents
 
-```{tableofcontents}
+```{contents}
+:local:
+:depth: 2
 ```
 
