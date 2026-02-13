@@ -51,7 +51,9 @@ Elements of this chapter were adapted from materials developed by:
 
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
 
-```{tableofcontents}
+```{toc}
+:target: .
+:depth: 1
 ```
 
 ## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application

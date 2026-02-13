@@ -36,6 +36,7 @@ Submit the Colab link on Canvas for the assignment submission.
 
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Contents
 
-```{toctree}
-:maxdepth: 1
+```{toc}
+:target: .
+:depth: 1
 ```
