@@ -1,7 +1,6 @@
-version: 1
+version: 3
 project:
   title: Code in Context, Computing & the Liberal Arts
-  jupyter: true
   author:
     - name: Dr. Katherine Walden 
     - url: https://americanstudies.nd.edu/faculty/katherine-walden
