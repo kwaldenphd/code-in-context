@@ -22,7 +22,10 @@ The "Binary Number Systems" and "Encoding Schema" lecture segments were adapted 
 
 ## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Contents
 
-```{tableofcontents}
+```markdown
+:::{toc}
+:depth: 1
+:::
 ```
 
 ## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
