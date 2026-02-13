@@ -2,7 +2,8 @@ version: 1
 project:
   title: Code in Context, Computing & the Liberal Arts
   authors:
-    - name: [Dr. Katherine Walden](https://americanstudies.nd.edu/faculty/katherine-walden)
+    - name: Dr. Katherine Walden 
+    - url: https://americanstudies.nd.edu/faculty/katherine-walden
   copyright: '2026'
   exclude:
     - _build
