@@ -33,6 +33,21 @@ Notes:
 - Run build commands from the `book/` directory.
 - If your environment blocks outbound network requests, the first build can fail while trying to fetch the `book-theme` template from `api.mystmd.org`.
 
+### Windows Troubleshooting
+
+If you see an error like:
+
+`EPERM: operation not permitted, scandir 'C:\Users\...\AppData\Local\Microsoft\Windows\INetCache\Low\Content.IE5'`
+
+run the build from this repository (not from your user home folder), and pass `myst.yml` explicitly:
+
+```powershell
+cd path\to\code-in-context\book
+jupyter-book build --html --all myst.yml
+```
+
+The project config also excludes known Windows cache paths from discovery during site builds.
+
 ## Adaptation & Reuse
 
 <p><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img class="license" alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a> This book is licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 License</a>.</p>
