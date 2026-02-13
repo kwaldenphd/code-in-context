@@ -79,7 +79,6 @@ Submit the Colab link on Canvas for the assignment submission.
 
 ## Chapter Contents 
 
-```{toc}
-:target: .
-:depth: 1
+```{toctree}
+:maxdepth: 1
 ```
