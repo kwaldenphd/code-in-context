@@ -16,9 +16,22 @@ Those `.html` files live in the [`gh-pages`](https://github.com/kwaldenphd/eleme
 
 A few notes on how the repository is structured:
 - [`/book`](https://github.com/kwaldenphd/code-in-context/tree/main/book) has `.md`, & `.ipynb` files, organized in folders
-- [`/book/_toc.yml`](https://github.com/kwaldenphd/code-in-context/blob/main/book/_toc.yml) structures the table of contents that shows up on the left-hand side of site pages
-- [`/book/_config.yml`](https://github.com/kwaldenphd/code-in-context/blob/main/book/_config.yml) sets up key features and functionality for the site
+- [`/book/myst.yml`](https://github.com/kwaldenphd/code-in-context/blob/main/book/myst.yml) defines site metadata and table of contents for the current Jupyter Book / MyST toolchain
 - [`/book/data`](https://github.com/kwaldenphd/code-in-context/tree/main/book/data) contains data files
+
+## Building the Site Locally
+
+This repository now uses the current Jupyter Book / MyST configuration (`book/myst.yml`).
+
+```bash
+python -m pip install -r book/requirements.txt
+cd book
+jupyter-book build --html --all myst.yml
+```
+
+Notes:
+- Run build commands from the `book/` directory.
+- If your environment blocks outbound network requests, the first build can fail while trying to fetch the `book-theme` template from `api.mystmd.org`.
 
 ## Adaptation & Reuse
 
