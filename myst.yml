@@ -1,6 +1,7 @@
 version: 1
 project:
   title: Code in Context, Computing & the Liberal Arts
+  jupyter: true
   author:
     - name: Dr. Katherine Walden 
     - url: https://americanstudies.nd.edu/faculty/katherine-walden
@@ -17,8 +18,6 @@ project:
     - '**/AppData/Local/Microsoft/Windows/INetCache/**'
     - '**/INetCache/Low/Content.IE5/**'
   github: kwaldenphd/code-in-context
-  launch_buttons:
-    colab_url: "https://colab.research.google.com"
   toc:
     - file: intro.md
     - file: how-to.md
