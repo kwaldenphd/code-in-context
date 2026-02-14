@@ -29,10 +29,11 @@ Definitions and explanations in this chapter are adapted from Kenneth Leroy Busb
 
 ## Chapter Contents 
 
-```{toc}
-:context: section
-:depth: 1
-```
+:::{toc}
+:context: project
+:filter:
+	depth: 1
+:::
 
 ## Application
 
