@@ -49,12 +49,6 @@ Elements of this chapter were adapted from materials developed by:
 - [Dr. Corey Pennycuff](https://www3.nd.edu/~cpennycu/) for the [CSE 10101 Elements of Computing (Fall 2019)](https://www3.nd.edu/~cpennycu/2019/fa-CSE10101-CDT30010.html).
 - [Dr. Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html).
 
-## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
-
-```{toctree}
-:maxdepth: 1
-```
-
 ## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 Your answers to this chapter's application questions should be added to the notebook template.

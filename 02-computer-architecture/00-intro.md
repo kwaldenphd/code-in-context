@@ -29,14 +29,6 @@ This chapter's lecture segments were adapted from the following PBS *[Crash Cour
 - "[The Central Processing Unit (CPU)](https://www.pbs.org/video/the-central-processing-unit-cpu-crash-course-computer-sci-v5aynn/)"
 - "[Instructions & Programs](https://www.pbs.org/video/instructions-programs-crash-course-computer-science-8-ai4emg/)"
 
-## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
-
-:::{toc}
-:context: project
-:filter:
-	depth: 1
-:::
-
 ## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 [Link to application question template](https://docs.google.com/document/d/1SpHmyZkN7b5wmtY0n8y5jI6JxBanZXg8UVZOoNPIv_o/copy) (ND users, Google Doc)

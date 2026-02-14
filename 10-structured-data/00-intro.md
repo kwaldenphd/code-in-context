@@ -76,12 +76,3 @@ Your answers to this chapter's application questions should be added to the note
 - [Google Colab link](https://colab.research.google.com/drive/1DTF5vCYuvXrC-MIQJ7Evc_DNX5zg5c9M?usp=sharing) (ND users only)
 
 Submit the Colab link on Canvas for the assignment submission.
-
-## Chapter Contents 
-
-```markdown
-:::{toc}
-:context: page
-:maxdepth: 1
-:::
-```

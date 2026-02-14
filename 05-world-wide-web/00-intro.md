@@ -18,11 +18,6 @@ You will need a program that lets you create and edit `.html` and `.css` files.
 
 - Safe, free(mium) options that run in your browser: [Phoenix Code](https://phcode.dev/) (online version), [Replit](https://replit.com/)  
 
-## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
-
-```{tableofcontents}
-```
-
 ## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 This week’s application work will be a little different- you’ll be building a website! Having a dedicated folder or workspace for files as you work through this chapter is HIGHLY recommended. 

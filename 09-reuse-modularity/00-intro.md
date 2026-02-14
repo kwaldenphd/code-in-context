@@ -27,14 +27,6 @@ When building this chapter, the author consulted materials developed by:
 Definitions and explanations in this chapter are adapted from Kenneth Leroy Busbee and Dave Braunschweig, *[Programming Fundamentals: A Modular Structured Approach, 2nd Edition](https://press.rebus.community/programmingfundamentals/)* (Rebus Press, 2018)
 - [Chapter III, Functions](https://press.rebus.community/programmingfundamentals/part/functions/)
 
-## Chapter Contents 
-
-:::{toc}
-:context: project
-:filter:
-	depth: 1
-:::
-
 ## Application
 
 Your answers to this chapter's application questions should be added to the notebook template.

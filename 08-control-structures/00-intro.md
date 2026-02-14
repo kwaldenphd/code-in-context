@@ -33,10 +33,3 @@ Your answers to this chapter's application questions should be added to the note
 - [Google Colab link](https://colab.research.google.com/drive/1HVYyphtxpPUzhVISngj-PWfeZ7OPcmd7?usp=sharing) (ND users only)
 
 Submit the Colab link on Canvas for the assignment submission.
-
-## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Contents
-
-```{toc}
-:context: section
-:depth: 1
-```

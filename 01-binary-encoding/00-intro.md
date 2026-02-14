@@ -20,14 +20,6 @@ The "Binary Number Systems" and "Encoding Schema" lecture segments were adapted 
 - "[Representing Numbers and Letters With Binary](https://www.pbs.org/video/representing-numbers-and-letters-with-binary-crash-course-c-pgrlei/)"
 - "[Boolean Logic & Logic Gates](https://www.pbs.org/video/boolean-logic-logic-gates-crash-course-computer-science-nobmpt/)"
 
-## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Contents
-
-:::{toc}
-:context: project
-:filter:
-	depth: 1
-:::
-
 ## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 [Click here](https://docs.google.com/document/d/172KM0g9zsvhJeeWzvUszeqCxfJOWMulwetfx8hLCu9M/copy) for a Google Doc template with this chapter's application problems (ND users only)

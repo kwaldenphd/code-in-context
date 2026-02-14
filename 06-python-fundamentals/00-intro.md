@@ -31,11 +31,6 @@ The other Python IDE introduced in this chapter is the web-based Google Colabora
 
 To install Spyder as a stand-alone program: [spyder-ide.org](https://www.spyder-ide.org) 
 
-## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Contents
-
-```{tableofcontents}
-```
-
 ## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 Your answers to this chapter's application questions should be added to the notebook template.

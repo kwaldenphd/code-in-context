@@ -17,13 +17,6 @@ The sections of this chapter that involve working at the command line are based 
 This chapter's lecture segments were adapted from the following PBS *[Crash Course Computer Science](https://www.pbs.org/show/crash-course-computer-science/)* episodes:
 - "[Operating Systems](https://www.pbs.org/video/operating-systems-crash-course-computer-science-18-wwc9c2/)"
 
-## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
-
-:::{toc}
-:context: section
-:maxdepth: 1
-:::
-
 ## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 [Link to application question template](https://docs.google.com/document/d/1Eyw0lJWVw5Zbmnv_TNLffXA5afZ_fbg5o1FjhO9mx4Q/copy) (ND users, Google Doc)

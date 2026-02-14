@@ -8,11 +8,6 @@ This chapter's lecture segments were adapted from the following PBS *[Crash Cour
 - "[Computer Networks](https://www.pbs.org/video/computer-networks-crash-course-computer-science-28-dqjdkc/)"
 - "[The Internet](https://www.pbs.org/video/the-internet-crash-course-computer-science-29-oj4vv6/)"
 
-## <i class="fa-solid fa-list-ol" aria-hidden="true"></i> Chapter Table of Contents
-
-```{tableofcontents}
-```
-
 ## <i class="fa-solid fa-clipboard-question" aria-hidden="true"></i> Application
 
 [Link to application question template template](https://docs.google.com/document/d/1qYZRLlZzbZHCGIJEn4Urvpk9uBHouE_psQCsU61lEvE/copy) (ND users, Google Doc)
